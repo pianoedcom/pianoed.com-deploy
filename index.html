@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="canonical" href="/" />
+    <link rel="alternate" type="application/rss+xml" title="PianoEd RSS Feed" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="PianoEd Atom Feed" href="/atom.xml" />
+    <link rel="alternate" type="application/json" title="PianoEd JSON Feed" href="/feed.json" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <!-- Fonts: Playfair Display (serif headings) + Lato (sans body) via Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Preconnect to image CDN for faster LCP image fetch -->
+    <link rel="preconnect" href="https://vibe.filesafe.space" crossorigin />
+    <link rel="dns-prefetch" href="https://vibe.filesafe.space" />
+    <!--
+      Font loading strategy:
+        - Google Fonts with display=swap for Playfair Display + Lato
+        - For production, self-host woff2 files in public/fonts/ for
+          zero layout shift and no external requests
+        - Playfair Display: 400, 600, 700, 900 (serif headings)
+        - Lato: 400, 700 (sans body)
+    -->
+    <title>PianoEd — A Love Letter to the Piano</title>
+    <meta
+      name="description"
+      content="PianoEd is a warm, passionate destination for piano lovers — beginners, learners, and enthusiasts. History, technique, gear, sheet music, and modern developments across all genres."
+    />
+    <meta name="author" content="PianoEd Editorial Team" />
+    <meta property="og:title" content="PianoEd — A Love Letter to the Piano" />
+    <meta
+      property="og:description"
+      content="PianoEd is a warm, passionate destination for piano lovers — beginners, learners, and enthusiasts. History, technique, gear, sheet music, and modern developments across all genres."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="PianoEd" />
+    <meta property="og:locale" content="en-US" />
+    <meta
+      property="og:image"
+      content="https://vibe.filesafe.space/1787619109373736633/assets/794a6636-3303-4851-8d45-43c687217574.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@pianoed" />
+    <meta name="twitter:title" content="PianoEd — A Love Letter to the Piano" />
+    <meta
+      name="twitter:description"
+      content="PianoEd is a warm, passionate destination for piano lovers — beginners, learners, and enthusiasts. History, technique, gear, sheet music, and modern developments across all genres."
+    />
+    <meta
+      name="twitter:image"
+      content="https://vibe.filesafe.space/1787619109373736633/assets/794a6636-3303-4851-8d45-43c687217574.png"
+    />
+    <!-- Prevent theme flash: set dark class before paint -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("site-theme");
+          var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (stored === "dark" || (!stored && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <div
+        id="noscript-content"
+        style="
+          max-width: 42rem;
+          margin: 2rem auto;
+          padding: 0 1.25rem;
+          font-family: system-ui, sans-serif;
+          color: #1a1a2e;
+        "
+      >
+        <h1 style="font-size: 1.75rem; font-weight: 700; margin-bottom: 0.75rem">
+          PianoEd — A Love Letter to the Piano
+        </h1>
+        <p style="font-size: 1.0625rem; line-height: 1.75; color: #4a4a5a; margin-bottom: 1.5rem">
+          PianoEd is a warm, passionate destination for piano lovers — beginners, learners, and
+          enthusiasts. Browse our latest articles below, or enable JavaScript for the full
+          interactive experience including search, categories, and tags.
+        </p>
+        <h2 style="font-size: 1.25rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.5rem">
+          Latest Articles
+        </h2>
+        <p style="color: #6a6a7a; font-size: 0.9375rem">
+          Our articles cover piano history, technique, gear reviews, sheet music, and modern
+          developments across all genres — classical, jazz, pop, and contemporary.
+        </p>
+        <p style="color: #6a6a7a; font-size: 0.9375rem; margin-top: 1rem">
+          To browse all articles by category, tag, or author, please enable JavaScript. The full
+          site includes search, dark mode, reading progress tracking, and related article
+          recommendations.
+        </p>
+        <p style="color: #6a6a7a; font-size: 0.9375rem; margin-top: 1rem">
+          A machine-readable article index is available at
+          <a href="/article-index.json" style="color: #4f8ef7">/article-index.json</a>.
+        </p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

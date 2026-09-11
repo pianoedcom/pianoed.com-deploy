@@ -1,0 +1,24 @@
+# PianoEd
+
+> PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.
+
+## Key Pages
+
+- [Home](https://pianoed.com): Main site with latest articles
+- [Articles](https://pianoed.com/articles): Complete article archive
+- [Blog](https://pianoed.com/blog): Blog index
+- [Search](https://pianoed.com/search): Search all content
+- [About](https://pianoed.com/about): About PianoEd
+- [Contact](https://pianoed.com/contact): Contact information
+- [FAQ](https://pianoed.com/faq): Frequently asked questions
+
+## Feeds
+
+- [RSS Feed](https://pianoed.com/feed.xml): RSS 2.0 feed
+- [Atom Feed](https://pianoed.com/atom.xml): Atom 1.0 feed
+- [JSON Feed](https://pianoed.com/feed.json): JSON Feed 1.1
+- [Sitemap](https://pianoed.com/sitemap.xml): XML sitemap
+
+## Optional
+
+- [Full Content Index](https://pianoed.com/llms-full.txt): Complete article index with descriptions

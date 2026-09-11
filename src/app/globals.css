@@ -1,0 +1,8 @@
+/**
+ * Global styles entry point for the app directory.
+ *
+ * Re-exports the design-system tokens and article typography so consumers
+ * can import from either `@/app/globals.css` or the individual style files.
+ */
+@import "../index.css";
+@import "../styles/article.css";

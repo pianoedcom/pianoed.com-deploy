@@ -1,0 +1,26 @@
+{
+  "specFile": "content-spec-batch-11.json",
+  "specHash": "batch-11-pianoed",
+  "lastUpdated": "2026-08-25T23:30:00.000Z",
+  "total": 15,
+  "completed": 15,
+  "pending": 0,
+  "errors": 0,
+  "entries": {
+    "piano-in-baroque-era-history": { "status": "completed", "path": "content/posts/piano-in-baroque-era-history.mdx", "updatedAt": "2026-08-25T23:00:00.000Z", "error": null },
+    "piano-in-impressionist-era-guide": { "status": "completed", "path": "content/posts/piano-in-impressionist-era-guide.mdx", "updatedAt": "2026-08-25T23:01:00.000Z", "error": null },
+    "piano-in-20th-century-music-guide": { "status": "completed", "path": "content/posts/piano-in-20th-century-music-guide.mdx", "updatedAt": "2026-08-25T23:02:00.000Z", "error": null },
+    "piano-in-film-scoring-history": { "status": "completed", "path": "content/posts/piano-in-film-scoring-history.mdx", "updatedAt": "2026-08-25T23:03:00.000Z", "error": null },
+    "piano-blues-scale-patterns-and-licks": { "status": "completed", "path": "content/posts/piano-blues-scale-patterns-and-licks.mdx", "updatedAt": "2026-08-25T23:04:00.000Z", "error": null },
+    "piano-new-age-style-guide": { "status": "completed", "path": "content/posts/piano-new-age-style-guide.mdx", "updatedAt": "2026-08-25T23:05:00.000Z", "error": null },
+    "piano-tango-styles-and-techniques": { "status": "completed", "path": "content/posts/piano-tango-styles-and-techniques.mdx", "updatedAt": "2026-08-25T23:06:00.000Z", "error": null },
+    "piano-practice-with-metronome-guide": { "status": "completed", "path": "content/posts/piano-practice-with-metronome-guide.mdx", "updatedAt": "2026-08-25T23:07:00.000Z", "error": null },
+    "piano-mental-practice-and-visualization": { "status": "completed", "path": "content/posts/piano-mental-practice-and-visualization.mdx", "updatedAt": "2026-08-25T23:08:00.000Z", "error": null },
+    "piano-playing-posture-and-ergonomics": { "status": "completed", "path": "content/posts/piano-playing-posture-and-ergonomics.mdx", "updatedAt": "2026-08-25T23:09:00.000Z", "error": null },
+    "piano-performance-anxiety-tips": { "status": "completed", "path": "content/posts/piano-performance-anxiety-tips.mdx", "updatedAt": "2026-08-25T23:10:00.000Z", "error": null },
+    "piano-repertoire-for-small-hands": { "status": "completed", "path": "content/posts/piano-repertoire-for-small-hands.mdx", "updatedAt": "2026-08-25T23:11:00.000Z", "error": null },
+    "piano-jazz-standard-repertoire-list": { "status": "completed", "path": "content/posts/piano-jazz-standard-repertoire-list.mdx", "updatedAt": "2026-08-25T23:12:00.000Z", "error": null },
+    "best-piano-for-small-apartment-spaces": { "status": "completed", "path": "content/posts/best-piano-for-small-apartment-spaces.mdx", "updatedAt": "2026-08-25T23:13:00.000Z", "error": null },
+    "piano-bench-height-adjustment-guide": { "status": "completed", "path": "content/posts/piano-bench-height-adjustment-guide.mdx", "updatedAt": "2026-08-25T23:14:00.000Z", "error": null }
+  }
+}

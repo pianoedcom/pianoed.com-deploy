@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /api
+Disallow: /contact
+
+Sitemap: https://pianoed.com/sitemap.xml

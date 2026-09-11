@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Fonts are loaded via Google Fonts in index.html.
+   For production, download woff2 files from Google Fonts and self-host
+   in public/fonts/ for zero layout shift. See docs/performance/self-hosted-fonts.md */
+/**
+ * PianoEd Design System — Deep Wine & Ivory palette.
+ *
+ * Colors are defined as HSL values to match the Tailwind config's
+ * `hsl(var(--token))` convention. The palette pairs a deep wine red
+ * primary (#6B2737) with warm ivory backgrounds (#F5EDE0) and muted
+ * gold accents (#C9A24B), evoking the rich wood tones of a grand piano.
+ *
+ * Typography: Playfair Display (serif) for headlines, Lato (sans) for body.
+ */
+@layer base {
+  :root {
+    /* --- Deep Wine & Ivory palette (light) --- */
+    --background: 38 53% 92%;
+    --foreground: 351 24% 14%;
+    --card: 38 53% 96%;
+    --card-foreground: 351 24% 14%;
+    --popover: 38 53% 96%;
+    --popover-foreground: 351 24% 14%;
+    --primary: 343 44% 29%;
+    --primary-foreground: 38 53% 92%;
+    --secondary: 38 30% 88%;
+    --secondary-foreground: 351 24% 14%;
+    --muted: 38 25% 85%;
+    --muted-foreground: 351 10% 40%;
+    --accent: 42 53% 54%;
+    --accent-foreground: 351 24% 14%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 38 53% 92%;
+    --border: 38 25% 82%;
+    --input: 38 25% 82%;
+    --ring: 42 53% 54%;
+    --radius: 0.5rem;
+    /* Sidebar */
+    --sidebar-background: 351 24% 14%;
+    --sidebar-foreground: 38 30% 85%;
+    --sidebar-primary: 42 53% 54%;
+    --sidebar-primary-foreground: 351 24% 14%;
+    --sidebar-accent: 351 20% 20%;
+    --sidebar-accent-foreground: 38 30% 85%;
+    --sidebar-border: 351 20% 22%;
+    --sidebar-ring: 42 53% 54%;
+    /* --- Typography --- */
+    --font-sans: "Lato", "Lato Fallback", system-ui, -apple-system, sans-serif;
+    --font-serif: "Playfair Display", "Playfair Display Fallback", Georgia, serif;
+    /* --- Layout --- */
+    --content-max: 72rem;
+    --article-max: 42rem;
+  }
+  .dark {
+    /* --- Deep Wine & Ivory palette (dark mode) --- */
+    --background: 351 30% 10%;
+    --foreground: 38 30% 88%;
+    --card: 351 25% 14%;
+    --card-foreground: 38 30% 88%;
+    --popover: 351 25% 14%;
+    --popover-foreground: 38 30% 88%;
+    --primary: 38 40% 85%;
+    --primary-foreground: 351 30% 10%;
+    --secondary: 351 20% 20%;
+    --secondary-foreground: 38 30% 88%;
+    --muted: 351 20% 18%;
+    --muted-foreground: 38 15% 60%;
+    --accent: 42 53% 54%;
+    --accent-foreground: 351 30% 10%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 38 30% 88%;
+    --border: 351 20% 22%;
+    --input: 351 20% 22%;
+    --ring: 42 53% 54%;
+    --sidebar-background: 351 30% 8%;
+    --sidebar-foreground: 38 15% 65%;
+    --sidebar-primary: 38 40% 85%;
+    --sidebar-primary-foreground: 351 30% 10%;
+    --sidebar-accent: 351 20% 18%;
+    --sidebar-accent-foreground: 38 30% 88%;
+    --sidebar-border: 351 20% 22%;
+    --sidebar-ring: 42 53% 54%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+    font-feature-settings: "kern", "liga", "calt";
+    text-rendering: optimizeLegibility;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+  /* Cards and surfaces also transition smoothly on theme switch */
+  .card,
+  [class*="bg-card"],
+  [class*="bg-muted"],
+  [class*="bg-secondary"] {
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+  }
+  /* Headings use the serif display font (Playfair Display) */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  /* Visible focus for keyboard navigation */
+  :focus-visible {
+    @apply outline-2 outline-offset-2;
+    outline-style: solid;
+    outline-color: hsl(var(--ring, currentColor));
+  }
+}
+@layer components {
+  /* Display heading utility — Playfair Display for editorial elegance */
+  .display-heading {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  /* Eyebrow / kicker label */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: hsl(var(--muted-foreground));
+  }
+  /* Article body for long-form reading */
+  .prose-body {
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+  .prose-body p {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  /* Subtle grid texture overlay */
+  .paper-texture {
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      hsl(var(--muted-foreground) / 0.06) 1px,
+      transparent 0
+    );
+    background-size: 24px 24px;
+  }
+}
+@layer utilities {
+  /* Reading-width container for article prose */
+  .reading-width {
+    max-width: var(--article-max);
+  }
+  /* Content-width container */
+  .content-width {
+    max-width: var(--content-max);
+  }
+  /* Line clamp helpers */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

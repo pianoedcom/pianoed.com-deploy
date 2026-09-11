@@ -1,0 +1,340 @@
+/**
+ * Article typography and syntax highlighting styles.
+ *
+ * Applied to the `.prose-article` container that wraps rendered MDX output.
+ * These styles are kept separate from the global design-system tokens so the
+ * editorial reading experience can be tuned independently.
+ */
+/* ---------------------------------------------------------------------------
+ * Highlight.js — GitHub-inspired theme (light + dark)
+ * --------------------------------------------------------------------------- */
+.hljs {
+  color: #24292e;
+  background: transparent;
+}
+.hljs-comment,
+.hljs-quote {
+  color: #6a737d;
+  font-style: italic;
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #d73a49;
+}
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #005cc5;
+}
+.hljs-string,
+.hljs-doctag {
+  color: #032f62;
+}
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #6f42c1;
+}
+.hljs-type,
+.hljs-class .hljs-title,
+.hljs-params {
+  color: #22863a;
+}
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-name,
+.hljs-section,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #22863a;
+}
+.hljs-deletion {
+  color: #b31d28;
+}
+.hljs-meta {
+  color: #6a737d;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: 700;
+}
+/* Dark mode overrides */
+.dark .hljs {
+  color: #c9d1d9;
+}
+.dark .hljs-comment,
+.dark .hljs-quote {
+  color: #8b949e;
+}
+.dark .hljs-keyword,
+.dark .hljs-selector-tag,
+.dark .hljs-subst {
+  color: #ff7b72;
+}
+.dark .hljs-number,
+.dark .hljs-literal,
+.dark .hljs-variable,
+.dark .hljs-template-variable {
+  color: #79c0ff;
+}
+.dark .hljs-string,
+.dark .hljs-doctag {
+  color: #a5d6ff;
+}
+.dark .hljs-title,
+.dark .hljs-section,
+.dark .hljs-selector-id {
+  color: #d2a8ff;
+}
+.dark .hljs-type,
+.dark .hljs-params {
+  color: #7ee787;
+}
+.dark .hljs-built_in,
+.dark .hljs-builtin-name,
+.dark .hljs-name,
+.dark .hljs-symbol,
+.dark .hljs-bullet,
+.dark .hljs-code,
+.dark .hljs-addition {
+  color: #7ee787;
+}
+.dark .hljs-deletion {
+  color: #ffa198;
+}
+.dark .hljs-meta {
+  color: #8b949e;
+}
+/* ---------------------------------------------------------------------------
+ * Article prose typography
+ * --------------------------------------------------------------------------- */
+.prose-article {
+  font-size: calc(1.125rem * var(--article-font-scale, 1));
+  line-height: 1.625;
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans, "Lato", system-ui, sans-serif);
+  /*
+   * content-visibility: auto lets the browser skip rendering work for
+   * off-screen sections of long articles, dramatically reducing
+   * initial render time and improving INP. contain-intrinsic-size
+   * provides an estimated height so the scrollbar doesn't jump.
+   */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 60rem;
+}
+/* Reduced motion: disable content-visibility transitions */
+@media (prefers-reduced-motion: reduce) {
+  .prose-article {
+    content-visibility: visible;
+  }
+}
+.prose-article h1,
+.prose-article h2,
+.prose-article h3,
+.prose-article h4,
+.prose-article h5,
+.prose-article h6 {
+  font-family: var(--font-serif, "Playfair Display", Georgia, serif);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.prose-article h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.prose-article h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid hsl(var(--border));
+}
+.prose-article h3 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+.prose-article h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.prose-article h5,
+.prose-article h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.prose-article p {
+  font-size: calc(1.125rem * var(--article-font-scale, 1));
+  line-height: 1.625;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.prose-article ul,
+.prose-article ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+.prose-article ul {
+  list-style-type: disc;
+}
+.prose-article ol {
+  list-style-type: decimal;
+}
+.prose-article li {
+  font-size: calc(1.125rem * var(--article-font-scale, 1));
+  line-height: 1.625;
+  margin-bottom: 0.4rem;
+}
+.prose-article li > ul,
+.prose-article li > ol {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+}
+/* Task list items (GFM) */
+.prose-article li:has(> input[type="checkbox"]) {
+  list-style: none;
+  margin-left: -1.25rem;
+}
+.prose-article li > input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+/* Strikethrough (GFM) */
+.prose-article del {
+  color: hsl(var(--muted-foreground));
+}
+.prose-article a {
+  color: hsl(var(--primary));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-article a:hover {
+  opacity: 0.8;
+}
+.prose-article a:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+  border-radius: 0.125rem;
+}
+.prose-article code {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Fira Code", monospace;
+}
+.prose-article pre {
+  margin-bottom: 1.5rem;
+}
+.prose-article pre:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+.prose-article pre code {
+  font-size: 0.875rem;
+}
+.prose-article table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.prose-article th,
+.prose-article td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid hsl(var(--border));
+  text-align: left;
+}
+.prose-article th {
+  font-weight: 600;
+  background: hsl(var(--muted) / 0.4);
+}
+.prose-article blockquote {
+  font-size: calc(1.125rem * var(--article-font-scale, 1));
+  line-height: 1.625;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid hsl(var(--primary) / 0.4);
+  font-style: italic;
+  color: hsl(var(--muted-foreground));
+}
+.prose-article hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid hsl(var(--border));
+}
+.prose-article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.prose-article figure {
+  margin: 1.5rem 0;
+}
+.prose-article figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: hsl(var(--muted-foreground));
+}
+/* ---------------------------------------------------------------------------
+ * Print styles
+ * --------------------------------------------------------------------------- */
+@media print {
+  /* Hide navigation, sidebar, CTAs, ads */
+  .no-print,
+  nav,
+  aside,
+  footer,
+  .newsletter-cta,
+  .share-buttons,
+  .reading-progress,
+  .table-of-contents,
+  .article-actions {
+    display: none !important;
+  }
+  /* Expand content width */
+  .prose-article,
+  .reading-width {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  /* Show URLs as text for links */
+  .prose-article a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #666;
+  }
+  /* Page breaks between articles */
+  .prose-article {
+    page-break-after: always;
+  }
+  /* Improve typography for print */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+  /* Force dark mode off for print */
+  .dark {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+  }
+}

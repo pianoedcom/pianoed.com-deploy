@@ -1,0 +1,3439 @@
+{
+  "locales": {
+    "fr": {
+      "total": 170,
+      "completed": 170,
+      "pending": 0,
+      "articles": {
+        "acoustic-piano-soundboard-explained": {
+          "status": "completed",
+          "path": "content/posts/acoustic-piano-soundboard-explained-fr.mdx"
+        },
+        "acoustic-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/acoustic-vs-digital-piano-comparison-fr.mdx"
+        },
+        "baroque-keyboard-music-history-guide": {
+          "status": "completed",
+          "path": "content/posts/baroque-keyboard-music-history-guide-fr.mdx"
+        },
+        "best-beginner-keyboard-piano-under-500": {
+          "status": "completed",
+          "path": "content/posts/best-beginner-keyboard-piano-under-500-fr.mdx"
+        },
+        "best-digital-pianos-for-home-practice": {
+          "status": "completed",
+          "path": "content/posts/best-digital-pianos-for-home-practice-fr.mdx"
+        },
+        "best-hybrid-pianos-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-hybrid-pianos-reviewed-fr.mdx"
+        },
+        "best-piano-apps-for-learning-and-practice": {
+          "status": "completed",
+          "path": "content/posts/best-piano-apps-for-learning-and-practice-fr.mdx"
+        },
+        "best-piano-books-for-self-taught-adults": {
+          "status": "completed",
+          "path": "content/posts/best-piano-books-for-self-taught-adults-fr.mdx"
+        },
+        "best-piano-brands-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/best-piano-brands-comparison-guide-fr.mdx"
+        },
+        "best-piano-covers-and-cases": {
+          "status": "completed",
+          "path": "content/posts/best-piano-covers-and-cases-fr.mdx"
+        },
+        "best-piano-finger-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/best-piano-finger-exercises-for-beginners-fr.mdx"
+        },
+        "best-piano-for-small-apartment-spaces": {
+          "status": "completed",
+          "path": "content/posts/best-piano-for-small-apartment-spaces-fr.mdx"
+        },
+        "best-piano-keyboards-for-travel": {
+          "status": "completed",
+          "path": "content/posts/best-piano-keyboards-for-travel-fr.mdx"
+        },
+        "best-piano-lamps-and-lighting": {
+          "status": "completed",
+          "path": "content/posts/best-piano-lamps-and-lighting-fr.mdx"
+        },
+        "best-piano-method-books-compared": {
+          "status": "completed",
+          "path": "content/posts/best-piano-method-books-compared-fr.mdx"
+        },
+        "best-piano-metronomes-and-practice-tools": {
+          "status": "completed",
+          "path": "content/posts/best-piano-metronomes-and-practice-tools-fr.mdx"
+        },
+        "best-piano-pedals-and-accessories": {
+          "status": "completed",
+          "path": "content/posts/best-piano-pedals-and-accessories-fr.mdx"
+        },
+        "best-piano-recordings-of-all-time": {
+          "status": "completed",
+          "path": "content/posts/best-piano-recordings-of-all-time-fr.mdx"
+        },
+        "best-piano-stands-and-benches-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stands-and-benches-reviewed-fr.mdx"
+        },
+        "best-piano-stools-and-seating-options": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stools-and-seating-options-fr.mdx"
+        },
+        "best-piano-vst-plugins-for-producers": {
+          "status": "completed",
+          "path": "content/posts/best-piano-vst-plugins-for-producers-fr.mdx"
+        },
+        "best-stage-pianos-for-live-performance": {
+          "status": "completed",
+          "path": "content/posts/best-stage-pianos-for-live-performance-fr.mdx"
+        },
+        "blues-piano-lessons-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/blues-piano-lessons-for-beginners-fr.mdx"
+        },
+        "bossa-nova-piano-patterns-tutorial": {
+          "status": "completed",
+          "path": "content/posts/bossa-nova-piano-patterns-tutorial-fr.mdx"
+        },
+        "classical-piano-genres-explained-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-genres-explained-for-beginners-fr.mdx"
+        },
+        "classical-piano-repertoire-by-era-guide": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-repertoire-by-era-guide-fr.mdx"
+        },
+        "classical-piano-sheet-music-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-sheet-music-for-beginners-fr.mdx"
+        },
+        "contemporary-piano-artists-to-watch": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-artists-to-watch-fr.mdx"
+        },
+        "contemporary-piano-music-genres-overview": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-music-genres-overview-fr.mdx"
+        },
+        "czerny-piano-exercises-for-technique": {
+          "status": "completed",
+          "path": "content/posts/czerny-piano-exercises-for-technique-fr.mdx"
+        },
+        "digital-piano-connectivity-options-guide": {
+          "status": "completed",
+          "path": "content/posts/digital-piano-connectivity-options-guide-fr.mdx"
+        },
+        "evolution-of-piano-design-through-centuries": {
+          "status": "completed",
+          "path": "content/posts/evolution-of-piano-design-through-centuries-fr.mdx"
+        },
+        "extended-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/extended-piano-techniques-guide-fr.mdx"
+        },
+        "famous-classical-pianists-who-changed-music": {
+          "status": "completed",
+          "path": "content/posts/famous-classical-pianists-who-changed-music-fr.mdx"
+        },
+        "free-piano-sheet-music-download-resources": {
+          "status": "completed",
+          "path": "content/posts/free-piano-sheet-music-download-resources-fr.mdx"
+        },
+        "gospel-piano-chords-and-voicings-guide": {
+          "status": "completed",
+          "path": "content/posts/gospel-piano-chords-and-voicings-guide-fr.mdx"
+        },
+        "great-piano-competitions-history-guide": {
+          "status": "completed",
+          "path": "content/posts/great-piano-competitions-history-guide-fr.mdx"
+        },
+        "hanon-piano-exercises-practice-guide": {
+          "status": "completed",
+          "path": "content/posts/hanon-piano-exercises-practice-guide-fr.mdx"
+        },
+        "history-of-the-piano-evolution": {
+          "status": "completed",
+          "path": "content/posts/history-of-the-piano-evolution-fr.mdx"
+        },
+        "how-do-hybrid-pianos-work-explained": {
+          "status": "completed",
+          "path": "content/posts/how-do-hybrid-pianos-work-explained-fr.mdx"
+        },
+        "how-to-accompany-yourself-singing-on-piano": {
+          "status": "completed",
+          "path": "content/posts/how-to-accompany-yourself-singing-on-piano-fr.mdx"
+        },
+        "how-to-build-piano-finger-independence": {
+          "status": "completed",
+          "path": "content/posts/how-to-build-piano-finger-independence-fr.mdx"
+        },
+        "how-to-care-for-piano-keys-and-finish": {
+          "status": "completed",
+          "path": "content/posts/how-to-care-for-piano-keys-and-finish-fr.mdx"
+        },
+        "how-to-choose-a-piano-teacher": {
+          "status": "completed",
+          "path": "content/posts/how-to-choose-a-piano-teacher-fr.mdx"
+        },
+        "how-to-learn-piano-as-an-adult": {
+          "status": "completed",
+          "path": "content/posts/how-to-learn-piano-as-an-adult-fr.mdx"
+        },
+        "how-to-memorize-piano-pieces-faster": {
+          "status": "completed",
+          "path": "content/posts/how-to-memorize-piano-pieces-faster-fr.mdx"
+        },
+        "how-to-play-piano-by-ear": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-by-ear-fr.mdx"
+        },
+        "how-to-play-piano-chords-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-chords-for-beginners-fr.mdx"
+        },
+        "how-to-play-piano-tremolo-technique": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-tremolo-technique-fr.mdx"
+        },
+        "how-to-play-piano-with-small-hands": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-with-small-hands-fr.mdx"
+        },
+        "how-to-practice-piano-effectively": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-effectively-fr.mdx"
+        },
+        "how-to-practice-piano-hands-separately": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-hands-separately-fr.mdx"
+        },
+        "how-to-read-piano-sheet-music-fast": {
+          "status": "completed",
+          "path": "content/posts/how-to-read-piano-sheet-music-fast-fr.mdx"
+        },
+        "how-to-trill-on-piano-with-control": {
+          "status": "completed",
+          "path": "content/posts/how-to-trill-on-piano-with-control-fr.mdx"
+        },
+        "impromptu-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/impromptu-piano-music-guide-fr.mdx"
+        },
+        "jazz-piano-history-and-legendary-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-history-and-legendary-players-fr.mdx"
+        },
+        "jazz-piano-improvisation-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-improvisation-basics-guide-fr.mdx"
+        },
+        "jazz-piano-sheet-music-recommendations": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-sheet-music-recommendations-fr.mdx"
+        },
+        "jazz-piano-voicings-for-intermediate-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-voicings-for-intermediate-players-fr.mdx"
+        },
+        "left-hand-piano-independence-exercises": {
+          "status": "completed",
+          "path": "content/posts/left-hand-piano-independence-exercises-fr.mdx"
+        },
+        "midi-piano-controllers-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/midi-piano-controllers-for-home-studio-fr.mdx"
+        },
+        "neo-classical-piano-style-guide": {
+          "status": "completed",
+          "path": "content/posts/neo-classical-piano-style-guide-fr.mdx"
+        },
+        "new-piano-technology-innovations": {
+          "status": "completed",
+          "path": "content/posts/new-piano-technology-innovations-fr.mdx"
+        },
+        "nocturne-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/nocturne-piano-music-guide-fr.mdx"
+        },
+        "piano-accompaniment-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-accompaniment-techniques-guide-fr.mdx"
+        },
+        "piano-action-types-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-action-types-explained-simply-fr.mdx"
+        },
+        "piano-amplifier-and-speaker-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-amplifier-and-speaker-guide-fr.mdx"
+        },
+        "piano-arpeggio-exercises-for-speed": {
+          "status": "completed",
+          "path": "content/posts/piano-arpeggio-exercises-for-speed-fr.mdx"
+        },
+        "piano-arrangement-techniques-for-pop-songs": {
+          "status": "completed",
+          "path": "content/posts/piano-arrangement-techniques-for-pop-songs-fr.mdx"
+        },
+        "piano-articulation-marks-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-articulation-marks-guide-fr.mdx"
+        },
+        "piano-bass-patterns-for-accompaniment": {
+          "status": "completed",
+          "path": "content/posts/piano-bass-patterns-for-accompaniment-fr.mdx"
+        },
+        "piano-bench-buying-guide-for-proper-posture": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-buying-guide-for-proper-posture-fr.mdx"
+        },
+        "piano-bench-height-adjustment-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-height-adjustment-guide-fr.mdx"
+        },
+        "piano-blues-scale-patterns-and-licks": {
+          "status": "completed",
+          "path": "content/posts/piano-blues-scale-patterns-and-licks-fr.mdx"
+        },
+        "piano-boogie-woogie-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-boogie-woogie-style-guide-fr.mdx"
+        },
+        "piano-cadence-types-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-cadence-types-explained-fr.mdx"
+        },
+        "piano-cadenza-guide-and-examples": {
+          "status": "completed",
+          "path": "content/posts/piano-cadenza-guide-and-examples-fr.mdx"
+        },
+        "piano-chord-inversions-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-inversions-explained-fr.mdx"
+        },
+        "piano-chord-progressions-every-player-should-know": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-progressions-every-player-should-know-fr.mdx"
+        },
+        "piano-chord-substitutions-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-substitutions-guide-fr.mdx"
+        },
+        "piano-comping-techniques-for-jazz": {
+          "status": "completed",
+          "path": "content/posts/piano-comping-techniques-for-jazz-fr.mdx"
+        },
+        "piano-concerto-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-concerto-history-guide-fr.mdx"
+        },
+        "piano-counterpoint-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-counterpoint-basics-guide-fr.mdx"
+        },
+        "piano-cultural-impact-on-modern-music": {
+          "status": "completed",
+          "path": "content/posts/piano-cultural-impact-on-modern-music-fr.mdx"
+        },
+        "piano-duet-playing-tips-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-playing-tips-guide-fr.mdx"
+        },
+        "piano-duet-repertoire-for-four-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-repertoire-for-four-hands-fr.mdx"
+        },
+        "piano-dynamics-and-expression-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-dynamics-and-expression-guide-fr.mdx"
+        },
+        "piano-ear-training-exercises-and-methods": {
+          "status": "completed",
+          "path": "content/posts/piano-ear-training-exercises-and-methods-fr.mdx"
+        },
+        "piano-etude-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-etude-history-guide-fr.mdx"
+        },
+        "piano-fingering-rules-and-guidelines": {
+          "status": "completed",
+          "path": "content/posts/piano-fingering-rules-and-guidelines-fr.mdx"
+        },
+        "piano-four-hand-repertoire-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-four-hand-repertoire-guide-fr.mdx"
+        },
+        "piano-glissando-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-glissando-technique-guide-fr.mdx"
+        },
+        "piano-hand-position-corrections-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-position-corrections-guide-fr.mdx"
+        },
+        "piano-hand-positioning-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-positioning-technique-guide-fr.mdx"
+        },
+        "piano-harmony-and-chord-theory": {
+          "status": "completed",
+          "path": "content/posts/piano-harmony-and-chord-theory-fr.mdx"
+        },
+        "piano-headphone-buying-guide-for-practice": {
+          "status": "completed",
+          "path": "content/posts/piano-headphone-buying-guide-for-practice-fr.mdx"
+        },
+        "piano-humidity-control-and-climate": {
+          "status": "completed",
+          "path": "content/posts/piano-humidity-control-and-climate-fr.mdx"
+        },
+        "piano-improvisation-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-improvisation-techniques-guide-fr.mdx"
+        },
+        "piano-in-20th-century-music-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-20th-century-music-guide-fr.mdx"
+        },
+        "piano-in-baroque-era-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-baroque-era-history-fr.mdx"
+        },
+        "piano-in-film-and-popular-culture": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-and-popular-culture-fr.mdx"
+        },
+        "piano-in-film-scoring-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-scoring-history-fr.mdx"
+        },
+        "piano-in-impressionist-era-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-impressionist-era-guide-fr.mdx"
+        },
+        "piano-industry-news-and-trends": {
+          "status": "completed",
+          "path": "content/posts/piano-industry-news-and-trends-fr.mdx"
+        },
+        "piano-interval-recognition-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-interval-recognition-exercises-fr.mdx"
+        },
+        "piano-jazz-standard-repertoire-list": {
+          "status": "completed",
+          "path": "content/posts/piano-jazz-standard-repertoire-list-fr.mdx"
+        },
+        "piano-key-signatures-guide-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-key-signatures-guide-for-beginners-fr.mdx"
+        },
+        "piano-learning-path-for-complete-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-learning-path-for-complete-beginners-fr.mdx"
+        },
+        "piano-legato-vs-staccato-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-legato-vs-staccato-technique-fr.mdx"
+        },
+        "piano-maintenance-and-tuning-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-maintenance-and-tuning-guide-fr.mdx"
+        },
+        "piano-melody-ornamentation-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-melody-ornamentation-techniques-fr.mdx"
+        },
+        "piano-mental-practice-and-visualization": {
+          "status": "completed",
+          "path": "content/posts/piano-mental-practice-and-visualization-fr.mdx"
+        },
+        "piano-modes-and-scales-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-modes-and-scales-explained-fr.mdx"
+        },
+        "piano-moving-and-transportation-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-moving-and-transportation-guide-fr.mdx"
+        },
+        "piano-music-genres-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-music-genres-comparison-guide-fr.mdx"
+        },
+        "piano-new-age-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-new-age-style-guide-fr.mdx"
+        },
+        "piano-octave-technique-and-stretching": {
+          "status": "completed",
+          "path": "content/posts/piano-octave-technique-and-stretching-fr.mdx"
+        },
+        "piano-ornamentation-and-trills-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-ornamentation-and-trills-guide-fr.mdx"
+        },
+        "piano-pedal-types-and-uses-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-pedal-types-and-uses-explained-fr.mdx"
+        },
+        "piano-pedaling-techniques-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-pedaling-techniques-for-beginners-fr.mdx"
+        },
+        "piano-performance-anxiety-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-performance-anxiety-tips-fr.mdx"
+        },
+        "piano-phrasing-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-phrasing-techniques-guide-fr.mdx"
+        },
+        "piano-playing-posture-and-ergonomics": {
+          "status": "completed",
+          "path": "content/posts/piano-playing-posture-and-ergonomics-fr.mdx"
+        },
+        "piano-practice-journal-template-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-journal-template-and-tips-fr.mdx"
+        },
+        "piano-practice-routine-for-busy-adults": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-routine-for-busy-adults-fr.mdx"
+        },
+        "piano-practice-with-metronome-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-with-metronome-guide-fr.mdx"
+        },
+        "piano-practice-without-instrument": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-without-instrument-fr.mdx"
+        },
+        "piano-recording-setup-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/piano-recording-setup-for-home-studio-fr.mdx"
+        },
+        "piano-reharmonization-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-reharmonization-techniques-guide-fr.mdx"
+        },
+        "piano-repertoire-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-for-small-hands-fr.mdx"
+        },
+        "piano-repertoire-guide-by-skill-level": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-guide-by-skill-level-fr.mdx"
+        },
+        "piano-rhythm-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-rhythm-exercises-for-beginners-fr.mdx"
+        },
+        "piano-rubato-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-rubato-technique-guide-fr.mdx"
+        },
+        "piano-sampling-vs-physical-modeling-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-sampling-vs-physical-modeling-explained-fr.mdx"
+        },
+        "piano-scales-practice-guide-all-keys": {
+          "status": "completed",
+          "path": "content/posts/piano-scales-practice-guide-all-keys-fr.mdx"
+        },
+        "piano-sight-reading-apps-comparison": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-apps-comparison-fr.mdx"
+        },
+        "piano-sight-reading-tips-and-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-tips-and-exercises-fr.mdx"
+        },
+        "piano-sonata-form-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-form-explained-simply-fr.mdx"
+        },
+        "piano-sonata-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-history-guide-fr.mdx"
+        },
+        "piano-stride-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-stride-technique-guide-fr.mdx"
+        },
+        "piano-tango-styles-and-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-tango-styles-and-techniques-fr.mdx"
+        },
+        "piano-technique-tips-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-technique-tips-for-small-hands-fr.mdx"
+        },
+        "piano-theory-basics-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-theory-basics-for-beginners-fr.mdx"
+        },
+        "piano-thumb-crossing-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-thumb-crossing-technique-fr.mdx"
+        },
+        "piano-transcription-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-transcription-techniques-fr.mdx"
+        },
+        "piano-transposition-techniques-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-transposition-techniques-and-tips-fr.mdx"
+        },
+        "piano-tuning-pins-and-pinblock-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-tuning-pins-and-pinblock-guide-fr.mdx"
+        },
+        "piano-voicing-and-tone-production": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-and-tone-production-fr.mdx"
+        },
+        "piano-voicing-techniques-for-chords": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-techniques-for-chords-fr.mdx"
+        },
+        "piano-walking-bass-lines-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-walking-bass-lines-guide-fr.mdx"
+        },
+        "piano-warm-up-exercises-checklist": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-checklist-fr.mdx"
+        },
+        "piano-warm-up-exercises-routine": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-routine-fr.mdx"
+        },
+        "player-piano-and-self-playing-systems-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-and-self-playing-systems-guide-fr.mdx"
+        },
+        "player-piano-roll-history-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-roll-history-guide-fr.mdx"
+        },
+        "polyrhythm-piano-exercises": {
+          "status": "completed",
+          "path": "content/posts/polyrhythm-piano-exercises-fr.mdx"
+        },
+        "pop-piano-chord-charts-for-popular-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-chord-charts-for-popular-songs-fr.mdx"
+        },
+        "pop-piano-techniques-for-modern-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-techniques-for-modern-songs-fr.mdx"
+        },
+        "portable-keyboard-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/portable-keyboard-vs-digital-piano-comparison-fr.mdx"
+        },
+        "prelude-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/prelude-piano-music-guide-fr.mdx"
+        },
+        "prepared-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/prepared-piano-techniques-guide-fr.mdx"
+        },
+        "ragtime-piano-history-and-technique": {
+          "status": "completed",
+          "path": "content/posts/ragtime-piano-history-and-technique-fr.mdx"
+        },
+        "rhapsody-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/rhapsody-piano-music-guide-fr.mdx"
+        },
+        "rock-piano-styles-and-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/rock-piano-styles-and-techniques-guide-fr.mdx"
+        },
+        "romantic-era-piano-composers-guide": {
+          "status": "completed",
+          "path": "content/posts/romantic-era-piano-composers-guide-fr.mdx"
+        },
+        "scherzo-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/scherzo-piano-music-guide-fr.mdx"
+        },
+        "silent-piano-systems-comparison": {
+          "status": "completed",
+          "path": "content/posts/silent-piano-systems-comparison-fr.mdx"
+        },
+        "smart-piano-and-connected-instrument-reviews": {
+          "status": "completed",
+          "path": "content/posts/smart-piano-and-connected-instrument-reviews-fr.mdx"
+        },
+        "upright-piano-vs-grand-piano-sound-difference": {
+          "status": "completed",
+          "path": "content/posts/upright-piano-vs-grand-piano-sound-difference-fr.mdx"
+        },
+        "used-piano-buying-guide-what-to-check": {
+          "status": "completed",
+          "path": "content/posts/used-piano-buying-guide-what-to-check-fr.mdx"
+        },
+        "women-pianists-who-shaped-music-history": {
+          "status": "completed",
+          "path": "content/posts/women-pianists-who-shaped-music-history-fr.mdx"
+        }
+      }
+    },
+    "es": {
+      "total": 170,
+      "completed": 170,
+      "pending": 0,
+      "articles": {
+        "acoustic-piano-soundboard-explained": {
+          "status": "completed",
+          "path": "content/posts/acoustic-piano-soundboard-explained-es.mdx"
+        },
+        "acoustic-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/acoustic-vs-digital-piano-comparison-es.mdx"
+        },
+        "baroque-keyboard-music-history-guide": {
+          "status": "completed",
+          "path": "content/posts/baroque-keyboard-music-history-guide-es.mdx"
+        },
+        "best-beginner-keyboard-piano-under-500": {
+          "status": "completed",
+          "path": "content/posts/best-beginner-keyboard-piano-under-500-es.mdx"
+        },
+        "best-digital-pianos-for-home-practice": {
+          "status": "completed",
+          "path": "content/posts/best-digital-pianos-for-home-practice-es.mdx"
+        },
+        "best-hybrid-pianos-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-hybrid-pianos-reviewed-es.mdx"
+        },
+        "best-piano-apps-for-learning-and-practice": {
+          "status": "completed",
+          "path": "content/posts/best-piano-apps-for-learning-and-practice-es.mdx"
+        },
+        "best-piano-books-for-self-taught-adults": {
+          "status": "completed",
+          "path": "content/posts/best-piano-books-for-self-taught-adults-es.mdx"
+        },
+        "best-piano-brands-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/best-piano-brands-comparison-guide-es.mdx"
+        },
+        "best-piano-covers-and-cases": {
+          "status": "completed",
+          "path": "content/posts/best-piano-covers-and-cases-es.mdx"
+        },
+        "best-piano-finger-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/best-piano-finger-exercises-for-beginners-es.mdx"
+        },
+        "best-piano-for-small-apartment-spaces": {
+          "status": "completed",
+          "path": "content/posts/best-piano-for-small-apartment-spaces-es.mdx"
+        },
+        "best-piano-keyboards-for-travel": {
+          "status": "completed",
+          "path": "content/posts/best-piano-keyboards-for-travel-es.mdx"
+        },
+        "best-piano-lamps-and-lighting": {
+          "status": "completed",
+          "path": "content/posts/best-piano-lamps-and-lighting-es.mdx"
+        },
+        "best-piano-method-books-compared": {
+          "status": "completed",
+          "path": "content/posts/best-piano-method-books-compared-es.mdx"
+        },
+        "best-piano-metronomes-and-practice-tools": {
+          "status": "completed",
+          "path": "content/posts/best-piano-metronomes-and-practice-tools-es.mdx"
+        },
+        "best-piano-pedals-and-accessories": {
+          "status": "completed",
+          "path": "content/posts/best-piano-pedals-and-accessories-es.mdx"
+        },
+        "best-piano-recordings-of-all-time": {
+          "status": "completed",
+          "path": "content/posts/best-piano-recordings-of-all-time-es.mdx"
+        },
+        "best-piano-stands-and-benches-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stands-and-benches-reviewed-es.mdx"
+        },
+        "best-piano-stools-and-seating-options": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stools-and-seating-options-es.mdx"
+        },
+        "best-piano-vst-plugins-for-producers": {
+          "status": "completed",
+          "path": "content/posts/best-piano-vst-plugins-for-producers-es.mdx"
+        },
+        "best-stage-pianos-for-live-performance": {
+          "status": "completed",
+          "path": "content/posts/best-stage-pianos-for-live-performance-es.mdx"
+        },
+        "blues-piano-lessons-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/blues-piano-lessons-for-beginners-es.mdx"
+        },
+        "bossa-nova-piano-patterns-tutorial": {
+          "status": "completed",
+          "path": "content/posts/bossa-nova-piano-patterns-tutorial-es.mdx"
+        },
+        "classical-piano-genres-explained-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-genres-explained-for-beginners-es.mdx"
+        },
+        "classical-piano-repertoire-by-era-guide": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-repertoire-by-era-guide-es.mdx"
+        },
+        "classical-piano-sheet-music-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-sheet-music-for-beginners-es.mdx"
+        },
+        "contemporary-piano-artists-to-watch": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-artists-to-watch-es.mdx"
+        },
+        "contemporary-piano-music-genres-overview": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-music-genres-overview-es.mdx"
+        },
+        "czerny-piano-exercises-for-technique": {
+          "status": "completed",
+          "path": "content/posts/czerny-piano-exercises-for-technique-es.mdx"
+        },
+        "digital-piano-connectivity-options-guide": {
+          "status": "completed",
+          "path": "content/posts/digital-piano-connectivity-options-guide-es.mdx"
+        },
+        "evolution-of-piano-design-through-centuries": {
+          "status": "completed",
+          "path": "content/posts/evolution-of-piano-design-through-centuries-es.mdx"
+        },
+        "extended-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/extended-piano-techniques-guide-es.mdx"
+        },
+        "famous-classical-pianists-who-changed-music": {
+          "status": "completed",
+          "path": "content/posts/famous-classical-pianists-who-changed-music-es.mdx"
+        },
+        "free-piano-sheet-music-download-resources": {
+          "status": "completed",
+          "path": "content/posts/free-piano-sheet-music-download-resources-es.mdx"
+        },
+        "gospel-piano-chords-and-voicings-guide": {
+          "status": "completed",
+          "path": "content/posts/gospel-piano-chords-and-voicings-guide-es.mdx"
+        },
+        "great-piano-competitions-history-guide": {
+          "status": "completed",
+          "path": "content/posts/great-piano-competitions-history-guide-es.mdx"
+        },
+        "hanon-piano-exercises-practice-guide": {
+          "status": "completed",
+          "path": "content/posts/hanon-piano-exercises-practice-guide-es.mdx"
+        },
+        "history-of-the-piano-evolution": {
+          "status": "completed",
+          "path": "content/posts/history-of-the-piano-evolution-es.mdx"
+        },
+        "how-do-hybrid-pianos-work-explained": {
+          "status": "completed",
+          "path": "content/posts/how-do-hybrid-pianos-work-explained-es.mdx"
+        },
+        "how-to-accompany-yourself-singing-on-piano": {
+          "status": "completed",
+          "path": "content/posts/how-to-accompany-yourself-singing-on-piano-es.mdx"
+        },
+        "how-to-build-piano-finger-independence": {
+          "status": "completed",
+          "path": "content/posts/how-to-build-piano-finger-independence-es.mdx"
+        },
+        "how-to-care-for-piano-keys-and-finish": {
+          "status": "completed",
+          "path": "content/posts/how-to-care-for-piano-keys-and-finish-es.mdx"
+        },
+        "how-to-choose-a-piano-teacher": {
+          "status": "completed",
+          "path": "content/posts/how-to-choose-a-piano-teacher-es.mdx"
+        },
+        "how-to-learn-piano-as-an-adult": {
+          "status": "completed",
+          "path": "content/posts/how-to-learn-piano-as-an-adult-es.mdx"
+        },
+        "how-to-memorize-piano-pieces-faster": {
+          "status": "completed",
+          "path": "content/posts/how-to-memorize-piano-pieces-faster-es.mdx"
+        },
+        "how-to-play-piano-by-ear": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-by-ear-es.mdx"
+        },
+        "how-to-play-piano-chords-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-chords-for-beginners-es.mdx"
+        },
+        "how-to-play-piano-tremolo-technique": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-tremolo-technique-es.mdx"
+        },
+        "how-to-play-piano-with-small-hands": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-with-small-hands-es.mdx"
+        },
+        "how-to-practice-piano-effectively": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-effectively-es.mdx"
+        },
+        "how-to-practice-piano-hands-separately": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-hands-separately-es.mdx"
+        },
+        "how-to-read-piano-sheet-music-fast": {
+          "status": "completed",
+          "path": "content/posts/how-to-read-piano-sheet-music-fast-es.mdx"
+        },
+        "how-to-trill-on-piano-with-control": {
+          "status": "completed",
+          "path": "content/posts/how-to-trill-on-piano-with-control-es.mdx"
+        },
+        "impromptu-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/impromptu-piano-music-guide-es.mdx"
+        },
+        "jazz-piano-history-and-legendary-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-history-and-legendary-players-es.mdx"
+        },
+        "jazz-piano-improvisation-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-improvisation-basics-guide-es.mdx"
+        },
+        "jazz-piano-sheet-music-recommendations": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-sheet-music-recommendations-es.mdx"
+        },
+        "jazz-piano-voicings-for-intermediate-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-voicings-for-intermediate-players-es.mdx"
+        },
+        "left-hand-piano-independence-exercises": {
+          "status": "completed",
+          "path": "content/posts/left-hand-piano-independence-exercises-es.mdx"
+        },
+        "midi-piano-controllers-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/midi-piano-controllers-for-home-studio-es.mdx"
+        },
+        "neo-classical-piano-style-guide": {
+          "status": "completed",
+          "path": "content/posts/neo-classical-piano-style-guide-es.mdx"
+        },
+        "new-piano-technology-innovations": {
+          "status": "completed",
+          "path": "content/posts/new-piano-technology-innovations-es.mdx"
+        },
+        "nocturne-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/nocturne-piano-music-guide-es.mdx"
+        },
+        "piano-accompaniment-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-accompaniment-techniques-guide-es.mdx"
+        },
+        "piano-action-types-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-action-types-explained-simply-es.mdx"
+        },
+        "piano-amplifier-and-speaker-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-amplifier-and-speaker-guide-es.mdx"
+        },
+        "piano-arpeggio-exercises-for-speed": {
+          "status": "completed",
+          "path": "content/posts/piano-arpeggio-exercises-for-speed-es.mdx"
+        },
+        "piano-arrangement-techniques-for-pop-songs": {
+          "status": "completed",
+          "path": "content/posts/piano-arrangement-techniques-for-pop-songs-es.mdx"
+        },
+        "piano-articulation-marks-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-articulation-marks-guide-es.mdx"
+        },
+        "piano-bass-patterns-for-accompaniment": {
+          "status": "completed",
+          "path": "content/posts/piano-bass-patterns-for-accompaniment-es.mdx"
+        },
+        "piano-bench-buying-guide-for-proper-posture": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-buying-guide-for-proper-posture-es.mdx"
+        },
+        "piano-bench-height-adjustment-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-height-adjustment-guide-es.mdx"
+        },
+        "piano-blues-scale-patterns-and-licks": {
+          "status": "completed",
+          "path": "content/posts/piano-blues-scale-patterns-and-licks-es.mdx"
+        },
+        "piano-boogie-woogie-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-boogie-woogie-style-guide-es.mdx"
+        },
+        "piano-cadence-types-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-cadence-types-explained-es.mdx"
+        },
+        "piano-cadenza-guide-and-examples": {
+          "status": "completed",
+          "path": "content/posts/piano-cadenza-guide-and-examples-es.mdx"
+        },
+        "piano-chord-inversions-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-inversions-explained-es.mdx"
+        },
+        "piano-chord-progressions-every-player-should-know": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-progressions-every-player-should-know-es.mdx"
+        },
+        "piano-chord-substitutions-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-substitutions-guide-es.mdx"
+        },
+        "piano-comping-techniques-for-jazz": {
+          "status": "completed",
+          "path": "content/posts/piano-comping-techniques-for-jazz-es.mdx"
+        },
+        "piano-concerto-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-concerto-history-guide-es.mdx"
+        },
+        "piano-counterpoint-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-counterpoint-basics-guide-es.mdx"
+        },
+        "piano-cultural-impact-on-modern-music": {
+          "status": "completed",
+          "path": "content/posts/piano-cultural-impact-on-modern-music-es.mdx"
+        },
+        "piano-duet-playing-tips-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-playing-tips-guide-es.mdx"
+        },
+        "piano-duet-repertoire-for-four-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-repertoire-for-four-hands-es.mdx"
+        },
+        "piano-dynamics-and-expression-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-dynamics-and-expression-guide-es.mdx"
+        },
+        "piano-ear-training-exercises-and-methods": {
+          "status": "completed",
+          "path": "content/posts/piano-ear-training-exercises-and-methods-es.mdx"
+        },
+        "piano-etude-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-etude-history-guide-es.mdx"
+        },
+        "piano-fingering-rules-and-guidelines": {
+          "status": "completed",
+          "path": "content/posts/piano-fingering-rules-and-guidelines-es.mdx"
+        },
+        "piano-four-hand-repertoire-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-four-hand-repertoire-guide-es.mdx"
+        },
+        "piano-glissando-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-glissando-technique-guide-es.mdx"
+        },
+        "piano-hand-position-corrections-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-position-corrections-guide-es.mdx"
+        },
+        "piano-hand-positioning-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-positioning-technique-guide-es.mdx"
+        },
+        "piano-harmony-and-chord-theory": {
+          "status": "completed",
+          "path": "content/posts/piano-harmony-and-chord-theory-es.mdx"
+        },
+        "piano-headphone-buying-guide-for-practice": {
+          "status": "completed",
+          "path": "content/posts/piano-headphone-buying-guide-for-practice-es.mdx"
+        },
+        "piano-humidity-control-and-climate": {
+          "status": "completed",
+          "path": "content/posts/piano-humidity-control-and-climate-es.mdx"
+        },
+        "piano-improvisation-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-improvisation-techniques-guide-es.mdx"
+        },
+        "piano-in-20th-century-music-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-20th-century-music-guide-es.mdx"
+        },
+        "piano-in-baroque-era-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-baroque-era-history-es.mdx"
+        },
+        "piano-in-film-and-popular-culture": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-and-popular-culture-es.mdx"
+        },
+        "piano-in-film-scoring-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-scoring-history-es.mdx"
+        },
+        "piano-in-impressionist-era-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-impressionist-era-guide-es.mdx"
+        },
+        "piano-industry-news-and-trends": {
+          "status": "completed",
+          "path": "content/posts/piano-industry-news-and-trends-es.mdx"
+        },
+        "piano-interval-recognition-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-interval-recognition-exercises-es.mdx"
+        },
+        "piano-jazz-standard-repertoire-list": {
+          "status": "completed",
+          "path": "content/posts/piano-jazz-standard-repertoire-list-es.mdx"
+        },
+        "piano-key-signatures-guide-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-key-signatures-guide-for-beginners-es.mdx"
+        },
+        "piano-learning-path-for-complete-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-learning-path-for-complete-beginners-es.mdx"
+        },
+        "piano-legato-vs-staccato-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-legato-vs-staccato-technique-es.mdx"
+        },
+        "piano-maintenance-and-tuning-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-maintenance-and-tuning-guide-es.mdx"
+        },
+        "piano-melody-ornamentation-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-melody-ornamentation-techniques-es.mdx"
+        },
+        "piano-mental-practice-and-visualization": {
+          "status": "completed",
+          "path": "content/posts/piano-mental-practice-and-visualization-es.mdx"
+        },
+        "piano-modes-and-scales-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-modes-and-scales-explained-es.mdx"
+        },
+        "piano-moving-and-transportation-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-moving-and-transportation-guide-es.mdx"
+        },
+        "piano-music-genres-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-music-genres-comparison-guide-es.mdx"
+        },
+        "piano-new-age-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-new-age-style-guide-es.mdx"
+        },
+        "piano-octave-technique-and-stretching": {
+          "status": "completed",
+          "path": "content/posts/piano-octave-technique-and-stretching-es.mdx"
+        },
+        "piano-ornamentation-and-trills-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-ornamentation-and-trills-guide-es.mdx"
+        },
+        "piano-pedal-types-and-uses-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-pedal-types-and-uses-explained-es.mdx"
+        },
+        "piano-pedaling-techniques-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-pedaling-techniques-for-beginners-es.mdx"
+        },
+        "piano-performance-anxiety-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-performance-anxiety-tips-es.mdx"
+        },
+        "piano-phrasing-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-phrasing-techniques-guide-es.mdx"
+        },
+        "piano-playing-posture-and-ergonomics": {
+          "status": "completed",
+          "path": "content/posts/piano-playing-posture-and-ergonomics-es.mdx"
+        },
+        "piano-practice-journal-template-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-journal-template-and-tips-es.mdx"
+        },
+        "piano-practice-routine-for-busy-adults": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-routine-for-busy-adults-es.mdx"
+        },
+        "piano-practice-with-metronome-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-with-metronome-guide-es.mdx"
+        },
+        "piano-practice-without-instrument": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-without-instrument-es.mdx"
+        },
+        "piano-recording-setup-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/piano-recording-setup-for-home-studio-es.mdx"
+        },
+        "piano-reharmonization-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-reharmonization-techniques-guide-es.mdx"
+        },
+        "piano-repertoire-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-for-small-hands-es.mdx"
+        },
+        "piano-repertoire-guide-by-skill-level": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-guide-by-skill-level-es.mdx"
+        },
+        "piano-rhythm-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-rhythm-exercises-for-beginners-es.mdx"
+        },
+        "piano-rubato-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-rubato-technique-guide-es.mdx"
+        },
+        "piano-sampling-vs-physical-modeling-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-sampling-vs-physical-modeling-explained-es.mdx"
+        },
+        "piano-scales-practice-guide-all-keys": {
+          "status": "completed",
+          "path": "content/posts/piano-scales-practice-guide-all-keys-es.mdx"
+        },
+        "piano-sight-reading-apps-comparison": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-apps-comparison-es.mdx"
+        },
+        "piano-sight-reading-tips-and-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-tips-and-exercises-es.mdx"
+        },
+        "piano-sonata-form-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-form-explained-simply-es.mdx"
+        },
+        "piano-sonata-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-history-guide-es.mdx"
+        },
+        "piano-stride-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-stride-technique-guide-es.mdx"
+        },
+        "piano-tango-styles-and-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-tango-styles-and-techniques-es.mdx"
+        },
+        "piano-technique-tips-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-technique-tips-for-small-hands-es.mdx"
+        },
+        "piano-theory-basics-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-theory-basics-for-beginners-es.mdx"
+        },
+        "piano-thumb-crossing-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-thumb-crossing-technique-es.mdx"
+        },
+        "piano-transcription-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-transcription-techniques-es.mdx"
+        },
+        "piano-transposition-techniques-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-transposition-techniques-and-tips-es.mdx"
+        },
+        "piano-tuning-pins-and-pinblock-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-tuning-pins-and-pinblock-guide-es.mdx"
+        },
+        "piano-voicing-and-tone-production": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-and-tone-production-es.mdx"
+        },
+        "piano-voicing-techniques-for-chords": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-techniques-for-chords-es.mdx"
+        },
+        "piano-walking-bass-lines-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-walking-bass-lines-guide-es.mdx"
+        },
+        "piano-warm-up-exercises-checklist": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-checklist-es.mdx"
+        },
+        "piano-warm-up-exercises-routine": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-routine-es.mdx"
+        },
+        "player-piano-and-self-playing-systems-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-and-self-playing-systems-guide-es.mdx"
+        },
+        "player-piano-roll-history-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-roll-history-guide-es.mdx"
+        },
+        "polyrhythm-piano-exercises": {
+          "status": "completed",
+          "path": "content/posts/polyrhythm-piano-exercises-es.mdx"
+        },
+        "pop-piano-chord-charts-for-popular-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-chord-charts-for-popular-songs-es.mdx"
+        },
+        "pop-piano-techniques-for-modern-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-techniques-for-modern-songs-es.mdx"
+        },
+        "portable-keyboard-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/portable-keyboard-vs-digital-piano-comparison-es.mdx"
+        },
+        "prelude-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/prelude-piano-music-guide-es.mdx"
+        },
+        "prepared-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/prepared-piano-techniques-guide-es.mdx"
+        },
+        "ragtime-piano-history-and-technique": {
+          "status": "completed",
+          "path": "content/posts/ragtime-piano-history-and-technique-es.mdx"
+        },
+        "rhapsody-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/rhapsody-piano-music-guide-es.mdx"
+        },
+        "rock-piano-styles-and-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/rock-piano-styles-and-techniques-guide-es.mdx"
+        },
+        "romantic-era-piano-composers-guide": {
+          "status": "completed",
+          "path": "content/posts/romantic-era-piano-composers-guide-es.mdx"
+        },
+        "scherzo-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/scherzo-piano-music-guide-es.mdx"
+        },
+        "silent-piano-systems-comparison": {
+          "status": "completed",
+          "path": "content/posts/silent-piano-systems-comparison-es.mdx"
+        },
+        "smart-piano-and-connected-instrument-reviews": {
+          "status": "completed",
+          "path": "content/posts/smart-piano-and-connected-instrument-reviews-es.mdx"
+        },
+        "upright-piano-vs-grand-piano-sound-difference": {
+          "status": "completed",
+          "path": "content/posts/upright-piano-vs-grand-piano-sound-difference-es.mdx"
+        },
+        "used-piano-buying-guide-what-to-check": {
+          "status": "completed",
+          "path": "content/posts/used-piano-buying-guide-what-to-check-es.mdx"
+        },
+        "women-pianists-who-shaped-music-history": {
+          "status": "completed",
+          "path": "content/posts/women-pianists-who-shaped-music-history-es.mdx"
+        }
+      }
+    },
+    "de": {
+      "total": 170,
+      "completed": 170,
+      "pending": 0,
+      "articles": {
+        "acoustic-piano-soundboard-explained": {
+          "status": "completed",
+          "path": "content/posts/acoustic-piano-soundboard-explained-de.mdx"
+        },
+        "acoustic-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/acoustic-vs-digital-piano-comparison-de.mdx"
+        },
+        "baroque-keyboard-music-history-guide": {
+          "status": "completed",
+          "path": "content/posts/baroque-keyboard-music-history-guide-de.mdx"
+        },
+        "best-beginner-keyboard-piano-under-500": {
+          "status": "completed",
+          "path": "content/posts/best-beginner-keyboard-piano-under-500-de.mdx"
+        },
+        "best-digital-pianos-for-home-practice": {
+          "status": "completed",
+          "path": "content/posts/best-digital-pianos-for-home-practice-de.mdx"
+        },
+        "best-hybrid-pianos-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-hybrid-pianos-reviewed-de.mdx"
+        },
+        "best-piano-apps-for-learning-and-practice": {
+          "status": "completed",
+          "path": "content/posts/best-piano-apps-for-learning-and-practice-de.mdx"
+        },
+        "best-piano-books-for-self-taught-adults": {
+          "status": "completed",
+          "path": "content/posts/best-piano-books-for-self-taught-adults-de.mdx"
+        },
+        "best-piano-brands-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/best-piano-brands-comparison-guide-de.mdx"
+        },
+        "best-piano-covers-and-cases": {
+          "status": "completed",
+          "path": "content/posts/best-piano-covers-and-cases-de.mdx"
+        },
+        "best-piano-finger-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/best-piano-finger-exercises-for-beginners-de.mdx"
+        },
+        "best-piano-for-small-apartment-spaces": {
+          "status": "completed",
+          "path": "content/posts/best-piano-for-small-apartment-spaces-de.mdx"
+        },
+        "best-piano-keyboards-for-travel": {
+          "status": "completed",
+          "path": "content/posts/best-piano-keyboards-for-travel-de.mdx"
+        },
+        "best-piano-lamps-and-lighting": {
+          "status": "completed",
+          "path": "content/posts/best-piano-lamps-and-lighting-de.mdx"
+        },
+        "best-piano-method-books-compared": {
+          "status": "completed",
+          "path": "content/posts/best-piano-method-books-compared-de.mdx"
+        },
+        "best-piano-metronomes-and-practice-tools": {
+          "status": "completed",
+          "path": "content/posts/best-piano-metronomes-and-practice-tools-de.mdx"
+        },
+        "best-piano-pedals-and-accessories": {
+          "status": "completed",
+          "path": "content/posts/best-piano-pedals-and-accessories-de.mdx"
+        },
+        "best-piano-recordings-of-all-time": {
+          "status": "completed",
+          "path": "content/posts/best-piano-recordings-of-all-time-de.mdx"
+        },
+        "best-piano-stands-and-benches-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stands-and-benches-reviewed-de.mdx"
+        },
+        "best-piano-stools-and-seating-options": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stools-and-seating-options-de.mdx"
+        },
+        "best-piano-vst-plugins-for-producers": {
+          "status": "completed",
+          "path": "content/posts/best-piano-vst-plugins-for-producers-de.mdx"
+        },
+        "best-stage-pianos-for-live-performance": {
+          "status": "completed",
+          "path": "content/posts/best-stage-pianos-for-live-performance-de.mdx"
+        },
+        "blues-piano-lessons-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/blues-piano-lessons-for-beginners-de.mdx"
+        },
+        "bossa-nova-piano-patterns-tutorial": {
+          "status": "completed",
+          "path": "content/posts/bossa-nova-piano-patterns-tutorial-de.mdx"
+        },
+        "classical-piano-genres-explained-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-genres-explained-for-beginners-de.mdx"
+        },
+        "classical-piano-repertoire-by-era-guide": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-repertoire-by-era-guide-de.mdx"
+        },
+        "classical-piano-sheet-music-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-sheet-music-for-beginners-de.mdx"
+        },
+        "contemporary-piano-artists-to-watch": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-artists-to-watch-de.mdx"
+        },
+        "contemporary-piano-music-genres-overview": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-music-genres-overview-de.mdx"
+        },
+        "czerny-piano-exercises-for-technique": {
+          "status": "completed",
+          "path": "content/posts/czerny-piano-exercises-for-technique-de.mdx"
+        },
+        "digital-piano-connectivity-options-guide": {
+          "status": "completed",
+          "path": "content/posts/digital-piano-connectivity-options-guide-de.mdx"
+        },
+        "evolution-of-piano-design-through-centuries": {
+          "status": "completed",
+          "path": "content/posts/evolution-of-piano-design-through-centuries-de.mdx"
+        },
+        "extended-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/extended-piano-techniques-guide-de.mdx"
+        },
+        "famous-classical-pianists-who-changed-music": {
+          "status": "completed",
+          "path": "content/posts/famous-classical-pianists-who-changed-music-de.mdx"
+        },
+        "free-piano-sheet-music-download-resources": {
+          "status": "completed",
+          "path": "content/posts/free-piano-sheet-music-download-resources-de.mdx"
+        },
+        "gospel-piano-chords-and-voicings-guide": {
+          "status": "completed",
+          "path": "content/posts/gospel-piano-chords-and-voicings-guide-de.mdx"
+        },
+        "great-piano-competitions-history-guide": {
+          "status": "completed",
+          "path": "content/posts/great-piano-competitions-history-guide-de.mdx"
+        },
+        "hanon-piano-exercises-practice-guide": {
+          "status": "completed",
+          "path": "content/posts/hanon-piano-exercises-practice-guide-de.mdx"
+        },
+        "history-of-the-piano-evolution": {
+          "status": "completed",
+          "path": "content/posts/history-of-the-piano-evolution-de.mdx"
+        },
+        "how-do-hybrid-pianos-work-explained": {
+          "status": "completed",
+          "path": "content/posts/how-do-hybrid-pianos-work-explained-de.mdx"
+        },
+        "how-to-accompany-yourself-singing-on-piano": {
+          "status": "completed",
+          "path": "content/posts/how-to-accompany-yourself-singing-on-piano-de.mdx"
+        },
+        "how-to-build-piano-finger-independence": {
+          "status": "completed",
+          "path": "content/posts/how-to-build-piano-finger-independence-de.mdx"
+        },
+        "how-to-care-for-piano-keys-and-finish": {
+          "status": "completed",
+          "path": "content/posts/how-to-care-for-piano-keys-and-finish-de.mdx"
+        },
+        "how-to-choose-a-piano-teacher": {
+          "status": "completed",
+          "path": "content/posts/how-to-choose-a-piano-teacher-de.mdx"
+        },
+        "how-to-learn-piano-as-an-adult": {
+          "status": "completed",
+          "path": "content/posts/how-to-learn-piano-as-an-adult-de.mdx"
+        },
+        "how-to-memorize-piano-pieces-faster": {
+          "status": "completed",
+          "path": "content/posts/how-to-memorize-piano-pieces-faster-de.mdx"
+        },
+        "how-to-play-piano-by-ear": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-by-ear-de.mdx"
+        },
+        "how-to-play-piano-chords-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-chords-for-beginners-de.mdx"
+        },
+        "how-to-play-piano-tremolo-technique": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-tremolo-technique-de.mdx"
+        },
+        "how-to-play-piano-with-small-hands": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-with-small-hands-de.mdx"
+        },
+        "how-to-practice-piano-effectively": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-effectively-de.mdx"
+        },
+        "how-to-practice-piano-hands-separately": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-hands-separately-de.mdx"
+        },
+        "how-to-read-piano-sheet-music-fast": {
+          "status": "completed",
+          "path": "content/posts/how-to-read-piano-sheet-music-fast-de.mdx"
+        },
+        "how-to-trill-on-piano-with-control": {
+          "status": "completed",
+          "path": "content/posts/how-to-trill-on-piano-with-control-de.mdx"
+        },
+        "impromptu-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/impromptu-piano-music-guide-de.mdx"
+        },
+        "jazz-piano-history-and-legendary-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-history-and-legendary-players-de.mdx"
+        },
+        "jazz-piano-improvisation-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-improvisation-basics-guide-de.mdx"
+        },
+        "jazz-piano-sheet-music-recommendations": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-sheet-music-recommendations-de.mdx"
+        },
+        "jazz-piano-voicings-for-intermediate-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-voicings-for-intermediate-players-de.mdx"
+        },
+        "left-hand-piano-independence-exercises": {
+          "status": "completed",
+          "path": "content/posts/left-hand-piano-independence-exercises-de.mdx"
+        },
+        "midi-piano-controllers-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/midi-piano-controllers-for-home-studio-de.mdx"
+        },
+        "neo-classical-piano-style-guide": {
+          "status": "completed",
+          "path": "content/posts/neo-classical-piano-style-guide-de.mdx"
+        },
+        "new-piano-technology-innovations": {
+          "status": "completed",
+          "path": "content/posts/new-piano-technology-innovations-de.mdx"
+        },
+        "nocturne-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/nocturne-piano-music-guide-de.mdx"
+        },
+        "piano-accompaniment-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-accompaniment-techniques-guide-de.mdx"
+        },
+        "piano-action-types-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-action-types-explained-simply-de.mdx"
+        },
+        "piano-amplifier-and-speaker-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-amplifier-and-speaker-guide-de.mdx"
+        },
+        "piano-arpeggio-exercises-for-speed": {
+          "status": "completed",
+          "path": "content/posts/piano-arpeggio-exercises-for-speed-de.mdx"
+        },
+        "piano-arrangement-techniques-for-pop-songs": {
+          "status": "completed",
+          "path": "content/posts/piano-arrangement-techniques-for-pop-songs-de.mdx"
+        },
+        "piano-articulation-marks-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-articulation-marks-guide-de.mdx"
+        },
+        "piano-bass-patterns-for-accompaniment": {
+          "status": "completed",
+          "path": "content/posts/piano-bass-patterns-for-accompaniment-de.mdx"
+        },
+        "piano-bench-buying-guide-for-proper-posture": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-buying-guide-for-proper-posture-de.mdx"
+        },
+        "piano-bench-height-adjustment-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-height-adjustment-guide-de.mdx"
+        },
+        "piano-blues-scale-patterns-and-licks": {
+          "status": "completed",
+          "path": "content/posts/piano-blues-scale-patterns-and-licks-de.mdx"
+        },
+        "piano-boogie-woogie-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-boogie-woogie-style-guide-de.mdx"
+        },
+        "piano-cadence-types-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-cadence-types-explained-de.mdx"
+        },
+        "piano-cadenza-guide-and-examples": {
+          "status": "completed",
+          "path": "content/posts/piano-cadenza-guide-and-examples-de.mdx"
+        },
+        "piano-chord-inversions-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-inversions-explained-de.mdx"
+        },
+        "piano-chord-progressions-every-player-should-know": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-progressions-every-player-should-know-de.mdx"
+        },
+        "piano-chord-substitutions-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-substitutions-guide-de.mdx"
+        },
+        "piano-comping-techniques-for-jazz": {
+          "status": "completed",
+          "path": "content/posts/piano-comping-techniques-for-jazz-de.mdx"
+        },
+        "piano-concerto-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-concerto-history-guide-de.mdx"
+        },
+        "piano-counterpoint-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-counterpoint-basics-guide-de.mdx"
+        },
+        "piano-cultural-impact-on-modern-music": {
+          "status": "completed",
+          "path": "content/posts/piano-cultural-impact-on-modern-music-de.mdx"
+        },
+        "piano-duet-playing-tips-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-playing-tips-guide-de.mdx"
+        },
+        "piano-duet-repertoire-for-four-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-repertoire-for-four-hands-de.mdx"
+        },
+        "piano-dynamics-and-expression-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-dynamics-and-expression-guide-de.mdx"
+        },
+        "piano-ear-training-exercises-and-methods": {
+          "status": "completed",
+          "path": "content/posts/piano-ear-training-exercises-and-methods-de.mdx"
+        },
+        "piano-etude-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-etude-history-guide-de.mdx"
+        },
+        "piano-fingering-rules-and-guidelines": {
+          "status": "completed",
+          "path": "content/posts/piano-fingering-rules-and-guidelines-de.mdx"
+        },
+        "piano-four-hand-repertoire-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-four-hand-repertoire-guide-de.mdx"
+        },
+        "piano-glissando-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-glissando-technique-guide-de.mdx"
+        },
+        "piano-hand-position-corrections-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-position-corrections-guide-de.mdx"
+        },
+        "piano-hand-positioning-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-positioning-technique-guide-de.mdx"
+        },
+        "piano-harmony-and-chord-theory": {
+          "status": "completed",
+          "path": "content/posts/piano-harmony-and-chord-theory-de.mdx"
+        },
+        "piano-headphone-buying-guide-for-practice": {
+          "status": "completed",
+          "path": "content/posts/piano-headphone-buying-guide-for-practice-de.mdx"
+        },
+        "piano-humidity-control-and-climate": {
+          "status": "completed",
+          "path": "content/posts/piano-humidity-control-and-climate-de.mdx"
+        },
+        "piano-improvisation-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-improvisation-techniques-guide-de.mdx"
+        },
+        "piano-in-20th-century-music-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-20th-century-music-guide-de.mdx"
+        },
+        "piano-in-baroque-era-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-baroque-era-history-de.mdx"
+        },
+        "piano-in-film-and-popular-culture": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-and-popular-culture-de.mdx"
+        },
+        "piano-in-film-scoring-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-scoring-history-de.mdx"
+        },
+        "piano-in-impressionist-era-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-impressionist-era-guide-de.mdx"
+        },
+        "piano-industry-news-and-trends": {
+          "status": "completed",
+          "path": "content/posts/piano-industry-news-and-trends-de.mdx"
+        },
+        "piano-interval-recognition-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-interval-recognition-exercises-de.mdx"
+        },
+        "piano-jazz-standard-repertoire-list": {
+          "status": "completed",
+          "path": "content/posts/piano-jazz-standard-repertoire-list-de.mdx"
+        },
+        "piano-key-signatures-guide-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-key-signatures-guide-for-beginners-de.mdx"
+        },
+        "piano-learning-path-for-complete-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-learning-path-for-complete-beginners-de.mdx"
+        },
+        "piano-legato-vs-staccato-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-legato-vs-staccato-technique-de.mdx"
+        },
+        "piano-maintenance-and-tuning-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-maintenance-and-tuning-guide-de.mdx"
+        },
+        "piano-melody-ornamentation-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-melody-ornamentation-techniques-de.mdx"
+        },
+        "piano-mental-practice-and-visualization": {
+          "status": "completed",
+          "path": "content/posts/piano-mental-practice-and-visualization-de.mdx"
+        },
+        "piano-modes-and-scales-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-modes-and-scales-explained-de.mdx"
+        },
+        "piano-moving-and-transportation-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-moving-and-transportation-guide-de.mdx"
+        },
+        "piano-music-genres-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-music-genres-comparison-guide-de.mdx"
+        },
+        "piano-new-age-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-new-age-style-guide-de.mdx"
+        },
+        "piano-octave-technique-and-stretching": {
+          "status": "completed",
+          "path": "content/posts/piano-octave-technique-and-stretching-de.mdx"
+        },
+        "piano-ornamentation-and-trills-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-ornamentation-and-trills-guide-de.mdx"
+        },
+        "piano-pedal-types-and-uses-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-pedal-types-and-uses-explained-de.mdx"
+        },
+        "piano-pedaling-techniques-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-pedaling-techniques-for-beginners-de.mdx"
+        },
+        "piano-performance-anxiety-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-performance-anxiety-tips-de.mdx"
+        },
+        "piano-phrasing-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-phrasing-techniques-guide-de.mdx"
+        },
+        "piano-playing-posture-and-ergonomics": {
+          "status": "completed",
+          "path": "content/posts/piano-playing-posture-and-ergonomics-de.mdx"
+        },
+        "piano-practice-journal-template-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-journal-template-and-tips-de.mdx"
+        },
+        "piano-practice-routine-for-busy-adults": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-routine-for-busy-adults-de.mdx"
+        },
+        "piano-practice-with-metronome-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-with-metronome-guide-de.mdx"
+        },
+        "piano-practice-without-instrument": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-without-instrument-de.mdx"
+        },
+        "piano-recording-setup-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/piano-recording-setup-for-home-studio-de.mdx"
+        },
+        "piano-reharmonization-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-reharmonization-techniques-guide-de.mdx"
+        },
+        "piano-repertoire-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-for-small-hands-de.mdx"
+        },
+        "piano-repertoire-guide-by-skill-level": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-guide-by-skill-level-de.mdx"
+        },
+        "piano-rhythm-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-rhythm-exercises-for-beginners-de.mdx"
+        },
+        "piano-rubato-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-rubato-technique-guide-de.mdx"
+        },
+        "piano-sampling-vs-physical-modeling-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-sampling-vs-physical-modeling-explained-de.mdx"
+        },
+        "piano-scales-practice-guide-all-keys": {
+          "status": "completed",
+          "path": "content/posts/piano-scales-practice-guide-all-keys-de.mdx"
+        },
+        "piano-sight-reading-apps-comparison": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-apps-comparison-de.mdx"
+        },
+        "piano-sight-reading-tips-and-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-tips-and-exercises-de.mdx"
+        },
+        "piano-sonata-form-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-form-explained-simply-de.mdx"
+        },
+        "piano-sonata-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-history-guide-de.mdx"
+        },
+        "piano-stride-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-stride-technique-guide-de.mdx"
+        },
+        "piano-tango-styles-and-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-tango-styles-and-techniques-de.mdx"
+        },
+        "piano-technique-tips-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-technique-tips-for-small-hands-de.mdx"
+        },
+        "piano-theory-basics-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-theory-basics-for-beginners-de.mdx"
+        },
+        "piano-thumb-crossing-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-thumb-crossing-technique-de.mdx"
+        },
+        "piano-transcription-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-transcription-techniques-de.mdx"
+        },
+        "piano-transposition-techniques-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-transposition-techniques-and-tips-de.mdx"
+        },
+        "piano-tuning-pins-and-pinblock-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-tuning-pins-and-pinblock-guide-de.mdx"
+        },
+        "piano-voicing-and-tone-production": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-and-tone-production-de.mdx"
+        },
+        "piano-voicing-techniques-for-chords": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-techniques-for-chords-de.mdx"
+        },
+        "piano-walking-bass-lines-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-walking-bass-lines-guide-de.mdx"
+        },
+        "piano-warm-up-exercises-checklist": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-checklist-de.mdx"
+        },
+        "piano-warm-up-exercises-routine": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-routine-de.mdx"
+        },
+        "player-piano-and-self-playing-systems-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-and-self-playing-systems-guide-de.mdx"
+        },
+        "player-piano-roll-history-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-roll-history-guide-de.mdx"
+        },
+        "polyrhythm-piano-exercises": {
+          "status": "completed",
+          "path": "content/posts/polyrhythm-piano-exercises-de.mdx"
+        },
+        "pop-piano-chord-charts-for-popular-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-chord-charts-for-popular-songs-de.mdx"
+        },
+        "pop-piano-techniques-for-modern-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-techniques-for-modern-songs-de.mdx"
+        },
+        "portable-keyboard-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/portable-keyboard-vs-digital-piano-comparison-de.mdx"
+        },
+        "prelude-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/prelude-piano-music-guide-de.mdx"
+        },
+        "prepared-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/prepared-piano-techniques-guide-de.mdx"
+        },
+        "ragtime-piano-history-and-technique": {
+          "status": "completed",
+          "path": "content/posts/ragtime-piano-history-and-technique-de.mdx"
+        },
+        "rhapsody-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/rhapsody-piano-music-guide-de.mdx"
+        },
+        "rock-piano-styles-and-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/rock-piano-styles-and-techniques-guide-de.mdx"
+        },
+        "romantic-era-piano-composers-guide": {
+          "status": "completed",
+          "path": "content/posts/romantic-era-piano-composers-guide-de.mdx"
+        },
+        "scherzo-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/scherzo-piano-music-guide-de.mdx"
+        },
+        "silent-piano-systems-comparison": {
+          "status": "completed",
+          "path": "content/posts/silent-piano-systems-comparison-de.mdx"
+        },
+        "smart-piano-and-connected-instrument-reviews": {
+          "status": "completed",
+          "path": "content/posts/smart-piano-and-connected-instrument-reviews-de.mdx"
+        },
+        "upright-piano-vs-grand-piano-sound-difference": {
+          "status": "completed",
+          "path": "content/posts/upright-piano-vs-grand-piano-sound-difference-de.mdx"
+        },
+        "used-piano-buying-guide-what-to-check": {
+          "status": "completed",
+          "path": "content/posts/used-piano-buying-guide-what-to-check-de.mdx"
+        },
+        "women-pianists-who-shaped-music-history": {
+          "status": "completed",
+          "path": "content/posts/women-pianists-who-shaped-music-history-de.mdx"
+        }
+      }
+    },
+    "hi": {
+      "total": 170,
+      "completed": 170,
+      "pending": 0,
+      "articles": {
+        "acoustic-piano-soundboard-explained": {
+          "status": "completed",
+          "path": "content/posts/acoustic-piano-soundboard-explained-hi.mdx"
+        },
+        "acoustic-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/acoustic-vs-digital-piano-comparison-hi.mdx"
+        },
+        "baroque-keyboard-music-history-guide": {
+          "status": "completed",
+          "path": "content/posts/baroque-keyboard-music-history-guide-hi.mdx"
+        },
+        "best-beginner-keyboard-piano-under-500": {
+          "status": "completed",
+          "path": "content/posts/best-beginner-keyboard-piano-under-500-hi.mdx"
+        },
+        "best-digital-pianos-for-home-practice": {
+          "status": "completed",
+          "path": "content/posts/best-digital-pianos-for-home-practice-hi.mdx"
+        },
+        "best-hybrid-pianos-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-hybrid-pianos-reviewed-hi.mdx"
+        },
+        "best-piano-apps-for-learning-and-practice": {
+          "status": "completed",
+          "path": "content/posts/best-piano-apps-for-learning-and-practice-hi.mdx"
+        },
+        "best-piano-books-for-self-taught-adults": {
+          "status": "completed",
+          "path": "content/posts/best-piano-books-for-self-taught-adults-hi.mdx"
+        },
+        "best-piano-brands-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/best-piano-brands-comparison-guide-hi.mdx"
+        },
+        "best-piano-covers-and-cases": {
+          "status": "completed",
+          "path": "content/posts/best-piano-covers-and-cases-hi.mdx"
+        },
+        "best-piano-finger-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/best-piano-finger-exercises-for-beginners-hi.mdx"
+        },
+        "best-piano-for-small-apartment-spaces": {
+          "status": "completed",
+          "path": "content/posts/best-piano-for-small-apartment-spaces-hi.mdx"
+        },
+        "best-piano-keyboards-for-travel": {
+          "status": "completed",
+          "path": "content/posts/best-piano-keyboards-for-travel-hi.mdx"
+        },
+        "best-piano-lamps-and-lighting": {
+          "status": "completed",
+          "path": "content/posts/best-piano-lamps-and-lighting-hi.mdx"
+        },
+        "best-piano-method-books-compared": {
+          "status": "completed",
+          "path": "content/posts/best-piano-method-books-compared-hi.mdx"
+        },
+        "best-piano-metronomes-and-practice-tools": {
+          "status": "completed",
+          "path": "content/posts/best-piano-metronomes-and-practice-tools-hi.mdx"
+        },
+        "best-piano-pedals-and-accessories": {
+          "status": "completed",
+          "path": "content/posts/best-piano-pedals-and-accessories-hi.mdx"
+        },
+        "best-piano-recordings-of-all-time": {
+          "status": "completed",
+          "path": "content/posts/best-piano-recordings-of-all-time-hi.mdx"
+        },
+        "best-piano-stands-and-benches-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stands-and-benches-reviewed-hi.mdx"
+        },
+        "best-piano-stools-and-seating-options": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stools-and-seating-options-hi.mdx"
+        },
+        "best-piano-vst-plugins-for-producers": {
+          "status": "completed",
+          "path": "content/posts/best-piano-vst-plugins-for-producers-hi.mdx"
+        },
+        "best-stage-pianos-for-live-performance": {
+          "status": "completed",
+          "path": "content/posts/best-stage-pianos-for-live-performance-hi.mdx"
+        },
+        "blues-piano-lessons-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/blues-piano-lessons-for-beginners-hi.mdx"
+        },
+        "bossa-nova-piano-patterns-tutorial": {
+          "status": "completed",
+          "path": "content/posts/bossa-nova-piano-patterns-tutorial-hi.mdx"
+        },
+        "classical-piano-genres-explained-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-genres-explained-for-beginners-hi.mdx"
+        },
+        "classical-piano-repertoire-by-era-guide": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-repertoire-by-era-guide-hi.mdx"
+        },
+        "classical-piano-sheet-music-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-sheet-music-for-beginners-hi.mdx"
+        },
+        "contemporary-piano-artists-to-watch": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-artists-to-watch-hi.mdx"
+        },
+        "contemporary-piano-music-genres-overview": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-music-genres-overview-hi.mdx"
+        },
+        "czerny-piano-exercises-for-technique": {
+          "status": "completed",
+          "path": "content/posts/czerny-piano-exercises-for-technique-hi.mdx"
+        },
+        "digital-piano-connectivity-options-guide": {
+          "status": "completed",
+          "path": "content/posts/digital-piano-connectivity-options-guide-hi.mdx"
+        },
+        "evolution-of-piano-design-through-centuries": {
+          "status": "completed",
+          "path": "content/posts/evolution-of-piano-design-through-centuries-hi.mdx"
+        },
+        "extended-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/extended-piano-techniques-guide-hi.mdx"
+        },
+        "famous-classical-pianists-who-changed-music": {
+          "status": "completed",
+          "path": "content/posts/famous-classical-pianists-who-changed-music-hi.mdx"
+        },
+        "free-piano-sheet-music-download-resources": {
+          "status": "completed",
+          "path": "content/posts/free-piano-sheet-music-download-resources-hi.mdx"
+        },
+        "gospel-piano-chords-and-voicings-guide": {
+          "status": "completed",
+          "path": "content/posts/gospel-piano-chords-and-voicings-guide-hi.mdx"
+        },
+        "great-piano-competitions-history-guide": {
+          "status": "completed",
+          "path": "content/posts/great-piano-competitions-history-guide-hi.mdx"
+        },
+        "hanon-piano-exercises-practice-guide": {
+          "status": "completed",
+          "path": "content/posts/hanon-piano-exercises-practice-guide-hi.mdx"
+        },
+        "history-of-the-piano-evolution": {
+          "status": "completed",
+          "path": "content/posts/history-of-the-piano-evolution-hi.mdx"
+        },
+        "how-do-hybrid-pianos-work-explained": {
+          "status": "completed",
+          "path": "content/posts/how-do-hybrid-pianos-work-explained-hi.mdx"
+        },
+        "how-to-accompany-yourself-singing-on-piano": {
+          "status": "completed",
+          "path": "content/posts/how-to-accompany-yourself-singing-on-piano-hi.mdx"
+        },
+        "how-to-build-piano-finger-independence": {
+          "status": "completed",
+          "path": "content/posts/how-to-build-piano-finger-independence-hi.mdx"
+        },
+        "how-to-care-for-piano-keys-and-finish": {
+          "status": "completed",
+          "path": "content/posts/how-to-care-for-piano-keys-and-finish-hi.mdx"
+        },
+        "how-to-choose-a-piano-teacher": {
+          "status": "completed",
+          "path": "content/posts/how-to-choose-a-piano-teacher-hi.mdx"
+        },
+        "how-to-learn-piano-as-an-adult": {
+          "status": "completed",
+          "path": "content/posts/how-to-learn-piano-as-an-adult-hi.mdx"
+        },
+        "how-to-memorize-piano-pieces-faster": {
+          "status": "completed",
+          "path": "content/posts/how-to-memorize-piano-pieces-faster-hi.mdx"
+        },
+        "how-to-play-piano-by-ear": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-by-ear-hi.mdx"
+        },
+        "how-to-play-piano-chords-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-chords-for-beginners-hi.mdx"
+        },
+        "how-to-play-piano-tremolo-technique": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-tremolo-technique-hi.mdx"
+        },
+        "how-to-play-piano-with-small-hands": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-with-small-hands-hi.mdx"
+        },
+        "how-to-practice-piano-effectively": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-effectively-hi.mdx"
+        },
+        "how-to-practice-piano-hands-separately": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-hands-separately-hi.mdx"
+        },
+        "how-to-read-piano-sheet-music-fast": {
+          "status": "completed",
+          "path": "content/posts/how-to-read-piano-sheet-music-fast-hi.mdx"
+        },
+        "how-to-trill-on-piano-with-control": {
+          "status": "completed",
+          "path": "content/posts/how-to-trill-on-piano-with-control-hi.mdx"
+        },
+        "impromptu-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/impromptu-piano-music-guide-hi.mdx"
+        },
+        "jazz-piano-history-and-legendary-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-history-and-legendary-players-hi.mdx"
+        },
+        "jazz-piano-improvisation-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-improvisation-basics-guide-hi.mdx"
+        },
+        "jazz-piano-sheet-music-recommendations": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-sheet-music-recommendations-hi.mdx"
+        },
+        "jazz-piano-voicings-for-intermediate-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-voicings-for-intermediate-players-hi.mdx"
+        },
+        "left-hand-piano-independence-exercises": {
+          "status": "completed",
+          "path": "content/posts/left-hand-piano-independence-exercises-hi.mdx"
+        },
+        "midi-piano-controllers-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/midi-piano-controllers-for-home-studio-hi.mdx"
+        },
+        "neo-classical-piano-style-guide": {
+          "status": "completed",
+          "path": "content/posts/neo-classical-piano-style-guide-hi.mdx"
+        },
+        "new-piano-technology-innovations": {
+          "status": "completed",
+          "path": "content/posts/new-piano-technology-innovations-hi.mdx"
+        },
+        "nocturne-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/nocturne-piano-music-guide-hi.mdx"
+        },
+        "piano-accompaniment-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-accompaniment-techniques-guide-hi.mdx"
+        },
+        "piano-action-types-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-action-types-explained-simply-hi.mdx"
+        },
+        "piano-amplifier-and-speaker-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-amplifier-and-speaker-guide-hi.mdx"
+        },
+        "piano-arpeggio-exercises-for-speed": {
+          "status": "completed",
+          "path": "content/posts/piano-arpeggio-exercises-for-speed-hi.mdx"
+        },
+        "piano-arrangement-techniques-for-pop-songs": {
+          "status": "completed",
+          "path": "content/posts/piano-arrangement-techniques-for-pop-songs-hi.mdx"
+        },
+        "piano-articulation-marks-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-articulation-marks-guide-hi.mdx"
+        },
+        "piano-bass-patterns-for-accompaniment": {
+          "status": "completed",
+          "path": "content/posts/piano-bass-patterns-for-accompaniment-hi.mdx"
+        },
+        "piano-bench-buying-guide-for-proper-posture": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-buying-guide-for-proper-posture-hi.mdx"
+        },
+        "piano-bench-height-adjustment-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-height-adjustment-guide-hi.mdx"
+        },
+        "piano-blues-scale-patterns-and-licks": {
+          "status": "completed",
+          "path": "content/posts/piano-blues-scale-patterns-and-licks-hi.mdx"
+        },
+        "piano-boogie-woogie-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-boogie-woogie-style-guide-hi.mdx"
+        },
+        "piano-cadence-types-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-cadence-types-explained-hi.mdx"
+        },
+        "piano-cadenza-guide-and-examples": {
+          "status": "completed",
+          "path": "content/posts/piano-cadenza-guide-and-examples-hi.mdx"
+        },
+        "piano-chord-inversions-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-inversions-explained-hi.mdx"
+        },
+        "piano-chord-progressions-every-player-should-know": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-progressions-every-player-should-know-hi.mdx"
+        },
+        "piano-chord-substitutions-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-substitutions-guide-hi.mdx"
+        },
+        "piano-comping-techniques-for-jazz": {
+          "status": "completed",
+          "path": "content/posts/piano-comping-techniques-for-jazz-hi.mdx"
+        },
+        "piano-concerto-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-concerto-history-guide-hi.mdx"
+        },
+        "piano-counterpoint-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-counterpoint-basics-guide-hi.mdx"
+        },
+        "piano-cultural-impact-on-modern-music": {
+          "status": "completed",
+          "path": "content/posts/piano-cultural-impact-on-modern-music-hi.mdx"
+        },
+        "piano-duet-playing-tips-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-playing-tips-guide-hi.mdx"
+        },
+        "piano-duet-repertoire-for-four-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-repertoire-for-four-hands-hi.mdx"
+        },
+        "piano-dynamics-and-expression-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-dynamics-and-expression-guide-hi.mdx"
+        },
+        "piano-ear-training-exercises-and-methods": {
+          "status": "completed",
+          "path": "content/posts/piano-ear-training-exercises-and-methods-hi.mdx"
+        },
+        "piano-etude-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-etude-history-guide-hi.mdx"
+        },
+        "piano-fingering-rules-and-guidelines": {
+          "status": "completed",
+          "path": "content/posts/piano-fingering-rules-and-guidelines-hi.mdx"
+        },
+        "piano-four-hand-repertoire-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-four-hand-repertoire-guide-hi.mdx"
+        },
+        "piano-glissando-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-glissando-technique-guide-hi.mdx"
+        },
+        "piano-hand-position-corrections-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-position-corrections-guide-hi.mdx"
+        },
+        "piano-hand-positioning-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-positioning-technique-guide-hi.mdx"
+        },
+        "piano-harmony-and-chord-theory": {
+          "status": "completed",
+          "path": "content/posts/piano-harmony-and-chord-theory-hi.mdx"
+        },
+        "piano-headphone-buying-guide-for-practice": {
+          "status": "completed",
+          "path": "content/posts/piano-headphone-buying-guide-for-practice-hi.mdx"
+        },
+        "piano-humidity-control-and-climate": {
+          "status": "completed",
+          "path": "content/posts/piano-humidity-control-and-climate-hi.mdx"
+        },
+        "piano-improvisation-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-improvisation-techniques-guide-hi.mdx"
+        },
+        "piano-in-20th-century-music-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-20th-century-music-guide-hi.mdx"
+        },
+        "piano-in-baroque-era-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-baroque-era-history-hi.mdx"
+        },
+        "piano-in-film-and-popular-culture": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-and-popular-culture-hi.mdx"
+        },
+        "piano-in-film-scoring-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-scoring-history-hi.mdx"
+        },
+        "piano-in-impressionist-era-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-impressionist-era-guide-hi.mdx"
+        },
+        "piano-industry-news-and-trends": {
+          "status": "completed",
+          "path": "content/posts/piano-industry-news-and-trends-hi.mdx"
+        },
+        "piano-interval-recognition-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-interval-recognition-exercises-hi.mdx"
+        },
+        "piano-jazz-standard-repertoire-list": {
+          "status": "completed",
+          "path": "content/posts/piano-jazz-standard-repertoire-list-hi.mdx"
+        },
+        "piano-key-signatures-guide-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-key-signatures-guide-for-beginners-hi.mdx"
+        },
+        "piano-learning-path-for-complete-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-learning-path-for-complete-beginners-hi.mdx"
+        },
+        "piano-legato-vs-staccato-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-legato-vs-staccato-technique-hi.mdx"
+        },
+        "piano-maintenance-and-tuning-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-maintenance-and-tuning-guide-hi.mdx"
+        },
+        "piano-melody-ornamentation-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-melody-ornamentation-techniques-hi.mdx"
+        },
+        "piano-mental-practice-and-visualization": {
+          "status": "completed",
+          "path": "content/posts/piano-mental-practice-and-visualization-hi.mdx"
+        },
+        "piano-modes-and-scales-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-modes-and-scales-explained-hi.mdx"
+        },
+        "piano-moving-and-transportation-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-moving-and-transportation-guide-hi.mdx"
+        },
+        "piano-music-genres-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-music-genres-comparison-guide-hi.mdx"
+        },
+        "piano-new-age-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-new-age-style-guide-hi.mdx"
+        },
+        "piano-octave-technique-and-stretching": {
+          "status": "completed",
+          "path": "content/posts/piano-octave-technique-and-stretching-hi.mdx"
+        },
+        "piano-ornamentation-and-trills-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-ornamentation-and-trills-guide-hi.mdx"
+        },
+        "piano-pedal-types-and-uses-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-pedal-types-and-uses-explained-hi.mdx"
+        },
+        "piano-pedaling-techniques-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-pedaling-techniques-for-beginners-hi.mdx"
+        },
+        "piano-performance-anxiety-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-performance-anxiety-tips-hi.mdx"
+        },
+        "piano-phrasing-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-phrasing-techniques-guide-hi.mdx"
+        },
+        "piano-playing-posture-and-ergonomics": {
+          "status": "completed",
+          "path": "content/posts/piano-playing-posture-and-ergonomics-hi.mdx"
+        },
+        "piano-practice-journal-template-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-journal-template-and-tips-hi.mdx"
+        },
+        "piano-practice-routine-for-busy-adults": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-routine-for-busy-adults-hi.mdx"
+        },
+        "piano-practice-with-metronome-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-with-metronome-guide-hi.mdx"
+        },
+        "piano-practice-without-instrument": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-without-instrument-hi.mdx"
+        },
+        "piano-recording-setup-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/piano-recording-setup-for-home-studio-hi.mdx"
+        },
+        "piano-reharmonization-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-reharmonization-techniques-guide-hi.mdx"
+        },
+        "piano-repertoire-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-for-small-hands-hi.mdx"
+        },
+        "piano-repertoire-guide-by-skill-level": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-guide-by-skill-level-hi.mdx"
+        },
+        "piano-rhythm-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-rhythm-exercises-for-beginners-hi.mdx"
+        },
+        "piano-rubato-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-rubato-technique-guide-hi.mdx"
+        },
+        "piano-sampling-vs-physical-modeling-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-sampling-vs-physical-modeling-explained-hi.mdx"
+        },
+        "piano-scales-practice-guide-all-keys": {
+          "status": "completed",
+          "path": "content/posts/piano-scales-practice-guide-all-keys-hi.mdx"
+        },
+        "piano-sight-reading-apps-comparison": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-apps-comparison-hi.mdx"
+        },
+        "piano-sight-reading-tips-and-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-tips-and-exercises-hi.mdx"
+        },
+        "piano-sonata-form-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-form-explained-simply-hi.mdx"
+        },
+        "piano-sonata-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-history-guide-hi.mdx"
+        },
+        "piano-stride-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-stride-technique-guide-hi.mdx"
+        },
+        "piano-tango-styles-and-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-tango-styles-and-techniques-hi.mdx"
+        },
+        "piano-technique-tips-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-technique-tips-for-small-hands-hi.mdx"
+        },
+        "piano-theory-basics-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-theory-basics-for-beginners-hi.mdx"
+        },
+        "piano-thumb-crossing-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-thumb-crossing-technique-hi.mdx"
+        },
+        "piano-transcription-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-transcription-techniques-hi.mdx"
+        },
+        "piano-transposition-techniques-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-transposition-techniques-and-tips-hi.mdx"
+        },
+        "piano-tuning-pins-and-pinblock-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-tuning-pins-and-pinblock-guide-hi.mdx"
+        },
+        "piano-voicing-and-tone-production": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-and-tone-production-hi.mdx"
+        },
+        "piano-voicing-techniques-for-chords": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-techniques-for-chords-hi.mdx"
+        },
+        "piano-walking-bass-lines-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-walking-bass-lines-guide-hi.mdx"
+        },
+        "piano-warm-up-exercises-checklist": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-checklist-hi.mdx"
+        },
+        "piano-warm-up-exercises-routine": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-routine-hi.mdx"
+        },
+        "player-piano-and-self-playing-systems-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-and-self-playing-systems-guide-hi.mdx"
+        },
+        "player-piano-roll-history-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-roll-history-guide-hi.mdx"
+        },
+        "polyrhythm-piano-exercises": {
+          "status": "completed",
+          "path": "content/posts/polyrhythm-piano-exercises-hi.mdx"
+        },
+        "pop-piano-chord-charts-for-popular-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-chord-charts-for-popular-songs-hi.mdx"
+        },
+        "pop-piano-techniques-for-modern-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-techniques-for-modern-songs-hi.mdx"
+        },
+        "portable-keyboard-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/portable-keyboard-vs-digital-piano-comparison-hi.mdx"
+        },
+        "prelude-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/prelude-piano-music-guide-hi.mdx"
+        },
+        "prepared-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/prepared-piano-techniques-guide-hi.mdx"
+        },
+        "ragtime-piano-history-and-technique": {
+          "status": "completed",
+          "path": "content/posts/ragtime-piano-history-and-technique-hi.mdx"
+        },
+        "rhapsody-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/rhapsody-piano-music-guide-hi.mdx"
+        },
+        "rock-piano-styles-and-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/rock-piano-styles-and-techniques-guide-hi.mdx"
+        },
+        "romantic-era-piano-composers-guide": {
+          "status": "completed",
+          "path": "content/posts/romantic-era-piano-composers-guide-hi.mdx"
+        },
+        "scherzo-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/scherzo-piano-music-guide-hi.mdx"
+        },
+        "silent-piano-systems-comparison": {
+          "status": "completed",
+          "path": "content/posts/silent-piano-systems-comparison-hi.mdx"
+        },
+        "smart-piano-and-connected-instrument-reviews": {
+          "status": "completed",
+          "path": "content/posts/smart-piano-and-connected-instrument-reviews-hi.mdx"
+        },
+        "upright-piano-vs-grand-piano-sound-difference": {
+          "status": "completed",
+          "path": "content/posts/upright-piano-vs-grand-piano-sound-difference-hi.mdx"
+        },
+        "used-piano-buying-guide-what-to-check": {
+          "status": "completed",
+          "path": "content/posts/used-piano-buying-guide-what-to-check-hi.mdx"
+        },
+        "women-pianists-who-shaped-music-history": {
+          "status": "completed",
+          "path": "content/posts/women-pianists-who-shaped-music-history-hi.mdx"
+        }
+      }
+    },
+    "ar": {
+      "total": 170,
+      "completed": 170,
+      "pending": 0,
+      "articles": {
+        "acoustic-piano-soundboard-explained": {
+          "status": "completed",
+          "path": "content/posts/acoustic-piano-soundboard-explained-ar.mdx"
+        },
+        "acoustic-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/acoustic-vs-digital-piano-comparison-ar.mdx"
+        },
+        "baroque-keyboard-music-history-guide": {
+          "status": "completed",
+          "path": "content/posts/baroque-keyboard-music-history-guide-ar.mdx"
+        },
+        "best-beginner-keyboard-piano-under-500": {
+          "status": "completed",
+          "path": "content/posts/best-beginner-keyboard-piano-under-500-ar.mdx"
+        },
+        "best-digital-pianos-for-home-practice": {
+          "status": "completed",
+          "path": "content/posts/best-digital-pianos-for-home-practice-ar.mdx"
+        },
+        "best-hybrid-pianos-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-hybrid-pianos-reviewed-ar.mdx"
+        },
+        "best-piano-apps-for-learning-and-practice": {
+          "status": "completed",
+          "path": "content/posts/best-piano-apps-for-learning-and-practice-ar.mdx"
+        },
+        "best-piano-books-for-self-taught-adults": {
+          "status": "completed",
+          "path": "content/posts/best-piano-books-for-self-taught-adults-ar.mdx"
+        },
+        "best-piano-brands-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/best-piano-brands-comparison-guide-ar.mdx"
+        },
+        "best-piano-covers-and-cases": {
+          "status": "completed",
+          "path": "content/posts/best-piano-covers-and-cases-ar.mdx"
+        },
+        "best-piano-finger-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/best-piano-finger-exercises-for-beginners-ar.mdx"
+        },
+        "best-piano-for-small-apartment-spaces": {
+          "status": "completed",
+          "path": "content/posts/best-piano-for-small-apartment-spaces-ar.mdx"
+        },
+        "best-piano-keyboards-for-travel": {
+          "status": "completed",
+          "path": "content/posts/best-piano-keyboards-for-travel-ar.mdx"
+        },
+        "best-piano-lamps-and-lighting": {
+          "status": "completed",
+          "path": "content/posts/best-piano-lamps-and-lighting-ar.mdx"
+        },
+        "best-piano-method-books-compared": {
+          "status": "completed",
+          "path": "content/posts/best-piano-method-books-compared-ar.mdx"
+        },
+        "best-piano-metronomes-and-practice-tools": {
+          "status": "completed",
+          "path": "content/posts/best-piano-metronomes-and-practice-tools-ar.mdx"
+        },
+        "best-piano-pedals-and-accessories": {
+          "status": "completed",
+          "path": "content/posts/best-piano-pedals-and-accessories-ar.mdx"
+        },
+        "best-piano-recordings-of-all-time": {
+          "status": "completed",
+          "path": "content/posts/best-piano-recordings-of-all-time-ar.mdx"
+        },
+        "best-piano-stands-and-benches-reviewed": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stands-and-benches-reviewed-ar.mdx"
+        },
+        "best-piano-stools-and-seating-options": {
+          "status": "completed",
+          "path": "content/posts/best-piano-stools-and-seating-options-ar.mdx"
+        },
+        "best-piano-vst-plugins-for-producers": {
+          "status": "completed",
+          "path": "content/posts/best-piano-vst-plugins-for-producers-ar.mdx"
+        },
+        "best-stage-pianos-for-live-performance": {
+          "status": "completed",
+          "path": "content/posts/best-stage-pianos-for-live-performance-ar.mdx"
+        },
+        "blues-piano-lessons-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/blues-piano-lessons-for-beginners-ar.mdx"
+        },
+        "bossa-nova-piano-patterns-tutorial": {
+          "status": "completed",
+          "path": "content/posts/bossa-nova-piano-patterns-tutorial-ar.mdx"
+        },
+        "classical-piano-genres-explained-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-genres-explained-for-beginners-ar.mdx"
+        },
+        "classical-piano-repertoire-by-era-guide": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-repertoire-by-era-guide-ar.mdx"
+        },
+        "classical-piano-sheet-music-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/classical-piano-sheet-music-for-beginners-ar.mdx"
+        },
+        "contemporary-piano-artists-to-watch": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-artists-to-watch-ar.mdx"
+        },
+        "contemporary-piano-music-genres-overview": {
+          "status": "completed",
+          "path": "content/posts/contemporary-piano-music-genres-overview-ar.mdx"
+        },
+        "czerny-piano-exercises-for-technique": {
+          "status": "completed",
+          "path": "content/posts/czerny-piano-exercises-for-technique-ar.mdx"
+        },
+        "digital-piano-connectivity-options-guide": {
+          "status": "completed",
+          "path": "content/posts/digital-piano-connectivity-options-guide-ar.mdx"
+        },
+        "evolution-of-piano-design-through-centuries": {
+          "status": "completed",
+          "path": "content/posts/evolution-of-piano-design-through-centuries-ar.mdx"
+        },
+        "extended-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/extended-piano-techniques-guide-ar.mdx"
+        },
+        "famous-classical-pianists-who-changed-music": {
+          "status": "completed",
+          "path": "content/posts/famous-classical-pianists-who-changed-music-ar.mdx"
+        },
+        "free-piano-sheet-music-download-resources": {
+          "status": "completed",
+          "path": "content/posts/free-piano-sheet-music-download-resources-ar.mdx"
+        },
+        "gospel-piano-chords-and-voicings-guide": {
+          "status": "completed",
+          "path": "content/posts/gospel-piano-chords-and-voicings-guide-ar.mdx"
+        },
+        "great-piano-competitions-history-guide": {
+          "status": "completed",
+          "path": "content/posts/great-piano-competitions-history-guide-ar.mdx"
+        },
+        "hanon-piano-exercises-practice-guide": {
+          "status": "completed",
+          "path": "content/posts/hanon-piano-exercises-practice-guide-ar.mdx"
+        },
+        "history-of-the-piano-evolution": {
+          "status": "completed",
+          "path": "content/posts/history-of-the-piano-evolution-ar.mdx"
+        },
+        "how-do-hybrid-pianos-work-explained": {
+          "status": "completed",
+          "path": "content/posts/how-do-hybrid-pianos-work-explained-ar.mdx"
+        },
+        "how-to-accompany-yourself-singing-on-piano": {
+          "status": "completed",
+          "path": "content/posts/how-to-accompany-yourself-singing-on-piano-ar.mdx"
+        },
+        "how-to-build-piano-finger-independence": {
+          "status": "completed",
+          "path": "content/posts/how-to-build-piano-finger-independence-ar.mdx"
+        },
+        "how-to-care-for-piano-keys-and-finish": {
+          "status": "completed",
+          "path": "content/posts/how-to-care-for-piano-keys-and-finish-ar.mdx"
+        },
+        "how-to-choose-a-piano-teacher": {
+          "status": "completed",
+          "path": "content/posts/how-to-choose-a-piano-teacher-ar.mdx"
+        },
+        "how-to-learn-piano-as-an-adult": {
+          "status": "completed",
+          "path": "content/posts/how-to-learn-piano-as-an-adult-ar.mdx"
+        },
+        "how-to-memorize-piano-pieces-faster": {
+          "status": "completed",
+          "path": "content/posts/how-to-memorize-piano-pieces-faster-ar.mdx"
+        },
+        "how-to-play-piano-by-ear": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-by-ear-ar.mdx"
+        },
+        "how-to-play-piano-chords-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-chords-for-beginners-ar.mdx"
+        },
+        "how-to-play-piano-tremolo-technique": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-tremolo-technique-ar.mdx"
+        },
+        "how-to-play-piano-with-small-hands": {
+          "status": "completed",
+          "path": "content/posts/how-to-play-piano-with-small-hands-ar.mdx"
+        },
+        "how-to-practice-piano-effectively": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-effectively-ar.mdx"
+        },
+        "how-to-practice-piano-hands-separately": {
+          "status": "completed",
+          "path": "content/posts/how-to-practice-piano-hands-separately-ar.mdx"
+        },
+        "how-to-read-piano-sheet-music-fast": {
+          "status": "completed",
+          "path": "content/posts/how-to-read-piano-sheet-music-fast-ar.mdx"
+        },
+        "how-to-trill-on-piano-with-control": {
+          "status": "completed",
+          "path": "content/posts/how-to-trill-on-piano-with-control-ar.mdx"
+        },
+        "impromptu-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/impromptu-piano-music-guide-ar.mdx"
+        },
+        "jazz-piano-history-and-legendary-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-history-and-legendary-players-ar.mdx"
+        },
+        "jazz-piano-improvisation-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-improvisation-basics-guide-ar.mdx"
+        },
+        "jazz-piano-sheet-music-recommendations": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-sheet-music-recommendations-ar.mdx"
+        },
+        "jazz-piano-voicings-for-intermediate-players": {
+          "status": "completed",
+          "path": "content/posts/jazz-piano-voicings-for-intermediate-players-ar.mdx"
+        },
+        "left-hand-piano-independence-exercises": {
+          "status": "completed",
+          "path": "content/posts/left-hand-piano-independence-exercises-ar.mdx"
+        },
+        "midi-piano-controllers-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/midi-piano-controllers-for-home-studio-ar.mdx"
+        },
+        "neo-classical-piano-style-guide": {
+          "status": "completed",
+          "path": "content/posts/neo-classical-piano-style-guide-ar.mdx"
+        },
+        "new-piano-technology-innovations": {
+          "status": "completed",
+          "path": "content/posts/new-piano-technology-innovations-ar.mdx"
+        },
+        "nocturne-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/nocturne-piano-music-guide-ar.mdx"
+        },
+        "piano-accompaniment-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-accompaniment-techniques-guide-ar.mdx"
+        },
+        "piano-action-types-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-action-types-explained-simply-ar.mdx"
+        },
+        "piano-amplifier-and-speaker-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-amplifier-and-speaker-guide-ar.mdx"
+        },
+        "piano-arpeggio-exercises-for-speed": {
+          "status": "completed",
+          "path": "content/posts/piano-arpeggio-exercises-for-speed-ar.mdx"
+        },
+        "piano-arrangement-techniques-for-pop-songs": {
+          "status": "completed",
+          "path": "content/posts/piano-arrangement-techniques-for-pop-songs-ar.mdx"
+        },
+        "piano-articulation-marks-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-articulation-marks-guide-ar.mdx"
+        },
+        "piano-bass-patterns-for-accompaniment": {
+          "status": "completed",
+          "path": "content/posts/piano-bass-patterns-for-accompaniment-ar.mdx"
+        },
+        "piano-bench-buying-guide-for-proper-posture": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-buying-guide-for-proper-posture-ar.mdx"
+        },
+        "piano-bench-height-adjustment-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-bench-height-adjustment-guide-ar.mdx"
+        },
+        "piano-blues-scale-patterns-and-licks": {
+          "status": "completed",
+          "path": "content/posts/piano-blues-scale-patterns-and-licks-ar.mdx"
+        },
+        "piano-boogie-woogie-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-boogie-woogie-style-guide-ar.mdx"
+        },
+        "piano-cadence-types-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-cadence-types-explained-ar.mdx"
+        },
+        "piano-cadenza-guide-and-examples": {
+          "status": "completed",
+          "path": "content/posts/piano-cadenza-guide-and-examples-ar.mdx"
+        },
+        "piano-chord-inversions-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-inversions-explained-ar.mdx"
+        },
+        "piano-chord-progressions-every-player-should-know": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-progressions-every-player-should-know-ar.mdx"
+        },
+        "piano-chord-substitutions-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-chord-substitutions-guide-ar.mdx"
+        },
+        "piano-comping-techniques-for-jazz": {
+          "status": "completed",
+          "path": "content/posts/piano-comping-techniques-for-jazz-ar.mdx"
+        },
+        "piano-concerto-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-concerto-history-guide-ar.mdx"
+        },
+        "piano-counterpoint-basics-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-counterpoint-basics-guide-ar.mdx"
+        },
+        "piano-cultural-impact-on-modern-music": {
+          "status": "completed",
+          "path": "content/posts/piano-cultural-impact-on-modern-music-ar.mdx"
+        },
+        "piano-duet-playing-tips-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-playing-tips-guide-ar.mdx"
+        },
+        "piano-duet-repertoire-for-four-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-duet-repertoire-for-four-hands-ar.mdx"
+        },
+        "piano-dynamics-and-expression-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-dynamics-and-expression-guide-ar.mdx"
+        },
+        "piano-ear-training-exercises-and-methods": {
+          "status": "completed",
+          "path": "content/posts/piano-ear-training-exercises-and-methods-ar.mdx"
+        },
+        "piano-etude-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-etude-history-guide-ar.mdx"
+        },
+        "piano-fingering-rules-and-guidelines": {
+          "status": "completed",
+          "path": "content/posts/piano-fingering-rules-and-guidelines-ar.mdx"
+        },
+        "piano-four-hand-repertoire-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-four-hand-repertoire-guide-ar.mdx"
+        },
+        "piano-glissando-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-glissando-technique-guide-ar.mdx"
+        },
+        "piano-hand-position-corrections-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-position-corrections-guide-ar.mdx"
+        },
+        "piano-hand-positioning-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-hand-positioning-technique-guide-ar.mdx"
+        },
+        "piano-harmony-and-chord-theory": {
+          "status": "completed",
+          "path": "content/posts/piano-harmony-and-chord-theory-ar.mdx"
+        },
+        "piano-headphone-buying-guide-for-practice": {
+          "status": "completed",
+          "path": "content/posts/piano-headphone-buying-guide-for-practice-ar.mdx"
+        },
+        "piano-humidity-control-and-climate": {
+          "status": "completed",
+          "path": "content/posts/piano-humidity-control-and-climate-ar.mdx"
+        },
+        "piano-improvisation-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-improvisation-techniques-guide-ar.mdx"
+        },
+        "piano-in-20th-century-music-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-20th-century-music-guide-ar.mdx"
+        },
+        "piano-in-baroque-era-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-baroque-era-history-ar.mdx"
+        },
+        "piano-in-film-and-popular-culture": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-and-popular-culture-ar.mdx"
+        },
+        "piano-in-film-scoring-history": {
+          "status": "completed",
+          "path": "content/posts/piano-in-film-scoring-history-ar.mdx"
+        },
+        "piano-in-impressionist-era-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-in-impressionist-era-guide-ar.mdx"
+        },
+        "piano-industry-news-and-trends": {
+          "status": "completed",
+          "path": "content/posts/piano-industry-news-and-trends-ar.mdx"
+        },
+        "piano-interval-recognition-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-interval-recognition-exercises-ar.mdx"
+        },
+        "piano-jazz-standard-repertoire-list": {
+          "status": "completed",
+          "path": "content/posts/piano-jazz-standard-repertoire-list-ar.mdx"
+        },
+        "piano-key-signatures-guide-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-key-signatures-guide-for-beginners-ar.mdx"
+        },
+        "piano-learning-path-for-complete-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-learning-path-for-complete-beginners-ar.mdx"
+        },
+        "piano-legato-vs-staccato-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-legato-vs-staccato-technique-ar.mdx"
+        },
+        "piano-maintenance-and-tuning-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-maintenance-and-tuning-guide-ar.mdx"
+        },
+        "piano-melody-ornamentation-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-melody-ornamentation-techniques-ar.mdx"
+        },
+        "piano-mental-practice-and-visualization": {
+          "status": "completed",
+          "path": "content/posts/piano-mental-practice-and-visualization-ar.mdx"
+        },
+        "piano-modes-and-scales-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-modes-and-scales-explained-ar.mdx"
+        },
+        "piano-moving-and-transportation-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-moving-and-transportation-guide-ar.mdx"
+        },
+        "piano-music-genres-comparison-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-music-genres-comparison-guide-ar.mdx"
+        },
+        "piano-new-age-style-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-new-age-style-guide-ar.mdx"
+        },
+        "piano-octave-technique-and-stretching": {
+          "status": "completed",
+          "path": "content/posts/piano-octave-technique-and-stretching-ar.mdx"
+        },
+        "piano-ornamentation-and-trills-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-ornamentation-and-trills-guide-ar.mdx"
+        },
+        "piano-pedal-types-and-uses-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-pedal-types-and-uses-explained-ar.mdx"
+        },
+        "piano-pedaling-techniques-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-pedaling-techniques-for-beginners-ar.mdx"
+        },
+        "piano-performance-anxiety-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-performance-anxiety-tips-ar.mdx"
+        },
+        "piano-phrasing-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-phrasing-techniques-guide-ar.mdx"
+        },
+        "piano-playing-posture-and-ergonomics": {
+          "status": "completed",
+          "path": "content/posts/piano-playing-posture-and-ergonomics-ar.mdx"
+        },
+        "piano-practice-journal-template-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-journal-template-and-tips-ar.mdx"
+        },
+        "piano-practice-routine-for-busy-adults": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-routine-for-busy-adults-ar.mdx"
+        },
+        "piano-practice-with-metronome-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-with-metronome-guide-ar.mdx"
+        },
+        "piano-practice-without-instrument": {
+          "status": "completed",
+          "path": "content/posts/piano-practice-without-instrument-ar.mdx"
+        },
+        "piano-recording-setup-for-home-studio": {
+          "status": "completed",
+          "path": "content/posts/piano-recording-setup-for-home-studio-ar.mdx"
+        },
+        "piano-reharmonization-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-reharmonization-techniques-guide-ar.mdx"
+        },
+        "piano-repertoire-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-for-small-hands-ar.mdx"
+        },
+        "piano-repertoire-guide-by-skill-level": {
+          "status": "completed",
+          "path": "content/posts/piano-repertoire-guide-by-skill-level-ar.mdx"
+        },
+        "piano-rhythm-exercises-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-rhythm-exercises-for-beginners-ar.mdx"
+        },
+        "piano-rubato-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-rubato-technique-guide-ar.mdx"
+        },
+        "piano-sampling-vs-physical-modeling-explained": {
+          "status": "completed",
+          "path": "content/posts/piano-sampling-vs-physical-modeling-explained-ar.mdx"
+        },
+        "piano-scales-practice-guide-all-keys": {
+          "status": "completed",
+          "path": "content/posts/piano-scales-practice-guide-all-keys-ar.mdx"
+        },
+        "piano-sight-reading-apps-comparison": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-apps-comparison-ar.mdx"
+        },
+        "piano-sight-reading-tips-and-exercises": {
+          "status": "completed",
+          "path": "content/posts/piano-sight-reading-tips-and-exercises-ar.mdx"
+        },
+        "piano-sonata-form-explained-simply": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-form-explained-simply-ar.mdx"
+        },
+        "piano-sonata-history-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-sonata-history-guide-ar.mdx"
+        },
+        "piano-stride-technique-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-stride-technique-guide-ar.mdx"
+        },
+        "piano-tango-styles-and-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-tango-styles-and-techniques-ar.mdx"
+        },
+        "piano-technique-tips-for-small-hands": {
+          "status": "completed",
+          "path": "content/posts/piano-technique-tips-for-small-hands-ar.mdx"
+        },
+        "piano-theory-basics-for-beginners": {
+          "status": "completed",
+          "path": "content/posts/piano-theory-basics-for-beginners-ar.mdx"
+        },
+        "piano-thumb-crossing-technique": {
+          "status": "completed",
+          "path": "content/posts/piano-thumb-crossing-technique-ar.mdx"
+        },
+        "piano-transcription-techniques": {
+          "status": "completed",
+          "path": "content/posts/piano-transcription-techniques-ar.mdx"
+        },
+        "piano-transposition-techniques-and-tips": {
+          "status": "completed",
+          "path": "content/posts/piano-transposition-techniques-and-tips-ar.mdx"
+        },
+        "piano-tuning-pins-and-pinblock-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-tuning-pins-and-pinblock-guide-ar.mdx"
+        },
+        "piano-voicing-and-tone-production": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-and-tone-production-ar.mdx"
+        },
+        "piano-voicing-techniques-for-chords": {
+          "status": "completed",
+          "path": "content/posts/piano-voicing-techniques-for-chords-ar.mdx"
+        },
+        "piano-walking-bass-lines-guide": {
+          "status": "completed",
+          "path": "content/posts/piano-walking-bass-lines-guide-ar.mdx"
+        },
+        "piano-warm-up-exercises-checklist": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-checklist-ar.mdx"
+        },
+        "piano-warm-up-exercises-routine": {
+          "status": "completed",
+          "path": "content/posts/piano-warm-up-exercises-routine-ar.mdx"
+        },
+        "player-piano-and-self-playing-systems-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-and-self-playing-systems-guide-ar.mdx"
+        },
+        "player-piano-roll-history-guide": {
+          "status": "completed",
+          "path": "content/posts/player-piano-roll-history-guide-ar.mdx"
+        },
+        "polyrhythm-piano-exercises": {
+          "status": "completed",
+          "path": "content/posts/polyrhythm-piano-exercises-ar.mdx"
+        },
+        "pop-piano-chord-charts-for-popular-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-chord-charts-for-popular-songs-ar.mdx"
+        },
+        "pop-piano-techniques-for-modern-songs": {
+          "status": "completed",
+          "path": "content/posts/pop-piano-techniques-for-modern-songs-ar.mdx"
+        },
+        "portable-keyboard-vs-digital-piano-comparison": {
+          "status": "completed",
+          "path": "content/posts/portable-keyboard-vs-digital-piano-comparison-ar.mdx"
+        },
+        "prelude-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/prelude-piano-music-guide-ar.mdx"
+        },
+        "prepared-piano-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/prepared-piano-techniques-guide-ar.mdx"
+        },
+        "ragtime-piano-history-and-technique": {
+          "status": "completed",
+          "path": "content/posts/ragtime-piano-history-and-technique-ar.mdx"
+        },
+        "rhapsody-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/rhapsody-piano-music-guide-ar.mdx"
+        },
+        "rock-piano-styles-and-techniques-guide": {
+          "status": "completed",
+          "path": "content/posts/rock-piano-styles-and-techniques-guide-ar.mdx"
+        },
+        "romantic-era-piano-composers-guide": {
+          "status": "completed",
+          "path": "content/posts/romantic-era-piano-composers-guide-ar.mdx"
+        },
+        "scherzo-piano-music-guide": {
+          "status": "completed",
+          "path": "content/posts/scherzo-piano-music-guide-ar.mdx"
+        },
+        "silent-piano-systems-comparison": {
+          "status": "completed",
+          "path": "content/posts/silent-piano-systems-comparison-ar.mdx"
+        },
+        "smart-piano-and-connected-instrument-reviews": {
+          "status": "completed",
+          "path": "content/posts/smart-piano-and-connected-instrument-reviews-ar.mdx"
+        },
+        "upright-piano-vs-grand-piano-sound-difference": {
+          "status": "completed",
+          "path": "content/posts/upright-piano-vs-grand-piano-sound-difference-ar.mdx"
+        },
+        "used-piano-buying-guide-what-to-check": {
+          "status": "completed",
+          "path": "content/posts/used-piano-buying-guide-what-to-check-ar.mdx"
+        },
+        "women-pianists-who-shaped-music-history": {
+          "status": "completed",
+          "path": "content/posts/women-pianists-who-shaped-music-history-ar.mdx"
+        }
+      }
+    }
+  }
+}
