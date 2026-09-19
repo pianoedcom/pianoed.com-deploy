@@ -1,4 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { Volume2, VolumeX } from "lucide-react";
+import { playMetronomeTick } from "@/lib/audio/sound";
 const TEMPO_MARKINGS: { bpm: number; name: string }[] = [
   { bpm: 40, name: "Grave" },
   { bpm: 60, name: "Largo" },
@@ -21,10 +23,13 @@ function getTempoName(bpm: number): string {
 const MetronomeTool = () => {
   const [bpm, setBpm] = useState(120);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(false);
   const [timeSignature, setTimeSignature] = useState("4/4");
   const [beat, setBeat] = useState(0);
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const beatRef = useRef(0);
+  const isMutedRef = useRef(isMuted);
+  isMutedRef.current = isMuted;
   const tapTimesRef = useRef<number[]>([]);
   const beatsPerMeasure = parseInt(timeSignature.split("/")[0]);
   const stop = useCallback(() => {
@@ -40,8 +45,12 @@ const MetronomeTool = () => {
     if (isPlaying) {
       const interval = 60000 / bpm;
       intervalRef.current = setInterval(() => {
-        beatRef.current = (beatRef.current + 1) % beatsPerMeasure;
-        setBeat(beatRef.current);
+        const nextBeat = (beatRef.current + 1) % beatsPerMeasure;
+        beatRef.current = nextBeat;
+        setBeat(nextBeat);
+        if (!isMutedRef.current) {
+          playMetronomeTick(nextBeat === 0);
+        }
       }, interval);
     } else if (intervalRef.current) {
       clearInterval(intervalRef.current);
@@ -52,6 +61,9 @@ const MetronomeTool = () => {
     };
   }, [isPlaying, bpm, beatsPerMeasure]);
   const handleTap = useCallback(() => {
+    if (!isMutedRef.current) {
+      playMetronomeTick(false, 0.4);
+    }
     const now = Date.now();
     const recent = tapTimesRef.current.filter((t) => now - t < 3000);
     recent.push(now);
@@ -63,7 +75,18 @@ const MetronomeTool = () => {
       if (newBpm >= 20 && newBpm <= 300) setBpm(newBpm);
     }
   }, []);
-  const toggle = () => (isPlaying ? stop() : setIsPlaying(true));
+  const toggle = () => {
+    if (isPlaying) {
+      stop();
+    } else {
+      beatRef.current = 0;
+      setBeat(0);
+      if (!isMuted) {
+        playMetronomeTick(true);
+      }
+      setIsPlaying(true);
+    }
+  };
   return (
     <div className="space-y-6">
       <div className="flex flex-col items-center gap-4">
@@ -122,7 +145,7 @@ const MetronomeTool = () => {
           />
         ))}
       </div>
-      <div className="flex justify-center gap-3">
+      <div className="flex flex-wrap items-center justify-center gap-3">
         <button
           onClick={toggle}
           className="rounded-md bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground hover:bg-primary/90"
@@ -134,6 +157,19 @@ const MetronomeTool = () => {
           className="rounded-md border border-border px-6 py-2.5 text-sm font-semibold hover:bg-muted"
         >
           Tap Tempo
+        </button>
+        <button
+          onClick={() => setIsMuted((m) => !m)}
+          className={`flex items-center gap-1.5 rounded-md border px-4 py-2.5 text-sm font-semibold transition-colors ${
+            isMuted
+              ? "border-destructive/40 text-destructive hover:bg-destructive/10"
+              : "border-border text-foreground hover:bg-muted"
+          }`}
+          aria-label={isMuted ? "Unmute metronome sound" : "Mute metronome sound"}
+          title={isMuted ? "Unmute sound" : "Mute sound"}
+        >
+          {isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4 text-accent" />}
+          <span>{isMuted ? "Muted" : "Sound"}</span>
         </button>
       </div>
     </div>

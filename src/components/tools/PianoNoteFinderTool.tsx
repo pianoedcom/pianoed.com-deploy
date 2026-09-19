@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import { Play, Square, Volume2 } from "lucide-react";
+import { playPianoNote, playNoteSequence } from "@/lib/audio/sound";
 const WHITE_KEYS = ["C", "D", "E", "F", "G", "A", "B"];
 const BLACK_KEYS: { note: string; after: string }[] = [
   { note: "C♯", after: "C" },
@@ -15,21 +17,56 @@ const NOTE_NAMES = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A"
 const PianoNoteFinderTool = () => {
   const [selectedNote, setSelectedNote] = useState("C");
   const [selectedScale, setSelectedScale] = useState("Major");
+  const [isPlayingScale, setIsPlayingScale] = useState(false);
+  const cancelSequenceRef = useRef<(() => void) | null>(null);
   const rootIndex = NOTE_NAMES.indexOf(selectedNote);
   const scaleIntervals = SCALES[selectedScale];
   const scaleNotes = scaleIntervals.map((i) => NOTE_NAMES[(rootIndex + i) % 12]);
+  // Stop sequence on unmount
+  useEffect(() => {
+    return () => {
+      if (cancelSequenceRef.current) cancelSequenceRef.current();
+    };
+  }, []);
+  const handleNoteClick = (note: string) => {
+    if (cancelSequenceRef.current) {
+      cancelSequenceRef.current();
+      setIsPlayingScale(false);
+    }
+    setSelectedNote(note);
+    playPianoNote(note);
+  };
+  const handlePlayScale = () => {
+    if (isPlayingScale && cancelSequenceRef.current) {
+      cancelSequenceRef.current();
+      setIsPlayingScale(false);
+      return;
+    }
+    setIsPlayingScale(true);
+    // Include octave root note at end for complete scale resolution (e.g. C -> C)
+    const fullScale = [...scaleNotes, selectedNote];
+    cancelSequenceRef.current = playNoteSequence(fullScale, 300);
+    setTimeout(() => {
+      setIsPlayingScale(false);
+    }, (fullScale.length + 1) * 300);
+  };
   return (
     <div className="space-y-6">
       <div>
-        <label className="mb-2 block text-sm font-medium text-foreground">Root Note</label>
+        <div className="mb-2 flex items-center justify-between">
+          <label className="block text-sm font-medium text-foreground">Root Note</label>
+          <span className="flex items-center gap-1 text-xs text-muted-foreground">
+            <Volume2 className="h-3.5 w-3.5 text-accent" /> Click any note or key to hear sound
+          </span>
+        </div>
         <div className="flex flex-wrap gap-2">
           {NOTE_NAMES.map((note) => (
             <button
               key={note}
-              onClick={() => setSelectedNote(note)}
+              onClick={() => handleNoteClick(note)}
               className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
                 selectedNote === note
-                  ? "bg-primary text-primary-foreground"
+                  ? "bg-primary text-primary-foreground shadow-sm"
                   : "border border-border hover:bg-muted"
               }`}
             >
@@ -44,10 +81,16 @@ const PianoNoteFinderTool = () => {
           {Object.keys(SCALES).map((scale) => (
             <button
               key={scale}
-              onClick={() => setSelectedScale(scale)}
+              onClick={() => {
+                setSelectedScale(scale);
+                if (cancelSequenceRef.current) {
+                  cancelSequenceRef.current();
+                  setIsPlayingScale(false);
+                }
+              }}
               className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
                 selectedScale === scale
-                  ? "bg-primary text-primary-foreground"
+                  ? "bg-primary text-primary-foreground shadow-sm"
                   : "border border-border hover:bg-muted"
               }`}
             >
@@ -57,31 +100,52 @@ const PianoNoteFinderTool = () => {
         </div>
       </div>
       <div>
-        <h3 className="mb-2 text-sm font-medium text-muted-foreground">
-          {selectedNote} {selectedScale} Scale
-        </h3>
+        <div className="mb-2 flex items-center justify-between">
+          <h3 className="text-sm font-medium text-muted-foreground">
+            {selectedNote} {selectedScale} Scale
+          </h3>
+          <button
+            onClick={handlePlayScale}
+            className="flex items-center gap-1.5 rounded-md bg-accent/20 px-3 py-1 text-xs font-semibold text-accent-foreground transition-colors hover:bg-accent/30"
+            aria-label={isPlayingScale ? "Stop scale playback" : "Play scale sound"}
+          >
+            {isPlayingScale ? (
+              <>
+                <Square className="h-3 w-3 fill-current" /> Stop
+              </>
+            ) : (
+              <>
+                <Play className="h-3 w-3 fill-current" /> Play Scale
+              </>
+            )}
+          </button>
+        </div>
         <div className="flex flex-wrap gap-2" aria-live="polite">
           {scaleNotes.map((note, i) => (
-            <span
+            <button
               key={i}
-              className="rounded-md bg-accent/20 px-3 py-1.5 text-sm font-semibold text-accent-foreground"
+              onClick={() => handleNoteClick(note)}
+              className="rounded-md bg-accent/20 px-3 py-1.5 text-sm font-semibold text-accent-foreground transition-transform hover:scale-105 hover:bg-accent/30 active:scale-95"
+              title={`Play ${note}`}
             >
               {note}
-            </span>
+            </button>
           ))}
         </div>
       </div>
       <div className="rounded-lg border border-border bg-card p-4">
-        <h3 className="mb-3 text-sm font-medium text-muted-foreground">Keyboard Diagram</h3>
-        <div className="relative flex" style={{ height: "80px" }}>
-          {WHITE_KEYS.map((key, i) => {
+        <h3 className="mb-3 text-sm font-medium text-muted-foreground">
+          Keyboard Diagram (Click keys to play)
+        </h3>
+        <div className="relative flex" style={{ height: "90px" }}>
+          {WHITE_KEYS.map((key) => {
             const noteInScale = scaleNotes.includes(key) || scaleNotes.includes(key + "♯");
             return (
               <div
                 key={key}
-                onClick={() => setSelectedNote(key)}
-                className={`flex flex-1 cursor-pointer items-end justify-center rounded-b border border-border pb-1 text-xs font-medium ${
-                  noteInScale ? "bg-accent/30" : "bg-background"
+                onClick={() => handleNoteClick(key)}
+                className={`flex flex-1 cursor-pointer items-end justify-center rounded-b border border-border pb-2 text-xs font-medium transition-colors select-none active:bg-accent/50 ${
+                  noteInScale ? "bg-accent/30 font-bold" : "bg-background"
                 } ${selectedNote === key ? "ring-2 ring-primary" : ""}`}
               >
                 {key}
@@ -94,9 +158,12 @@ const PianoNoteFinderTool = () => {
             return (
               <div
                 key={note}
-                onClick={() => setSelectedNote(note)}
-                className={`absolute top-0 z-10 flex h-12 w-8 cursor-pointer items-end justify-center rounded-b text-xs text-white ${
-                  noteInScale ? "bg-accent" : "bg-foreground"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleNoteClick(note);
+                }}
+                className={`absolute top-0 z-10 flex h-14 w-8 cursor-pointer items-end justify-center rounded-b text-xs text-white transition-colors select-none active:bg-accent-foreground ${
+                  noteInScale ? "bg-accent font-bold" : "bg-foreground"
                 } ${selectedNote === note ? "ring-2 ring-primary" : ""}`}
                 style={{ left: `${(idx + 1) * (100 / 7) - 4}%` }}
               >
