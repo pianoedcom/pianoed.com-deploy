@@ -84,17 +84,42 @@ export function buildCsp(isProduction = true): string {
   // automatically as part of `pnpm build`). No runtime eval is needed.
   // If pre-compilation is skipped, runtime MDX compilation will fail
   // with a CSP violation — run `pnpm precompile` before deploying.
-  const scriptSrc = giscusConfigured
-    ? "script-src 'self' https://giscus.app"
-    : "script-src 'self'";
+  const scriptSrcParts = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://www.googletagmanager.com",
+    "https://*.googletagmanager.com",
+    "https://*.google-analytics.com",
+    "https://google-analytics.com",
+  ];
+  if (giscusConfigured) {
+    scriptSrcParts.push("https://giscus.app");
+  }
+  const scriptSrc = `script-src ${scriptSrcParts.join(" ")}`;
+
+  const connectSrc = [
+    "'self'",
+    siteOrigin,
+    "https://analytics.pianoed.com",
+    "https://*.google-analytics.com",
+    "https://google-analytics.com",
+    "https://*.analytics.google.com",
+    "https://analytics.google.com",
+    "https://*.googletagmanager.com",
+    "https://googletagmanager.com",
+    "https://stats.g.doubleclick.net",
+    "https://*.doubleclick.net",
+    "https://www.google.com",
+  ].filter(Boolean).join(" ");
+
   const frameSrc = giscusConfigured ? "frame-src 'self' https://giscus.app" : "frame-src 'none'";
   return [
     "default-src 'self'",
     scriptSrc,
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-    "img-src 'self' data: https:",
+    "img-src 'self' data: https: https://*.google-analytics.com https://*.googletagmanager.com",
     "font-src 'self' https://fonts.gstatic.com",
-    `connect-src 'self' ${siteOrigin} https://analytics.pianoed.com`,
+    `connect-src ${connectSrc}`,
     frameSrc,
     "object-src 'none'",
     "base-uri 'self'",
@@ -156,14 +181,17 @@ export function injectSecurityMetaTags(): void {
   if (typeof document === "undefined") return;
   const isProduction = import.meta.env.PROD;
   const csp = buildCsp(isProduction);
-  // CSP via meta tag
+  // CSP via meta tag: strip frame-ancestors because browsers ignore it in <meta> and log warnings
+  const metaCsp = csp
+    .replace(/;\s*frame-ancestors\s+[^;]+/g, "")
+    .replace(/frame-ancestors\s+[^;]+;\s*/g, "");
   let meta = document.querySelector<HTMLMetaElement>('meta[http-equiv="Content-Security-Policy"]');
   if (!meta) {
     meta = document.createElement("meta");
     meta.httpEquiv = "Content-Security-Policy";
     document.head.prepend(meta);
   }
-  meta.content = csp;
+  meta.content = metaCsp;
   // Referrer-Policy via meta tag
   let referrer = document.querySelector<HTMLMetaElement>('meta[name="referrer"]');
   if (!referrer) {
