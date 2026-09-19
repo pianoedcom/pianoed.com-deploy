@@ -75,9 +75,20 @@ export type ServerEnv = z.infer<typeof serverEnvSchema>;
 function loadClientEnv(): ClientEnv {
   const metaEnv = typeof import.meta !== "undefined" && import.meta.env ? import.meta.env : undefined;
   const procEnv = typeof process !== "undefined" && process.env ? process.env : {};
-  const rawUrl = metaEnv?.VITE_SITE_URL || procEnv.VITE_SITE_URL;
-  const rawOg = metaEnv?.VITE_DEFAULT_OG_IMAGE || procEnv.VITE_DEFAULT_OG_IMAGE;
+  let rawUrl = metaEnv?.VITE_SITE_URL || procEnv.VITE_SITE_URL;
+  let rawOg = metaEnv?.VITE_DEFAULT_OG_IMAGE || procEnv.VITE_DEFAULT_OG_IMAGE;
   const rawDsn = metaEnv?.VITE_SENTRY_DSN || procEnv.VITE_SENTRY_DSN;
+
+  // Canonicalize apex pianoed.com to www.pianoed.com to eliminate 308 redirect cascades
+  if (rawUrl) {
+    const trimmed = rawUrl.trim().replace(/\/+$/, "");
+    if (trimmed === "https://pianoed.com" || trimmed === "http://pianoed.com") {
+      rawUrl = "https://www.pianoed.com";
+    }
+  }
+  if (rawOg) {
+    rawOg = rawOg.replace(/^https?:\/\/pianoed\.com(\/.*)?$/, "https://www.pianoed.com$1");
+  }
 
   const parsed = clientEnvSchema.safeParse({
     VITE_SITE_URL: rawUrl,
