@@ -88,6 +88,8 @@
   "error.applicationError": "एप्लिकेशन त्रुटि",
   "error.reload": "पुनः लोड करें",
   "error.reloadPage": "जारी रखने के लिए पृष्ठ पुनः लोड करें",
+  "home.welcome": "{name} में आपका स्वागत है",
+  "page.home.welcome": "{name} में आपका स्वागत है",
   "page.home.latest": "नवीनतम",
   "page.about.eyebrow": "परिचय",
   "page.about.title": "{siteName} के बारे में",

@@ -88,6 +88,8 @@
   "error.applicationError": "خطأ في التطبيق",
   "error.reload": "إعادة تحميل",
   "error.reloadPage": "أعد تحميل الصفحة للمتابعة",
+  "home.welcome": "مرحبًا بك في {name}",
+  "page.home.welcome": "مرحبًا بك في {name}",
   "page.home.latest": "الأحدث",
   "page.about.eyebrow": "حول",
   "page.about.title": "حول {siteName}",

@@ -88,6 +88,8 @@
   "error.applicationError": "Anwendungsfehler",
   "error.reload": "Neu laden",
   "error.reloadPage": "Seite neu laden, um fortzufahren",
+  "home.welcome": "Willkommen bei {name}",
+  "page.home.welcome": "Willkommen bei {name}",
   "page.home.latest": "Neueste",
   "page.about.eyebrow": "Über uns",
   "page.about.title": "Über {siteName}",

@@ -11,7 +11,7 @@
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from "react";
 import { SUPPORTED_LOCALES, DEFAULT_LOCALE, getLocale, type LocaleConfig } from "./config";
 import { detectLocale, saveLocalePreference } from "./locale-detector";
-import { loadDictionary, type Dictionary } from "./dictionaries";
+import { loadDictionary, getDictionary, getDefaultDictionary, type Dictionary } from "./dictionaries";
 const COOKIE_KEY = "site-locale";
 export interface I18nContextValue {
   /** Current active locale code (e.g. "en", "hi", "es"). */
@@ -56,9 +56,15 @@ function translate(
   params?: Record<string, string | number>,
 ): string {
   let value: string = key;
-  // Try exact key
+  // Try exact key in active dictionary
   if (key in dict) {
     value = dict[key];
+  } else {
+    // Fallback to default dictionary if available
+    const fallbackDict = getDefaultDictionary();
+    if (key in fallbackDict) {
+      value = fallbackDict[key];
+    }
   }
   // Interpolate params: {name} → value
   if (params) {
@@ -74,16 +80,11 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     if (typeof window === "undefined") return DEFAULT_LOCALE;
     return detectLocale(window.location.pathname);
   });
-  const [dictionary, setDictionary] = useState<Dictionary>({});
-  // Load dictionary when locale changes
+  // Synchronously initialize dictionary to avoid raw key flash on initial render
+  const [dictionary, setDictionary] = useState<Dictionary>(() => getDictionary(locale));
+  // Update dictionary when locale changes
   useEffect(() => {
-    let cancelled = false;
-    loadDictionary(locale).then((dict) => {
-      if (!cancelled) setDictionary(dict);
-    });
-    return () => {
-      cancelled = true;
-    };
+    setDictionary(getDictionary(locale));
   }, [locale]);
   // Update <html> lang and dir attributes
   useEffect(() => {

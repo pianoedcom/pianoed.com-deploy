@@ -88,6 +88,8 @@
   "error.applicationError": "Erreur d'application",
   "error.reload": "Recharger",
   "error.reloadPage": "Rechargez la page pour continuer",
+  "home.welcome": "Bienvenue sur {name}",
+  "page.home.welcome": "Bienvenue sur {name}",
   "page.home.latest": "Derniers articles",
   "page.about.eyebrow": "À propos",
   "page.about.title": "À propos de {siteName}",

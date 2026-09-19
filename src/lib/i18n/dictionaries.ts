@@ -24,30 +24,38 @@ function getRawDictionary(locale: string): Dictionary | null {
 }
 /** The default dictionary — loaded synchronously from the glob. */
 let defaultDict: Dictionary | null = null;
-function getDefaultDictionary(): Dictionary {
+export function getDefaultDictionary(): Dictionary {
   if (defaultDict) return defaultDict;
   defaultDict = getRawDictionary(DEFAULT_LOCALE) ?? {};
   return defaultDict;
+}
+/**
+ * Synchronously get a dictionary for a locale.
+ * Falls back to the default locale's dictionary for missing keys.
+ */
+export function getDictionary(locale: string = DEFAULT_LOCALE): Dictionary {
+  const targetLocale = locale || DEFAULT_LOCALE;
+  if (dictCache.has(targetLocale)) {
+    return dictCache.get(targetLocale)!;
+  }
+  // Start with the default dictionary as the base
+  const dict: Dictionary = { ...getDefaultDictionary() };
+  if (targetLocale !== DEFAULT_LOCALE) {
+    const localeDict = getRawDictionary(targetLocale);
+    if (localeDict) {
+      // Merge — locale-specific keys override defaults
+      Object.assign(dict, localeDict);
+    }
+  }
+  dictCache.set(targetLocale, dict);
+  return dict;
 }
 /**
  * Load a dictionary for a locale.
  * Falls back to the default locale's dictionary for missing keys.
  */
 export async function loadDictionary(locale: string): Promise<Dictionary> {
-  if (dictCache.has(locale)) {
-    return dictCache.get(locale)!;
-  }
-  // Start with the default dictionary as the base
-  const dict: Dictionary = { ...getDefaultDictionary() };
-  if (locale !== DEFAULT_LOCALE) {
-    const localeDict = getRawDictionary(locale);
-    if (localeDict) {
-      // Merge — locale-specific keys override defaults
-      Object.assign(dict, localeDict);
-    }
-  }
-  dictCache.set(locale, dict);
-  return dict;
+  return getDictionary(locale);
 }
 /**
  * Get a list of all available locale codes (those with dictionary files).

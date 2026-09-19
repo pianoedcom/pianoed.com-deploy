@@ -97,14 +97,15 @@ const Home = () => {
             />
             <div className="max-w-xl text-center sm:text-left">
               <p className="eyebrow mb-2">
-                {t("page.home.latest") ? "Welcome to PianoEd" : "Welcome to PianoEd"}
+                {t("home.welcome", { name: "PianoEd" }) || "Welcome to PianoEd"}
               </p>
               <h1 className="display-heading text-2xl text-foreground sm:text-3xl">
-                {t("site.title") || "A love letter to the piano"}
+                {t("site.title") !== "site.title" ? t("site.title") : "PianoEd"}
               </h1>
               <p className="mt-2 text-sm text-muted-foreground sm:text-base">
-                {t("site.description") ||
-                  "Warm, practical guidance for every pianist — from first notes to lifelong mastery."}
+                {t("site.description") !== "site.description"
+                  ? t("site.description")
+                  : "A warm, passionate destination for piano lovers"}
               </p>
             </div>
           </div>
@@ -145,7 +146,7 @@ const Home = () => {
             {/* Latest articles — 2/3 width */}
             <div className="lg:col-span-2">
               <h2 className="mb-6 font-serif text-2xl font-semibold tracking-tight text-foreground">
-                {t("page.home.latest")}
+                {t("page.home.latest") !== "page.home.latest" ? t("page.home.latest") : "Latest"}
               </h2>
               {latestGridPosts === null || latestGridPosts.length === 0 ? (
                 <div className="grid gap-6 sm:grid-cols-2">
