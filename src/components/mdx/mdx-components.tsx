@@ -21,6 +21,16 @@ import SponsoredBadge from "./SponsoredBadge";
 import SheetMusicExcerpt from "./SheetMusicExcerpt";
 import PianoKeyboard from "./PianoKeyboard";
 import PracticeExercise from "./PracticeExercise";
+import { GlossaryItem, Definition, Analogy } from "@/components/glossary";
+import {
+  ExerciseStepGuide,
+  ExerciseMetronomeWidget,
+  ExerciseProgressTracker,
+} from "@/components/exercises";
+import {
+  SheetMusicExternalLinks,
+  SheetMusicDifficultyBadge,
+} from "@/components/sheet-music";
 /**
  * Centralized MDX component registry.
  *
@@ -203,5 +213,16 @@ export const mdxComponents = {
   SheetMusicExcerpt,
   PianoKeyboard,
   PracticeExercise,
+  // --- Exercise-specific components ---
+  ExerciseStepGuide,
+  ExerciseMetronomeWidget,
+  ExerciseProgressTracker,
+  // --- Glossary components ---
+  GlossaryItem,
+  Definition,
+  Analogy,
+  // --- Sheet Music components ---
+  SheetMusicExternalLinks,
+  SheetMusicDifficultyBadge,
 };
 export type MdxComponents = typeof mdxComponents;

@@ -1,7 +1,7 @@
 # PianoEd — Full Content Index
 
 > PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.
-> Generated: 2026-09-19T15:46:43.133Z
+> Generated: 2026-09-19T20:29:44.295Z
 > Articles: 343
 
 ## Categories

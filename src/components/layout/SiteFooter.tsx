@@ -4,6 +4,7 @@ import { track } from "@/lib/analytics";
 import Container from "./Container";
 import CookieSettingsTrigger from "@/components/cookies/CookieSettingsTrigger";
 import FooterNewsletterCTA from "@/components/growth/FooterNewsletterCTA";
+import PianoEdLogo from "@/components/brand/PianoEdLogo";
 
 const exploreNav = [
   { label: "Articles", to: "/articles" },
@@ -41,13 +42,8 @@ const SiteFooter = () => {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand + description */}
           <div className="max-w-xs">
-            <Link
-              to="/"
-              className="font-serif text-lg font-semibold tracking-tight text-foreground transition-opacity hover:opacity-80 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring rounded-sm"
-            >
-              {siteConfig.name}
-            </Link>
-            <p className="mt-2 text-sm text-muted-foreground">{siteConfig.description}</p>
+            <PianoEdLogo variant="footer" showTagline={true} />
+            <p className="mt-3 text-sm text-muted-foreground">{siteConfig.description}</p>
           </div>
           {/* Explore */}
           <nav aria-label="Explore">

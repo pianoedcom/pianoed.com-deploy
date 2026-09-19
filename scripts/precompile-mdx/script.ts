@@ -45,6 +45,8 @@ const rehypeHighlightConfigured = [rehypeHighlight, { lowlight }];
 const CONTENT_DIR = path.resolve(process.cwd(), "content");
 const POSTS_DIR = path.join(CONTENT_DIR, "posts");
 const AUTHORS_DIR = path.join(CONTENT_DIR, "authors");
+const EXERCISES_DIR = path.join(CONTENT_DIR, "exercises");
+const SHEET_MUSIC_DIR = path.join(CONTENT_DIR, "sheet-music");
 const OUTPUT_DIR = path.resolve(process.cwd(), "src/lib/content/__compiled__");
 interface CompileEntry {
   /** Source path (e.g., content/posts/my-post.mdx) */
@@ -89,11 +91,15 @@ async function main() {
   console.log("[precompile-mdx] Discovering MDX files...");
   const postEntries = await discoverFiles(POSTS_DIR, "posts");
   const authorEntries = await discoverFiles(AUTHORS_DIR, "authors");
-  const allEntries = [...postEntries, ...authorEntries];
-  console.log(`[precompile-mdx] Found ${postEntries.length} posts, ${authorEntries.length} authors`);
+  const exerciseEntries = await discoverFiles(EXERCISES_DIR, "exercises");
+  const sheetMusicEntries = await discoverFiles(SHEET_MUSIC_DIR, "sheet-music");
+  const allEntries = [...postEntries, ...authorEntries, ...exerciseEntries, ...sheetMusicEntries];
+  console.log(`[precompile-mdx] Found ${postEntries.length} posts, ${authorEntries.length} authors, ${exerciseEntries.length} exercises, ${sheetMusicEntries.length} sheet music pieces`);
   // Ensure output directories exist
   await mkdir(path.join(OUTPUT_DIR, "posts"), { recursive: true });
   await mkdir(path.join(OUTPUT_DIR, "authors"), { recursive: true });
+  await mkdir(path.join(OUTPUT_DIR, "exercises"), { recursive: true });
+  await mkdir(path.join(OUTPUT_DIR, "sheet-music"), { recursive: true });
   let success = 0;
   let failed = 0;
   for (const entry of allEntries) {

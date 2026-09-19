@@ -25,6 +25,11 @@ const SearchPage = lazy(() => import("@/app/search/page"));
 const ToolsPage = lazy(() => import("@/app/tools/page"));
 const ToolDetailPage = lazy(() => import("@/app/tools/[slug]/page"));
 const ResourcesPage = lazy(() => import("@/app/resources/page"));
+const PianoGlossaryPage = lazy(() => import("@/app/resources/piano-glossary/page"));
+const PracticeExercisesPage = lazy(() => import("@/app/resources/practice-exercises/page"));
+const PracticeExerciseDetailPage = lazy(() => import("@/app/resources/practice-exercises/[slug]/page"));
+const SheetMusicLibraryPage = lazy(() => import("@/app/resources/sheet-music-library/page"));
+const SheetMusicDetailPage = lazy(() => import("@/app/resources/sheet-music-library/[slug]/page"));
 const FAQPage = lazy(() => import("@/app/faq/page"));
 const ContactPage = lazy(() => import("@/app/contact/page"));
 const CookiePolicyPage = lazy(() => import("@/app/cookie-policy/page"));
@@ -237,6 +242,66 @@ const App = () => (
                     <SiteShell>
                       <Suspense fallback={<RouteFallback />}>
                         <ResourcesPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
+                path="/resources/piano-glossary"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <PianoGlossaryPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
+                path="/resources/practice-exercises"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <PracticeExercisesPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
+                path="/resources/practice-exercises/:slug"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <PracticeExerciseDetailPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
+                path="/resources/sheet-music-library"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <SheetMusicLibraryPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
+                path="/resources/sheet-music-library/:slug"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <SheetMusicDetailPage />
                       </Suspense>
                     </SiteShell>
                   </ErrorBoundary>

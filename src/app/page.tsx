@@ -19,8 +19,8 @@ import {
   CategorySectionBlock,
   TrendingSidebar,
   FeaturedAuthorSpotlight,
+  LandingHero,
 } from "@/components/home";
-import { MascotHero } from "@/components/brand/Mascot";
 import { useI18n } from "@/lib/i18n/context";
 /**
  * Homepage — "Fast-Paced Newsroom" editorial layout.
@@ -85,32 +85,12 @@ const Home = () => {
   const featuredAuthor = authors?.[0] ?? null;
   return (
     <>
+      {/* Luxurious Classical Landing Hero with 3-Pillar Feature Strip */}
+      <LandingHero />
+
       {/* Breaking news ticker */}
       {tickerPosts && tickerPosts.length > 0 ? <TrendingTicker posts={tickerPosts} /> : null}
-      {/* Brand intro — piano keys illustration */}
-      <section className="border-b border-border bg-secondary/40">
-        <Container className="py-6 sm:py-8" width="default">
-          <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-center sm:gap-10">
-            <MascotHero
-              className="h-28 w-auto sm:h-32"
-              title="PianoEd — a love letter to the piano"
-            />
-            <div className="max-w-xl text-center sm:text-left">
-              <p className="eyebrow mb-2">
-                {t("home.welcome", { name: "PianoEd" }) || "Welcome to PianoEd"}
-              </p>
-              <h1 className="display-heading text-2xl text-foreground sm:text-3xl">
-                {t("site.title") !== "site.title" ? t("site.title") : "PianoEd"}
-              </h1>
-              <p className="mt-2 text-sm text-muted-foreground sm:text-base">
-                {t("site.description") !== "site.description"
-                  ? t("site.description")
-                  : "A warm, passionate destination for piano lovers"}
-              </p>
-            </div>
-          </div>
-        </Container>
-      </section>
+
       {/* Hero editorial grid */}
       <section className="border-b border-border">
         <Container className="py-8 sm:py-10" width="default">

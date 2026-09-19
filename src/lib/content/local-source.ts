@@ -41,7 +41,7 @@ const authorFiles = import.meta.glob<string>("/content/authors/*.{mdx,md}", {
  */
 export const compiledPostModules = import.meta.glob<{
   default: ComponentType<{ components?: Record<string, unknown> }>;
-}>("/src/lib/content/__compiled__/posts/*.js", {
+}>("/src/lib/content/__compiled__/**/*.js", {
   eager: true,
 });
 /**

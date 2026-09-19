@@ -7,7 +7,7 @@ import type { NavItem, NavChildItem, NavMenuGroup } from "@/lib/config/navigatio
 /* ── Badge component ────────────────────────────────────────────────────── */
 function NavBadge({ variant, text }: { variant: "new" | "beta" | "hot"; text: string }) {
   const styles: Record<string, string> = {
-    new: "bg-accent/15 text-accent border-accent/30",
+    new: "bg-[#d4af37]/25 text-[#fcedc0] border-[#d4af37]/60 shadow-[0_0_8px_rgba(212,175,55,0.2)]",
     beta: "bg-secondary text-secondary-foreground border-border",
     hot: "bg-destructive/10 text-destructive border-destructive/30",
   };
