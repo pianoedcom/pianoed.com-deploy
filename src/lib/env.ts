@@ -94,8 +94,8 @@ function loadClientEnv(): ClientEnv {
       );
     }
     return {
-      VITE_SITE_URL: "https://pianoed.com",
-      VITE_DEFAULT_OG_IMAGE: "https://pianoed.com/og/default.png",
+      VITE_SITE_URL: "https://www.pianoed.com",
+      VITE_DEFAULT_OG_IMAGE: "https://www.pianoed.com/og/default.png",
       VITE_SENTRY_DSN: "",
     };
   }

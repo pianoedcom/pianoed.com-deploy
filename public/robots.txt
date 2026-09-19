@@ -4,4 +4,4 @@ Disallow: /search
 Disallow: /api
 Disallow: /contact
 
-Sitemap: https://pianoed.com/sitemap.xml
+Sitemap: https://www.pianoed.com/sitemap.xml

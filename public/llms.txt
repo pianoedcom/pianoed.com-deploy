@@ -4,21 +4,21 @@
 
 ## Key Pages
 
-- [Home](https://pianoed.com): Main site with latest articles
-- [Articles](https://pianoed.com/articles): Complete article archive
-- [Blog](https://pianoed.com/blog): Blog index
-- [Search](https://pianoed.com/search): Search all content
-- [About](https://pianoed.com/about): About PianoEd
-- [Contact](https://pianoed.com/contact): Contact information
-- [FAQ](https://pianoed.com/faq): Frequently asked questions
+- [Home](https://www.pianoed.com): Main site with latest articles
+- [Articles](https://www.pianoed.com/articles): Complete article archive
+- [Blog](https://www.pianoed.com/blog): Blog index
+- [Search](https://www.pianoed.com/search): Search all content
+- [About](https://www.pianoed.com/about): About PianoEd
+- [Contact](https://www.pianoed.com/contact): Contact information
+- [FAQ](https://www.pianoed.com/faq): Frequently asked questions
 
 ## Feeds
 
-- [RSS Feed](https://pianoed.com/feed.xml): RSS 2.0 feed
-- [Atom Feed](https://pianoed.com/atom.xml): Atom 1.0 feed
-- [JSON Feed](https://pianoed.com/feed.json): JSON Feed 1.1
-- [Sitemap](https://pianoed.com/sitemap.xml): XML sitemap
+- [RSS Feed](https://www.pianoed.com/feed.xml): RSS 2.0 feed
+- [Atom Feed](https://www.pianoed.com/atom.xml): Atom 1.0 feed
+- [JSON Feed](https://www.pianoed.com/feed.json): JSON Feed 1.1
+- [Sitemap](https://www.pianoed.com/sitemap.xml): XML sitemap
 
 ## Optional
 
-- [Full Content Index](https://pianoed.com/llms-full.txt): Complete article index with descriptions
+- [Full Content Index](https://www.pianoed.com/llms-full.txt): Complete article index with descriptions
