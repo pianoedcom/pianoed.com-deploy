@@ -11,7 +11,7 @@ import CookieSettingsTrigger from "@/components/cookies/CookieSettingsTrigger";
 import SlideInNewsletter from "@/components/growth/SlideInNewsletter";
 import { initTagLoader, listenForConsentChanges } from "@/lib/cookies/tag-loader";
 import { readConsent } from "@/lib/cookies/consent";
-import { setAnalyticsConsent } from "@/lib/analytics";
+import { setAnalyticsConsent, loadAnalyticsConfig } from "@/lib/analytics";
 // Lazy-load the cookie preferences modal — only needed when user clicks "Customize"
 const CookiePreferencesModal = lazy(() =>
   import("@/components/cookies/CookiePreferencesModal").then((m) => ({ default: m.default })),
@@ -30,15 +30,28 @@ const SiteShell = ({ children }: SiteShellProps) => {
   useEffect(() => {
     // Initialize tag loader with any existing consent
     initTagLoader();
-    // Sync analytics consent with cookie consent state
-    const existing = readConsent();
-    if (existing) {
-      setAnalyticsConsent(existing.categories.analytics ?? false);
+
+    const analyticsConfig = loadAnalyticsConfig();
+    const isAnalyticsOptIn = analyticsConfig?.consentMode === "opt-in";
+
+    // Sync analytics consent with cookie consent state only in opt-in mode
+    if (isAnalyticsOptIn) {
+      const existing = readConsent();
+      if (existing) {
+        setAnalyticsConsent(existing.categories.analytics ?? false);
+      }
+    } else {
+      setAnalyticsConsent(true);
     }
+
     // Listen for consent changes to dynamically load/unload scripts
     const cleanup = listenForConsentChanges();
     // Also sync analytics consent on consent changes
     const syncAnalytics = (e: Event) => {
+      if (!isAnalyticsOptIn) {
+        setAnalyticsConsent(true);
+        return;
+      }
       const customEvent = e as CustomEvent;
       const state = customEvent.detail;
       setAnalyticsConsent(state?.categories?.analytics ?? false);

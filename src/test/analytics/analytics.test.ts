@@ -134,5 +134,29 @@ describe("Analytics Module & GA4 Integration", () => {
         }),
       );
     });
+
+    it("allows events when consentMode is off", () => {
+      const gtagMock = vi.fn();
+      window.gtag = gtagMock;
+
+      const config = {
+        provider: "ga4",
+        gaMeasurementId: "G-EE642LR6FH",
+        consentMode: "off" as const,
+      };
+      const provider = createProvider(config);
+      setAnalyticsProvider(provider);
+      setAnalyticsConsent(true);
+
+      expect(isAnalyticsConsentGranted()).toBe(true);
+      trackPageView("/about");
+      expect(gtagMock).toHaveBeenCalledWith(
+        "event",
+        "page_view",
+        expect.objectContaining({
+          page_path: "/about",
+        }),
+      );
+    });
   });
 });

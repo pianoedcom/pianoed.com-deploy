@@ -6,6 +6,570 @@
   "description": "PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.",
   "items": [
     {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-ar",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-ar",
+      "title": "نوتات بيانو الجاز: توصيات أساسية",
+      "content_text": "من fake books لصولوهات منقولة، اكتشف أفضل موارد نوتات بيانو الجاز لعازفين في كل مستوى.",
+      "summary": "من fake books لصولوهات منقولة، اكتشف أفضل موارد نوتات بيانو الجاز لعازفين في كل مستوى.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-de",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-de",
+      "title": "Jazz-Klaviernoten: Wesentliche Empfehlungen",
+      "content_text": "Von Fake Books bis zu transkribierten Solos — entdecken Sie die besten Jazz-Klaviernoten-Ressourcen für Spieler aller Niveaus.",
+      "summary": "Von Fake Books bis zu transkribierten Solos — entdecken Sie die besten Jazz-Klaviernoten-Ressourcen für Spieler aller Niveaus.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-es",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-es",
+      "title": "Partitura de piano de jazz: recomendaciones esenciales",
+      "content_text": "De fake books a solos transcritos, descubre los mejores recursos de partitura de piano de jazz para músicos de todos los niveles.",
+      "summary": "De fake books a solos transcritos, descubre los mejores recursos de partitura de piano de jazz para músicos de todos los niveles.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-fr",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-fr",
+      "title": "Partitions de piano jazz : recommandations essentielles",
+      "content_text": "Des fake books aux solos transcrits, découvrez les meilleures ressources de partitions de piano jazz pour les joueurs de tous niveaux.",
+      "summary": "Des fake books aux solos transcrits, découvrez les meilleures ressources de partitions de piano jazz pour les joueurs de tous niveaux.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-hi",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations-hi",
+      "title": "जैज़ पियानो शीट म्यूज़िक: आवश्यक अनुशंसाएँ",
+      "content_text": "फ़ेक बुक्स से लेकर ट्रांसक्राइब किए एकल तक, हर स्तर के वादकों के लिए सर्वश्रेष्ठ जैज़ पियानो शीट म्यूज़िक संसाधनों की खोज करें।",
+      "summary": "फ़ेक बुक्स से लेकर ट्रांसक्राइब किए एकल तक, हर स्तर के वादकों के लिए सर्वश्रेष्ठ जैज़ पियानो शीट म्यूज़िक संसाधनों की खोज करें।",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations",
+      "url": "https://pianoed.com/blog/jazz-piano-sheet-music-recommendations",
+      "title": "Jazz Piano Sheet Music: Essential Recommendations",
+      "content_text": "From fake books to transcribed solos, discover the best jazz piano sheet music resources for players at every level.",
+      "summary": "From fake books to transcribed solos, discover the best jazz piano sheet music resources for players at every level.",
+      "date_published": "2026-09-19T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Sheet Music & Practice",
+        "Sheet Music",
+        "Jazz",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-ar",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-ar",
+      "title": "ارتجال بيانو الجاز: دليل المبتدئين",
+      "content_text": "تريد الارتجال على البيانو لكن لا تعرف من أين تبدأ؟ هذا الدليل الدافئ العملي يحلل ارتجال الجاز لخطوات قابلة للوصول.",
+      "summary": "تريد الارتجال على البيانو لكن لا تعرف من أين تبدأ؟ هذا الدليل الدافئ العملي يحلل ارتجال الجاز لخطوات قابلة للوصول.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-de",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-de",
+      "title": "Jazz-Klavierimprovisation: Ein Leitfaden für Anfänger",
+      "content_text": "Sie möchten auf dem Klavier improvisieren, wissen aber nicht, wo Sie anfangen sollen? Dieser warme, praktische Leitfaden zerlegt die Jazzimprovisation in machbare Schritte.",
+      "summary": "Sie möchten auf dem Klavier improvisieren, wissen aber nicht, wo Sie anfangen sollen? Dieser warme, praktische Leitfaden zerlegt die Jazzimprovisation in machbare Schritte.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-es",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-es",
+      "title": "Improvisación de piano de jazz: una guía para principiantes",
+      "content_text": "¿Quieres improvisar al piano pero no sabes por dónde empezar? Esta guía cálida y práctica desglosa la improvisación de jazz en pasos abordables.",
+      "summary": "¿Quieres improvisar al piano pero no sabes por dónde empezar? Esta guía cálida y práctica desglosa la improvisación de jazz en pasos abordables.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-fr",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-fr",
+      "title": "Improvisation au piano jazz : un guide pour débutants",
+      "content_text": "Vous voulez improviser au piano mais ne savez pas par où commencer ? Ce guide chaleureux et pratique décompose l'improvisation jazz en étapes abordables.",
+      "summary": "Vous voulez improviser au piano mais ne savez pas par où commencer ? Ce guide chaleureux et pratique décompose l'improvisation jazz en étapes abordables.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-hi",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide-hi",
+      "title": "जैज़ पियानो तत्कालकरण: एक शुरुआती गाइड",
+      "content_text": "पियानो पर तत्कालकरण करना चाहते लेकिन कहाँ से शुरू करें पता नहीं? यह गर्म, व्यावहारिक गाइड जैज़ तत्कालकरण को सुलभ चरणों में तोड़ती।",
+      "summary": "पियानो पर तत्कालकरण करना चाहते लेकिन कहाँ से शुरू करें पता नहीं? यह गर्म, व्यावहारिक गाइड जैज़ तत्कालकरण को सुलभ चरणों में तोड़ती।",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide",
+      "url": "https://pianoed.com/blog/jazz-piano-improvisation-basics-guide",
+      "title": "Jazz Piano Improvisation: A Beginner's Guide",
+      "content_text": "Want to improvise on piano but don't know where to start? This warm, practical guide breaks down jazz improvisation into approachable steps.",
+      "summary": "Want to improvise on piano but don't know where to start? This warm, practical guide breaks down jazz improvisation into approachable steps.",
+      "date_published": "2026-09-17T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Piano"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-ar",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-ar",
+      "title": "تاريخ بيانو الجاز: الأساطير الذين شكّلوا النوع",
+      "content_text": "من الراجتايم للبيبوب للجاز modal، استكشف عازفي البيانو والحركات التي جعلت البيانو حجر زاوية لموسيقى الجاز.",
+      "summary": "من الراجتايم للبيبوب للجاز modal، استكشف عازفي البيانو والحركات التي جعلت البيانو حجر زاوية لموسيقى الجاز.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-de",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-de",
+      "title": "Jazz-Klavier-Geschichte: Die Legenden, die die Gattung prägten",
+      "content_text": "Von Ragtime über Bebop bis zum modalen Jazz — erkunden Sie die Pianisten und Strömungen, die das Klavier zu einem Eckpfeiler der Jazzmusik machten.",
+      "summary": "Von Ragtime über Bebop bis zum modalen Jazz — erkunden Sie die Pianisten und Strömungen, die das Klavier zu einem Eckpfeiler der Jazzmusik machten.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-es",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-es",
+      "title": "Historia del piano de jazz: las leyendas que dieron forma al género",
+      "content_text": "Del ragtime al bebop y al jazz modal, explora los pianistas y movimientos que hicieron del piano una piedra angular de la música jazz.",
+      "summary": "Del ragtime al bebop y al jazz modal, explora los pianistas y movimientos que hicieron del piano una piedra angular de la música jazz.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-fr",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-fr",
+      "title": "Histoire du piano jazz : les légendes qui ont façonné le genre",
+      "content_text": "Du ragtime au bebop au jazz modal, explorez les pianistes et les mouvements qui ont fait du piano une pierre angulaire de la musique jazz.",
+      "summary": "Du ragtime au bebop au jazz modal, explorez les pianistes et les mouvements qui ont fait du piano une pierre angulaire de la musique jazz.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-hi",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players-hi",
+      "title": "जैज़ पियानो इतिहास: दिग्गज जिन्होंने विधा को आकार दिया",
+      "content_text": "रैगटाइम से लेकर बेबॉप से लेकर मॉडल जैज़ तक, उन पियानोवादकों और आंदोलनों का अन्वेषण करें जिन्होंने पियानो को जैज़ संगीत की आधारशिला बनाया।",
+      "summary": "रैगटाइम से लेकर बेबॉप से लेकर मॉडल जैज़ तक, उन पियानोवादकों और आंदोलनों का अन्वेषण करें जिन्होंने पियानो को जैज़ संगीत की आधारशिला बनाया।",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players",
+      "url": "https://pianoed.com/blog/jazz-piano-history-and-legendary-players",
+      "title": "Jazz Piano History: The Legends Who Shaped the Genre",
+      "content_text": "From ragtime to bebop to modal jazz, explore the pianists and movements that made the piano a cornerstone of jazz music.",
+      "summary": "From ragtime to bebop to modal jazz, explore the pianists and movements that made the piano a cornerstone of jazz music.",
+      "date_published": "2026-09-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "History & Culture",
+        "Jazz",
+        "Pianists",
+        "History"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide-ar",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide-ar",
+      "title": "دليل موسيقى الـImpromptu للبيانو",
+      "content_text": "اكتشف الـimpromptu — أكثر أنواع البيانو عفوية الصوت — عبر شوبرت وشوبان والرومانسيين الذين جعلوه يغنّي.",
+      "summary": "اكتشف الـimpromptu — أكثر أنواع البيانو عفوية الصوت — عبر شوبرت وشوبان والرومانسيين الذين جعلوه يغنّي.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide-de",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide-de",
+      "title": "Impromptu — Leitfaden zur Klaviermusik dieser Gattung",
+      "content_text": "Entdecken Sie das Impromptu — die spontanst klingende Gattung des Klaviers — durch Schubert, Chopin und die Romantiker, die es zum Singen brachten.",
+      "summary": "Entdecken Sie das Impromptu — die spontanst klingende Gattung des Klaviers — durch Schubert, Chopin und die Romantiker, die es zum Singen brachten.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide-es",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide-es",
+      "title": "Guía de la música de impromptu para piano",
+      "content_text": "Descubre el impromptu — el género del piano que más espontáneo suena — a través de Schubert, Chopin y los románticos que lo hicieron cantar.",
+      "summary": "Descubre el impromptu — el género del piano que más espontáneo suena — a través de Schubert, Chopin y los románticos que lo hicieron cantar.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide-fr",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide-fr",
+      "title": "Guide de l'impromptu pour piano",
+      "content_text": "Découvrez l'impromptu — le genre le plus spontané du piano — à travers Schubert, Chopin, et les Romantiques qui l'ont fait chanter.",
+      "summary": "Découvrez l'impromptu — le genre le plus spontané du piano — à travers Schubert, Chopin, et les Romantiques qui l'ont fait chanter.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide-hi",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide-hi",
+      "title": "इम्प्रॉम्प्टू पियानो संगीत गाइड",
+      "content_text": "इम्प्रॉम्प्टू की खोज करें — पियानो की सबसे स्वतःस्फूर्त-लगने वाली विधा — शुबर्ट, शोपाँ, और रोमांटिकों के माध्यम से जिन्होंने इसे गाया।",
+      "summary": "इम्प्रॉम्प्टू की खोज करें — पियानो की सबसे स्वतःस्फूर्त-लगने वाली विधा — शुबर्ट, शोपाँ, और रोमांटिकों के माध्यम से जिन्होंने इसे गाया।",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/impromptu-piano-music-guide",
+      "url": "https://pianoed.com/blog/impromptu-piano-music-guide",
+      "title": "Impromptu Piano Music Guide",
+      "content_text": "Discover the impromptu — the piano's most spontaneous-sounding genre — through Schubert, Chopin, and the Romantics who made it sing.",
+      "summary": "Discover the impromptu — the piano's most spontaneous-sounding genre — through Schubert, Chopin, and the Romantics who made it sing.",
+      "date_published": "2026-09-14T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "History Writer"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Classical",
+        "Sheet Music"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-ar",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-ar",
+      "title": "كيف تعزف التريل على البيانو بتحكم",
+      "content_text": "تعلّم عزف تريلات بيانو نظيفة متحكم بها — من تقنية الأصابع الأساسية لبناء السرعة، الحفاظ على الاسترخاء، وتطبيق التريلات في الرابيرتوار.",
+      "summary": "تعلّم عزف تريلات بيانو نظيفة متحكم بها — من تقنية الأصابع الأساسية لبناء السرعة، الحفاظ على الاسترخاء، وتطبيق التريلات في الرابيرتوار.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-de",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-de",
+      "title": "Triller mit Kontrolle spielen — Klavier-Leitfaden",
+      "content_text": "Lernen Sie, saubere, kontrollierte Klaviertriller zu spielen — von der grundlegenden Fingertechnik über Geschwindigkeitsaufbau und Entspannung bis zur Anwendung im Repertoire.",
+      "summary": "Lernen Sie, saubere, kontrollierte Klaviertriller zu spielen — von der grundlegenden Fingertechnik über Geschwindigkeitsaufbau und Entspannung bis zur Anwendung im Repertoire.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-es",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-es",
+      "title": "Cómo hacer trinos en el piano con control",
+      "content_text": "Aprende a tocar trinos de piano limpios y controlados — desde la técnica básica de dedos hasta construir velocidad, mantener la relajación y aplicar trinos en el repertorio.",
+      "summary": "Aprende a tocar trinos de piano limpios y controlados — desde la técnica básica de dedos hasta construir velocidad, mantener la relajación y aplicar trinos en el repertorio.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-fr",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-fr",
+      "title": "Comment triller au piano avec contrôle",
+      "content_text": "Apprenez à jouer des trilles propres et contrôlés au piano — de la technique digitale de base au développement de la vitesse, au maintien de la relaxation et à l'application des trilles dans le répertoire.",
+      "summary": "Apprenez à jouer des trilles propres et contrôlés au piano — de la technique digitale de base au développement de la vitesse, au maintien de la relaxation et à l'application des trilles dans le répertoire.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-hi",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control-hi",
+      "title": "नियंत्रण के साथ पियानो पर ट्रिल कैसे बजाएँ",
+      "content_text": "स्वच्छ, नियंत्रित पियानो ट्रिल बजाना सीखें — बुनियादी उँगली तकनीक से लेकर गति बनाने, विश्राम बनाए रखने, और रिपर्टरी में ट्रिल लागू करने तक।",
+      "summary": "स्वच्छ, नियंत्रित पियानो ट्रिल बजाना सीखें — बुनियादी उँगली तकनीक से लेकर गति बनाने, विश्राम बनाए रखने, और रिपर्टरी में ट्रिल लागू करने तक।",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
+      "id": "https://pianoed.com/blog/how-to-trill-on-piano-with-control",
+      "url": "https://pianoed.com/blog/how-to-trill-on-piano-with-control",
+      "title": "How to Trill on Piano with Control",
+      "content_text": "Learn to play clean, controlled piano trills — from basic finger technique to building speed, maintaining relaxation, and applying trills in repertoire.",
+      "summary": "Learn to play clean, controlled piano trills — from basic finger technique to building speed, maintaining relaxation, and applying trills in repertoire.",
+      "date_published": "2026-09-13T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Learning & Technique",
+        "Technique",
+        "Practice",
+        "Classical"
+      ]
+    },
+    {
       "id": "https://pianoed.com/blog/how-to-read-piano-sheet-music-fast-ar",
       "url": "https://pianoed.com/blog/how-to-read-piano-sheet-music-fast-ar",
       "title": "كيف تقرأ نوتات البيانو بسرعة: طريقة المبتدئين",

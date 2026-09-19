@@ -39,18 +39,18 @@ const Analytics = () => {
     }
 
     // Apply consent mode: check both cookie consent store and legacy storage key
-    const cookieConsent = readConsent();
-    const hasPriorConsent =
-      cookieConsent?.categories?.analytics ??
-      (() => {
-        try {
-          return localStorage.getItem(ANALYTICS_CONSENT_STORAGE_KEY) === "granted";
-        } catch {
-          return false;
-        }
-      })();
-
-    if (config.consentMode === "opt-in") {
+    const isOptIn = config.consentMode === "opt-in";
+    if (isOptIn) {
+      const cookieConsent = readConsent();
+      const hasPriorConsent =
+        cookieConsent?.categories?.analytics ??
+        (() => {
+          try {
+            return localStorage.getItem(ANALYTICS_CONSENT_STORAGE_KEY) === "granted";
+          } catch {
+            return false;
+          }
+        })();
       setAnalyticsConsent(hasPriorConsent);
     } else {
       setAnalyticsConsent(true);
@@ -107,9 +107,13 @@ function injectProviderScripts(config: AnalyticsConfig): void {
       window.gtag("js", new Date());
 
       // Set Google Consent Mode v2 default
-      const currentConsent = isAnalyticsConsentGranted();
+      const isOptIn = config.consentMode === "opt-in";
+      const currentConsent = isOptIn ? isAnalyticsConsentGranted() : true;
       window.gtag("consent", "default", {
         analytics_storage: currentConsent ? "granted" : "denied",
+        ad_storage: currentConsent ? "granted" : "denied",
+        ad_user_data: currentConsent ? "granted" : "denied",
+        ad_personalization: currentConsent ? "granted" : "denied",
       });
 
       // Standard GA4 config (DO NOT pass send_page_view: false; automatically dispatches initial beacon)
