@@ -72,7 +72,7 @@ const FAQPage = () => {
         <div className="mb-8">
           <p className="eyebrow mb-2">{t("page.faq.eyebrow")}</p>
           <h1 className="display-heading text-4xl">{t("page.faq.title")}</h1>
-          <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
+          <p className="mt-3 text-lg text-muted-foreground">
             {t("page.faq.subtitle")}{" "}
             <a href="/contact" className="text-accent hover:underline">
               {t("page.faq.contactUs")}

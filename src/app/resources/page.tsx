@@ -30,7 +30,7 @@ const ResourcesPage = () => {
         <div className="mb-10">
           <p className="eyebrow mb-2">{t("page.resources.eyebrow")}</p>
           <h1 className="display-heading text-4xl">{t("page.resources.title")}</h1>
-          <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
+          <p className="mt-3 text-lg text-muted-foreground">
             {t("page.resources.subtitle")}
           </p>
         </div>

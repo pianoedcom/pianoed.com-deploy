@@ -24,7 +24,7 @@ const ToolsPage = () => {
         <div className="mb-10">
           <p className="eyebrow mb-2">{t("page.tools.eyebrow")}</p>
           <h1 className="display-heading text-4xl">{t("page.tools.title")}</h1>
-          <p className="mt-3 max-w-2xl text-lg text-muted-foreground">{t("page.tools.subtitle")}</p>
+          <p className="mt-3 text-lg text-muted-foreground">{t("page.tools.subtitle")}</p>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {enabledTools.map((tool) => {

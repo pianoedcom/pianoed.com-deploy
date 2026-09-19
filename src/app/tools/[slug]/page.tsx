@@ -39,7 +39,7 @@ const ToolDetailPage = () => {
         <header className="mb-8">
           <p className="eyebrow mb-2">{tool.type}</p>
           <h1 className="display-heading mb-3 text-4xl text-foreground">{tool.title}</h1>
-          <p className="max-w-2xl text-lg text-muted-foreground">{tool.description}</p>
+          <p className="text-lg text-muted-foreground">{tool.description}</p>
         </header>
         <div className="rounded-xl border border-border bg-card p-6 sm:p-8">
           <Suspense

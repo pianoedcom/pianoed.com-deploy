@@ -30,7 +30,7 @@ const TaxonomyHeader = ({
       <p className="eyebrow mb-3">{eyebrow}</p>
       <h1 className="display-heading mb-4 text-3xl text-foreground sm:text-4xl">{title}</h1>
       {description ? (
-        <p className="max-w-2xl text-lg text-muted-foreground">{description}</p>
+        <p className="text-lg text-muted-foreground">{description}</p>
       ) : null}
       {children}
     </header>
