@@ -6,6 +6,25 @@
   "description": "PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.",
   "items": [
     {
+      "id": "https://www.pianoed.com/blog/jazz-piano-voicings-for-intermediate-players",
+      "url": "https://www.pianoed.com/blog/jazz-piano-voicings-for-intermediate-players",
+      "title": "Jazz Piano Voicings for Intermediate Players",
+      "content_text": "Level up your jazz piano with essential voicings — learn rootless voicings, drop-2, drop-3, quartal voicings, and how to apply them to standards.",
+      "summary": "Level up your jazz piano with essential voicings — learn rootless voicings, drop-2, drop-3, quartal voicings, and how to apply them to standards.",
+      "date_published": "2026-09-20T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "Editor-in-Chief"
+        }
+      ],
+      "tags": [
+        "Genres & Repertoire",
+        "Jazz",
+        "Technique",
+        "Practice"
+      ]
+    },
+    {
       "id": "https://www.pianoed.com/blog/jazz-piano-sheet-music-recommendations-ar",
       "url": "https://www.pianoed.com/blog/jazz-piano-sheet-music-recommendations-ar",
       "title": "نوتات بيانو الجاز: توصيات أساسية",

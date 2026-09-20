@@ -368,6 +368,18 @@ const App = () => (
                 }
               />
               <Route
+                path="/:locale/about"
+                element={
+                  <ErrorBoundary FallbackComponent={RouteError}>
+                    <SiteShell>
+                      <Suspense fallback={<RouteFallback />}>
+                        <AboutPage />
+                      </Suspense>
+                    </SiteShell>
+                  </ErrorBoundary>
+                }
+              />
+              <Route
                 path="/pages/*"
                 element={
                   <ErrorBoundary FallbackComponent={RouteError}>

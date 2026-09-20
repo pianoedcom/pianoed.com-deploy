@@ -42,7 +42,7 @@ export const SheetMusicDetailLayout: React.FC<SheetMusicDetailLayoutProps> = ({ 
   const eraConf = eraStyles[piece.era] || eraStyles.Classical;
 
   return (
-    <Container className="py-8" width="wide">
+    <Container className="py-8" width="default">
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-6">
         <ol className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">

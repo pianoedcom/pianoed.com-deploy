@@ -1,13 +1,13 @@
 # PianoEd — Full Content Index
 
 > PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.
-> Generated: 2026-09-19T20:29:44.295Z
-> Articles: 343
+> Generated: 2026-09-20T00:08:38.437Z
+> Articles: 344
 
 ## Categories
 
-- Sheet Music & Practice: https://www.pianoed.com/category/sheet-music-practice
 - Genres & Repertoire: https://www.pianoed.com/category/genres-repertoire
+- Sheet Music & Practice: https://www.pianoed.com/category/sheet-music-practice
 - History & Culture: https://www.pianoed.com/category/history-culture
 - Learning & Technique: https://www.pianoed.com/category/learning-technique
 - Piano Technology: https://www.pianoed.com/category/piano-technology
@@ -17,8 +17,8 @@
 ## Tags
 
 - Piano: https://www.pianoed.com/tag/piano
-- Beginners: https://www.pianoed.com/tag/beginners
 - Practice: https://www.pianoed.com/tag/practice
+- Beginners: https://www.pianoed.com/tag/beginners
 - Technique: https://www.pianoed.com/tag/technique
 - Digital Pianos: https://www.pianoed.com/tag/digital-pianos
 - Accessories: https://www.pianoed.com/tag/accessories
@@ -40,6 +40,14 @@
 - History Writer: https://www.pianoed.com/author/history-writer
 
 ## Articles
+
+### Jazz Piano Voicings for Intermediate Players
+- URL: https://www.pianoed.com/blog/jazz-piano-voicings-for-intermediate-players
+- Date: 2026-09-20T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Genres & Repertoire
+- Tags: Jazz, Technique, Practice
+- Description: Level up your jazz piano with essential voicings — learn rootless voicings, drop-2, drop-3, quartal voicings, and how to apply them to standards.
 
 ### نوتات بيانو الجاز: توصيات أساسية
 - URL: https://www.pianoed.com/blog/jazz-piano-sheet-music-recommendations-ar

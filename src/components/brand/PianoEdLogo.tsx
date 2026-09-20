@@ -61,8 +61,10 @@ export const PianoEdLogo: React.FC<PianoEdLogoProps> = ({
           {showTagline && (
             <span
               className={cn(
-                "italic font-serif tracking-tight text-[#d4af37] leading-none opacity-95 whitespace-nowrap",
-                isLarge ? "text-sm sm:text-base" : "text-[11px] sm:text-[11.5px]"
+                "italic font-serif text-[#d4af37] leading-none opacity-95 whitespace-nowrap",
+                isLarge
+                  ? "text-sm sm:text-base tracking-[0.03em]"
+                  : "text-[11px] sm:text-[11.5px] tracking-[0.022em]"
               )}
               style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
             >

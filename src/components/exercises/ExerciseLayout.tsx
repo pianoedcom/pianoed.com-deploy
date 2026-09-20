@@ -16,7 +16,7 @@ export const ExerciseLayout: React.FC<ExerciseLayoutProps> = ({ exercise, childr
   const [selectedBpm, setSelectedBpm] = useState<number | undefined>(exercise.startingTempo);
 
   return (
-    <Container className="py-8" width="wide">
+    <Container className="py-8" width="default">
       {/* Breadcrumb Navigation */}
       <nav aria-label="Breadcrumb" className="mb-6">
         <ol className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">

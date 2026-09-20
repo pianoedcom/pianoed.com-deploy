@@ -65,7 +65,7 @@ const SheetMusicLibraryPage: React.FC = () => {
         locale={locale}
       />
 
-      <Container className="py-10" width="wide">
+      <Container className="py-10" width="default">
         {/* Breadcrumb */}
         <nav aria-label="Breadcrumb" className="mb-6">
           <ol className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">

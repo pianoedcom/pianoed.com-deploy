@@ -199,14 +199,16 @@ export function MegaMenu({ item }: { item: NavItem }) {
   }, [open, closeMenu]);
   return (
     <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <div className="flex items-center gap-1">
+      <div className="group flex items-center gap-1.5">
         <NavLink
           to={item.href}
           end
           className={({ isActive }) =>
             cn(
-              "text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring rounded-sm",
-              isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground",
+              "text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d4af37] rounded-sm",
+              isActive
+                ? "text-[#fce4a6] font-semibold drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]"
+                : "text-[#f5ecd7] hover:text-[#d4af37]"
             )
           }
         >
@@ -223,12 +225,36 @@ export function MegaMenu({ item }: { item: NavItem }) {
           }}
           aria-haspopup="menu"
           aria-expanded={open}
-          className="rounded-sm p-1 text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+          className="rounded-full p-0.5 transition-all focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d4af37]"
         >
-          <ChevronDown
-            className={cn("h-3.5 w-3.5 transition-transform duration-150", open && "rotate-180")}
-            aria-hidden
-          />
+          {/* Creative Classical Ornate Chevron Medallion */}
+          <span
+            className={cn(
+              "inline-flex items-center justify-center h-[18px] w-[18px] rounded-full border transition-all duration-300",
+              open
+                ? "border-[#d4af37] bg-[#d4af37]/25 shadow-[0_0_10px_rgba(212,175,55,0.5)]"
+                : "border-[#d4af37]/45 bg-[#180507]/80 group-hover:border-[#d4af37] group-hover:bg-[#d4af37]/20 group-hover:shadow-[0_0_8px_rgba(212,175,55,0.35)]"
+            )}
+          >
+            <svg
+              className={cn(
+                "h-2.5 w-2.5 text-[#e8c868] transition-transform duration-300 group-hover:text-[#fff0c8]",
+                open && "rotate-180"
+              )}
+              viewBox="0 0 10 10"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.2 3.5L5 6.3L7.8 3.5"
+                stroke="currentColor"
+                strokeWidth="1.4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <circle cx="5" cy="4.2" r="0.6" fill="currentColor" />
+            </svg>
+          </span>
           <VisuallyHidden>Toggle {item.label} menu</VisuallyHidden>
         </button>
       </div>

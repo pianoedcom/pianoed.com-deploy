@@ -93,10 +93,10 @@ export function LanguageSelector({ variant = "compact", className }: LanguageSel
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t("language.selectLanguage")}
-        className="flex items-center gap-1.5 rounded-md p-1.5 text-muted-foreground transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+        className="flex items-center gap-1.5 rounded-md p-1.5 text-[#f5ecd7] hover:text-[#d4af37] hover:bg-white/10 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d4af37]"
       >
         <Globe className="h-4 w-4" aria-hidden />
-        <span className="text-xs font-medium uppercase">{currentLocale?.code ?? locale}</span>
+        <span className="text-xs font-medium uppercase tracking-wide">{currentLocale?.code ?? locale}</span>
       </button>
       {open && (
         <div

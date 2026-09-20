@@ -149,6 +149,7 @@ const MobileNavigation = ({ open, onClose }: MobileNavigationProps) => {
             <NavLink
               key={item.id}
               to={item.href}
+              end={item.href === "/"}
               onClick={onClose}
               className={({ isActive }) =>
                 cn(

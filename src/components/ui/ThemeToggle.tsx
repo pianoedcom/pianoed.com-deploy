@@ -20,7 +20,11 @@ function applyTheme(theme: Theme) {
  * "system" mode. The inline script in index.html prevents a flash of the
  * wrong theme before hydration.
  */
-const ThemeToggle = () => {
+interface ThemeToggleProps {
+  className?: string;
+}
+
+const ThemeToggle = ({ className }: ThemeToggleProps) => {
   const [theme, setTheme] = useState<Theme>("system");
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
@@ -55,7 +59,11 @@ const ThemeToggle = () => {
       size="sm"
       label={label}
       onClick={cycle}
-      className={cn(!mounted && "opacity-0")}
+      className={cn(
+        "text-[#f5ecd7] hover:text-[#d4af37] hover:bg-white/10 transition-colors focus-visible:outline-[#d4af37]",
+        !mounted && "opacity-0",
+        className
+      )}
     >
       {mounted ? (
         theme === "light" ? (

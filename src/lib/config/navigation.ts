@@ -70,6 +70,12 @@ const MAX_DROPDOWN_CATEGORIES = 8;
 export const navigationConfig: NavigationConfig = {
   items: [
     {
+      id: "home",
+      label: "Home",
+      href: "/",
+      enabled: true,
+    },
+    {
       id: "articles",
       label: "Articles",
       href: "/articles",
@@ -105,7 +111,6 @@ export const navigationConfig: NavigationConfig = {
       label: "Tools",
       href: "/tools",
       enabled: true,
-      badge: { text: "New", variant: "new" },
       groups: [
         {
           label: "Interactive Tools",
