@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "precompile": "tsx scripts/precompile-mdx/script.ts",
-    "prebuild": "tsx scripts/precompile-mdx/script.ts && tsx scripts/generate-static-seo/script.ts",
+    "prebuild": "tsx scripts/precompile-mdx/script.ts && tsx scripts/generate-static-seo/script.ts && tsx scripts/extract-noscript-content/script.ts",
     "generate:seo": "tsx scripts/generate-static-seo/script.ts",
     "migrate:images:r2": "tsx scripts/migrate-images-r2/script.ts",
     "migrate:images:r2:dry": "tsx scripts/migrate-images-r2/script.ts --dry-run",

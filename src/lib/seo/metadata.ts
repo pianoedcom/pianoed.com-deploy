@@ -45,9 +45,18 @@ export interface PageMetadata {
 /**
  * Build the full page title using the site template.
  * Home page: just the site name. Other pages: "Page — Site Name".
+ * Automatically prevents duplicate site name suffixes (e.g. "Title — PianoEd").
  */
 export function buildTitle(title: string): string {
-  return title === siteConfig.name ? siteConfig.name : `${title} — ${siteConfig.name}`;
+  const trimmed = title.trim();
+  if (trimmed === siteConfig.name) {
+    return siteConfig.name;
+  }
+  const suffixPattern = new RegExp(`\\s*[-—|:]\\s*${siteConfig.name}$`, "i");
+  if (suffixPattern.test(trimmed)) {
+    return trimmed;
+  }
+  return `${trimmed} — ${siteConfig.name}`;
 }
 /** Build an absolute URL from a site-relative path. */
 export function buildUrl(path: string): string {

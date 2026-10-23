@@ -200,4 +200,47 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  /* Smooth, GPU-accelerated motion helpers */
+  @keyframes soundwave-radiate {
+    0% {
+      transform: scale(0.7);
+      opacity: 0.85;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+
+  .animate-soundwave {
+    animation: soundwave-radiate 2.4s ease-out infinite;
+    transform-origin: center;
+  }
+
+  /* Subtle idle floating motion for hero badges, cards, and decorative icons */
+  @keyframes idle-float {
+    0%, 100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-8px) rotate(1.5deg);
+    }
+  }
+
+  .animate-idle-float {
+    animation: idle-float 4.5s ease-in-out infinite;
+    will-change: transform;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-soundwave,
+    .animate-idle-float {
+      animation: none !important;
+      transform: none !important;
+    }
+  }
 }

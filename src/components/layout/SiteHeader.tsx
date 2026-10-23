@@ -118,17 +118,17 @@ const SiteHeader = () => {
 
         {/* Mobile controls */}
         <div className="flex items-center gap-1 md:hidden text-[#f1dfce]">
-          <SearchButton />
-          <ThemeToggle />
+          <SearchButton className="min-h-[44px] min-w-[44px]" />
+          <ThemeToggle className="min-h-[44px] min-w-[44px]" />
           <IconButton
             ref={toggleRef}
             variant="ghost"
-            size="sm"
+            size="md"
             label={mobileOpen ? "Close menu" : "Open menu"}
             onClick={() => setMobileOpen((v) => !v)}
             aria-expanded={mobileOpen}
             aria-controls="mobile-nav"
-            className="text-[#f1dfce] hover:text-[#d4af37] hover:bg-white/10"
+            className="min-h-[44px] min-w-[44px] text-[#f1dfce] hover:text-[#d4af37] hover:bg-white/10"
           >
             {mobileOpen ? (
               <X className="h-5 w-5" aria-hidden />

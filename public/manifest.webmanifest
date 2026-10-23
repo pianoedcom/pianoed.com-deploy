@@ -1,0 +1,33 @@
+{
+  "name": "PianoEd — A Love Letter to the Piano",
+  "short_name": "PianoEd",
+  "description": "A warm, passionate destination for piano lovers — beginners, learners, and enthusiasts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#180507",
+  "theme_color": "#22070a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

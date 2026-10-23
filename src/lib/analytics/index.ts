@@ -29,11 +29,17 @@ export type AnalyticsEvent =
   | "newsletter_slide_in_signup"
   | "newsletter_footer_click"
   | "newsletter_footer_signup"
-  | "sponsor_click";
+  | "sponsor_click"
+  | "tool_used"
+  | "theme_toggled";
 /** Properties accepted by `track()`. */
 export interface AnalyticsProperties {
   /** Page or article URL (pathname). */
   path?: string;
+  /** Active theme (light, dark, system). */
+  theme?: string;
+  /** Tool name or identifier for interactive tools. */
+  toolName?: string;
   /** Article slug (for article events). */
   slug?: string;
   /** Article title. */

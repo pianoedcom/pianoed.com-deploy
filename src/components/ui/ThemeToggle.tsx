@@ -3,6 +3,7 @@ import { Moon, Sun, Monitor } from "lucide-react";
 import { IconButton } from "./IconButton";
 import VisuallyHidden from "./VisuallyHidden";
 import { cn } from "@/lib/utils";
+import { track } from "@/lib/analytics";
 type Theme = "light" | "dark" | "system";
 const STORAGE_KEY = "site-theme";
 function getSystemPreference(): "light" | "dark" {
@@ -46,6 +47,7 @@ const ThemeToggle = ({ className }: ThemeToggleProps) => {
     setTheme(next);
     localStorage.setItem(STORAGE_KEY, next);
     applyTheme(next);
+    track("theme_toggled", { theme: next });
   };
   const label =
     theme === "light"

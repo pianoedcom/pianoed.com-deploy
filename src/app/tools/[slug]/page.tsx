@@ -1,12 +1,24 @@
-import { Suspense } from "react";
+import { Suspense, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Container from "@/components/layout/Container";
 import Seo from "@/components/layout/Seo";
 import { getTool } from "@/lib/config/tools-registry";
+import { track } from "@/lib/analytics";
 import NotFound from "@/app/not-found";
 const ToolDetailPage = () => {
   const { slug = "" } = useParams<{ slug: string }>();
   const tool = getTool(slug);
+
+  useEffect(() => {
+    if (tool) {
+      track("tool_used", {
+        toolName: tool.title,
+        slug: tool.slug,
+        path: `/tools/${tool.slug}`,
+      });
+    }
+  }, [tool]);
+
   if (!tool) return <NotFound />;
   const ToolComponent = tool.component;
   return (
