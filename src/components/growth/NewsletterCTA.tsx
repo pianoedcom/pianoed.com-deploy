@@ -1,7 +1,7 @@
 import { useState, useCallback, type FormEvent } from "react";
 import { track } from "@/lib/analytics";
 import { siteConfig } from "@/lib/site-config";
-import { getNewsletterProvider } from "@/lib/integrations/newsletter";
+import { subscribeToNewsletter } from "@/lib/integrations/newsletter";
 interface NewsletterCTAProps {
   /** Placement identifier for analytics tracking. */
   placement?: "article-footer" | "homepage" | "sidebar" | "coming-soon";
@@ -12,28 +12,7 @@ interface NewsletterCTAProps {
   /** Compact mode for sidebar placement. */
   compact?: boolean;
 }
-/**
- * Newsletter call-to-action component.
- *
- * Captures an email address for newsletter signup. The form is
- * intentionally simple — just an email field and a submit button —
- * to minimize friction and maximize conversion.
- *
- * Analytics:
- *   - "newsletter_cta_click" when the form is focused/interacted with
- *   - "newsletter_signup" when the form is successfully submitted
- *
- * The actual subscription endpoint is wired via the form_tracking
- * integration. The form posts to the configured endpoint and shows
- * a success state. If no endpoint is configured, it shows a graceful
- * message.
- *
- * Accessibility:
- *   - Label is visually associated with the input via htmlFor
- *   - Error messages are announced via aria-live
- *   - Submit button has a clear label
- *   - Form is keyboard-navigable
- */
+
 const NewsletterCTA = ({
   placement = "article-footer",
   heading,
@@ -41,45 +20,43 @@ const NewsletterCTA = ({
   compact = false,
 }: NewsletterCTAProps) => {
   const [email, setEmail] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("You're subscribed");
+
   const handleSubmit = useCallback(
     async (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
+
+      // Silent honeypot drop
+      if (honeypot) {
+        setStatus("success");
+        return;
+      }
+
       if (!email.trim()) return;
       setStatus("loading");
       setErrorMessage("");
       track("newsletter_cta_click", { placement });
-      // Check if a client-side provider is configured (VITE_ env vars).
-      // If not, fall back to the server-side API route.
-      const provider = getNewsletterProvider();
+
       try {
-        let result: { success: boolean; error?: string };
-        if (provider) {
-          result = await provider.subscribe(email);
-        } else {
-          // Use the server-side API route — no API keys in the browser
-          const res = await fetch("/api/newsletter", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email }),
-          });
-          result = (await res.json()) as { success: boolean; error?: string };
-        }
+        const result = await subscribeToNewsletter({ email, placement });
         if (result.success) {
           setStatus("success");
+          if (result.message) setSuccessMessage(result.message);
           track("newsletter_signup", { placement, url: siteConfig.url });
           setEmail("");
         } else {
           setStatus("error");
-          setErrorMessage(result.error ?? "Something went wrong. Please try again.");
+          setErrorMessage(result.error ?? result.message ?? "Something went wrong. Please try again.");
         }
       } catch {
         setStatus("error");
         setErrorMessage("Something went wrong. Please try again.");
       }
     },
-    [email, placement],
+    [email, honeypot, placement],
   );
   if (status === "success") {
     return (
@@ -88,7 +65,7 @@ const NewsletterCTA = ({
         role="status"
         aria-live="polite"
       >
-        <p className="font-serif text-lg font-semibold text-foreground">You're subscribed</p>
+        <p className="font-serif text-lg font-semibold text-foreground">{successMessage}</p>
         <p className="mt-2 text-sm text-muted-foreground">
           Thanks for joining. Watch your inbox for the next issue.
         </p>
@@ -106,6 +83,17 @@ const NewsletterCTA = ({
           "Get warm, practical piano insights — tips, stories, and resources — delivered to your inbox. No spam, just love for the instrument."}
       </p>
       <form onSubmit={handleSubmit} className="mt-5 space-y-3" noValidate>
+        {/* Anti-spam honeypot */}
+        <div className="hidden" aria-hidden="true">
+          <input
+            type="text"
+            name="_gotcha"
+            tabIndex={-1}
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+            autoComplete="off"
+          />
+        </div>
         <div>
           <label htmlFor={`newsletter-email-${placement}`} className="sr-only">
             Email address

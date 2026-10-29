@@ -1,16 +1,16 @@
 # PianoEd — Full Content Index
 
 > PianoEd is a warm, passionate destination for anyone who loves the piano — beginners, active learners, and lifelong enthusiasts. Covering history, technique, gear, sheet music, and modern developments across all genres.
-> Generated: 2026-10-23T23:11:03.843Z
-> Articles: 476
+> Generated: 2026-10-29T19:44:13.476Z
+> Articles: 500
 
 ## Categories
 
+- Learning & Technique: https://www.pianoed.com/category/learning-technique
+- History & Culture: https://www.pianoed.com/category/history-culture
 - Gear & Reviews: https://www.pianoed.com/category/gear-reviews
 - Genres & Repertoire: https://www.pianoed.com/category/genres-repertoire
 - Sheet Music & Practice: https://www.pianoed.com/category/sheet-music-practice
-- Learning & Technique: https://www.pianoed.com/category/learning-technique
-- History & Culture: https://www.pianoed.com/category/history-culture
 - Piano Technology: https://www.pianoed.com/category/piano-technology
 - Modern Developments: https://www.pianoed.com/category/modern-developments
 
@@ -20,17 +20,17 @@
 - Piano: https://www.pianoed.com/tag/piano
 - Practice: https://www.pianoed.com/tag/practice
 - Beginners: https://www.pianoed.com/tag/beginners
-- Accessories: https://www.pianoed.com/tag/accessories
 - Classical: https://www.pianoed.com/tag/classical
+- Accessories: https://www.pianoed.com/tag/accessories
 - Digital Pianos: https://www.pianoed.com/tag/digital-pianos
 - Sheet Music: https://www.pianoed.com/tag/sheet-music
-- Piano Technology: https://www.pianoed.com/tag/piano-technology
 - History: https://www.pianoed.com/tag/history
+- Piano Technology: https://www.pianoed.com/tag/piano-technology
 - Jazz: https://www.pianoed.com/tag/jazz
-- Acoustic Pianos: https://www.pianoed.com/tag/acoustic-pianos
 - Pianists: https://www.pianoed.com/tag/pianists
-- Pop Piano: https://www.pianoed.com/tag/pop-piano
 - Contemporary: https://www.pianoed.com/tag/contemporary
+- Acoustic Pianos: https://www.pianoed.com/tag/acoustic-pianos
+- Pop Piano: https://www.pianoed.com/tag/pop-piano
 - Hybrid Pianos: https://www.pianoed.com/tag/hybrid-pianos
 
 ## Authors
@@ -40,6 +40,198 @@
 - History Writer: https://www.pianoed.com/author/history-writer
 
 ## Articles
+
+### دليل نصائح عزف دويتو البيانو
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide-ar
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: تعلّم عزف دويتو البيانو — أربع أيادٍ وبيانو — بنصائح حول التنسيق، التوازن، الاستماع، والبروفة لأداء موحد موسيقي.
+
+### Klavier-Duett-Spiel-Tipps: Leitfaden
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide-de
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: Lernen Sie, Klavierduette zu spielen — vierhändig und an zwei Klavieren — mit Tipps zu Koordination, Balance, Zuhören und Probe für eine einheitliche, musikalische Aufführung.
+
+### Guía de consejos para tocar dúos de piano
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide-es
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: Aprende a tocar dúos de piano — a cuatro manos y a dos pianos — con consejos sobre coordinación, equilibrio, escucha y ensayo para una interpretación unificada y musical.
+
+### Guide des conseils pour jouer en duo au piano
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide-fr
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: Apprenez à jouer des duos au piano — à quatre mains et à deux pianos — avec des conseils sur la coordination, l'équilibre, l'écoute et les répétitions pour une prestation unifiée et musicale.
+
+### पियानो ड्यूट बजाने के सुझाव गाइड
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide-hi
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: पियानो ड्यूट बजाना सीखें — चार-हाथ और दो-पियानो — समन्वय, संतुलन, सुनना, और एक एकीकृत, संगीतमय प्रदर्शन के लिए रिहर्सल पर सुझावों के साथ।
+
+### Piano Duet Playing Tips Guide
+- URL: https://www.pianoed.com/blog/piano-duet-playing-tips-guide
+- Date: 2026-10-28T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Practice, Classical
+- Description: Learn to play piano duets — four-hand and two-piano — with tips on coordination, balance, listening, and rehearsal for a unified, musical performance.
+
+### تأثير البيانو الثقافي على الموسيقى الحديثة
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music-ar
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: من قاعات الكونشيرتو لملاعب الروك لقوائم تشغيل البث، شكّل البيانو الموسيقى الحديثة بطرق قد لا تتوقعها. استكشف إرثه الثقافي.
+
+### Der kulturelle Einfluss des Klaviers auf moderne Musik
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music-de
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: Von Konzertsälen bis Rockstadien und Streaming-Playlists — das Klavier hat moderne Musik auf unerwartete Weise geprägt. Erkunden Sie sein kulturelles Erbe.
+
+### El impacto cultural del piano en la música moderna
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music-es
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: De salas de concierto a estadios de rock a listas de streaming, el piano ha dado forma a la música moderna de formas que quizá no esperas. Explora su legado cultural.
+
+### L'impact culturel du piano sur la musique moderne
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music-fr
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: Des salles de concert aux stades de rock aux playlists en streaming, le piano a façonné la musique moderne de façon inattendue. Explorez son héritage culturel.
+
+### आधुनिक संगीत पर पियानो का सांस्कृतिक प्रभाव
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music-hi
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: कॉन्सर्ट हॉल से लेकर रॉक स्टेडियम से लेकर स्ट्रीमिंग प्लेलिस्ट तक, पियानो ने आधुनिक संगीत को ऐसे तरीकों से आकार दिया जो आप उम्मीद नहीं कर सकते। इसकी सांस्कृतिक विरासत का अन्वेषण करें।
+
+### The Piano's Cultural Impact on Modern Music
+- URL: https://www.pianoed.com/blog/piano-cultural-impact-on-modern-music
+- Date: 2026-10-27T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Piano, Contemporary
+- Description: From concert halls to rock stadiums to streaming playlists, the piano has shaped modern music in ways you might not expect. Explore its cultural legacy.
+
+### دليل أساسيات الكونترابنط للبيانو
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide-ar
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: دليل قابل للوصول لكونترابنط البيانو — فن الخطوط اللحنية المستقلة — من تمارين الأنواع لباخ وما بعده.
+
+### Klavier-Kontrapunkt: Grundlagen-Leitfaden
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide-de
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: Ein zugänglicher Leitfaden zum Klavier-Kontrapunkt — der Kunst unabhängiger Melodielinien — von Species-Übungen bis Bach und darüber hinaus.
+
+### Guía de fundamentos del contrapunto de piano
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide-es
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: Una guía accesible al contrapunto de piano — el arte de las líneas melódicas independientes — desde ejercicios de especies a Bach y más allá.
+
+### Guide des bases du contrepoint au piano
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide-fr
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: Un guide accessible du contrepoint au piano — l'art des lignes mélodiques indépendantes — des exercices d'espèces à Bach et au-delà.
+
+### पियानो काउंटरपॉइंट मौलिक बातें गाइड
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide-hi
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: पियानो काउंटरपॉइंट का एक सुलभ गाइड — स्वतंत्र रागत्मक लाइनों की कला — स्पीशीज़ अभ्यासों से लेकर बाख और आगे तक।
+
+### Piano Counterpoint Basics Guide
+- URL: https://www.pianoed.com/blog/piano-counterpoint-basics-guide
+- Date: 2026-10-25T00:00:00.000Z
+- Author: Editor-in-Chief
+- Category: Learning & Technique
+- Tags: Technique, Classical
+- Description: An approachable guide to piano counterpoint — the art of independent melodic lines — from species exercises to Bach and beyond.
+
+### دليل تاريخ كونشيرتو البيانو
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide-ar
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: رحلة عبر تاريخ كونشيرتو البيانو — من موتسارت وبيتهوفن لرخمانينوف والأساتذة الحديثين — واكتشف كيف تطور الشكل.
+
+### Klavierkonzert: Geschichts-Leitfaden
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide-de
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: Reisen Sie durch die Geschichte des Klavierkonzerts — von Mozart und Beethoven bis Rachmaninoff und moderne Meister — und entdecken Sie, wie sich die Form entwickelte.
+
+### Guía de historia del concierto para piano
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide-es
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: Recorre la historia del concierto para piano — de Mozart y Beethoven a Rajmáninoff y los maestros modernos — y descubre cómo evolucionó la forma.
+
+### Guide de l'histoire du concerto pour piano
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide-fr
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: Voyagez à travers l'histoire du concerto pour piano — de Mozart et Beethoven à Rachmaninoff et aux maîtres modernes — et découvrez comment la forme a évolué.
+
+### पियानो कॉन्सर्टो इतिहास गाइड
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide-hi
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: पियानो कॉन्सर्टो के इतिहास की यात्रा — मोज़ार्ट और बीथोवेन से लेकर राखमानिनोफ़ और आधुनिक महारथियों तक — और खोजें कैसे रूप विकसित हुआ।
+
+### Piano Concerto History Guide
+- URL: https://www.pianoed.com/blog/piano-concerto-history-guide
+- Date: 2026-10-24T00:00:00.000Z
+- Author: History Writer
+- Category: History & Culture
+- Tags: History, Classical, Pianists
+- Description: Journey through the history of the piano concerto — from Mozart and Beethoven to Rachmaninoff and modern masters — and discover how the form evolved.
 
 ### Best Digital Pianos for Beginners in 2026 (Under $1,000)
 - URL: https://www.pianoed.com/blog/best-digital-pianos-for-beginners-in-2026-under-1000

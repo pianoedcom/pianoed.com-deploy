@@ -20,6 +20,7 @@ import {
   TrendingSidebar,
   FeaturedAuthorSpotlight,
   LandingHero,
+  EventsTicker,
 } from "@/components/home";
 import { useI18n } from "@/lib/i18n/context";
 /**
@@ -90,6 +91,9 @@ const Home = () => {
 
       {/* Breaking news ticker */}
       {tickerPosts && tickerPosts.length > 0 ? <TrendingTicker posts={tickerPosts} /> : null}
+
+      {/* Upcoming conferences and events ticker */}
+      <EventsTicker />
 
       {/* Hero editorial grid */}
       <section className="border-b border-border">

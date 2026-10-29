@@ -31,6 +31,7 @@ import {
   SheetMusicExternalLinks,
   SheetMusicDifficultyBadge,
 } from "@/components/sheet-music";
+import { PollWidget } from "@/components/growth/PollWidget";
 /**
  * Centralized MDX component registry.
  *
@@ -209,6 +210,7 @@ export const mdxComponents = {
   VideoEmbed,
   ImageZoom,
   SponsoredBadge,
+  PollWidget,
   // --- PianoEd domain-specific components ---
   SheetMusicExcerpt,
   PianoKeyboard,

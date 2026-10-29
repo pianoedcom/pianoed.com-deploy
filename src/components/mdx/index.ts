@@ -26,3 +26,4 @@ export { default as SponsoredBadge } from "./SponsoredBadge";
 export { default as SheetMusicExcerpt } from "./SheetMusicExcerpt";
 export { default as PianoKeyboard } from "./PianoKeyboard";
 export { default as PracticeExercise } from "./PracticeExercise";
+export { PollWidget } from "@/components/growth/PollWidget";

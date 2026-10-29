@@ -22,6 +22,14 @@ const clientEnvSchema = z.object({
   VITE_DEFAULT_OG_IMAGE: z.string().url("VITE_DEFAULT_OG_IMAGE must be a valid absolute URL"),
   /** Optional Sentry DSN for error tracking (public identifier only). */
   VITE_SENTRY_DSN: z.string().optional().default(""),
+  /** Optional Google Apps Script Contact Form Webhook URL. */
+  VITE_CONTACT_FORM_WEBHOOK_URL: z.string().url().or(z.literal("")).optional().default(""),
+  /** Optional Google Apps Script Newsletter Subscription Webhook URL. */
+  VITE_NEWSLETTER_WEBHOOK_URL: z.string().url().or(z.literal("")).optional().default(""),
+  /** Optional Google Apps Script Poll Widget Webhook URL. */
+  VITE_POLL_WEBHOOK_URL: z.string().url().or(z.literal("")).optional().default(""),
+  /** Optional Google Apps Script Events & Conferences Ticker Webhook URL. */
+  VITE_EVENTS_WEBHOOK_URL: z.string().url().or(z.literal("")).optional().default(""),
 });
 const serverEnvSchema = z.object({
   /** Content repository provider, e.g. "github" or "gitlab". */
@@ -78,6 +86,10 @@ function loadClientEnv(): ClientEnv {
   let rawUrl = metaEnv?.VITE_SITE_URL || procEnv.VITE_SITE_URL;
   let rawOg = metaEnv?.VITE_DEFAULT_OG_IMAGE || procEnv.VITE_DEFAULT_OG_IMAGE;
   const rawDsn = metaEnv?.VITE_SENTRY_DSN || procEnv.VITE_SENTRY_DSN;
+  const rawContactWebhook = metaEnv?.VITE_CONTACT_FORM_WEBHOOK_URL || procEnv.VITE_CONTACT_FORM_WEBHOOK_URL || "";
+  const rawNewsletterWebhook = metaEnv?.VITE_NEWSLETTER_WEBHOOK_URL || procEnv.VITE_NEWSLETTER_WEBHOOK_URL || "";
+  const rawPollWebhook = metaEnv?.VITE_POLL_WEBHOOK_URL || procEnv.VITE_POLL_WEBHOOK_URL || "";
+  const rawEventsWebhook = metaEnv?.VITE_EVENTS_WEBHOOK_URL || procEnv.VITE_EVENTS_WEBHOOK_URL || "";
 
   // Canonicalize apex pianoed.com to www.pianoed.com to eliminate 308 redirect cascades
   if (rawUrl) {
@@ -94,6 +106,10 @@ function loadClientEnv(): ClientEnv {
     VITE_SITE_URL: rawUrl,
     VITE_DEFAULT_OG_IMAGE: rawOg,
     VITE_SENTRY_DSN: rawDsn,
+    VITE_CONTACT_FORM_WEBHOOK_URL: rawContactWebhook,
+    VITE_NEWSLETTER_WEBHOOK_URL: rawNewsletterWebhook,
+    VITE_POLL_WEBHOOK_URL: rawPollWebhook,
+    VITE_EVENTS_WEBHOOK_URL: rawEventsWebhook,
   });
   if (!parsed.success) {
     // In dev, surface actionable errors. In production, fall back to safe
@@ -108,6 +124,10 @@ function loadClientEnv(): ClientEnv {
       VITE_SITE_URL: "https://www.pianoed.com",
       VITE_DEFAULT_OG_IMAGE: "https://www.pianoed.com/og/default.png",
       VITE_SENTRY_DSN: "",
+      VITE_CONTACT_FORM_WEBHOOK_URL: "",
+      VITE_NEWSLETTER_WEBHOOK_URL: "",
+      VITE_POLL_WEBHOOK_URL: "",
+      VITE_EVENTS_WEBHOOK_URL: "",
     };
   }
   return parsed.data;

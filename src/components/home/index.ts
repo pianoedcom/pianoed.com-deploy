@@ -4,3 +4,4 @@ export { default as CategorySectionBlock } from "./CategorySectionBlock";
 export { default as TrendingSidebar } from "./TrendingSidebar";
 export { default as FeaturedAuthorSpotlight } from "./FeaturedAuthorSpotlight";
 export { default as LandingHero } from "./LandingHero";
+export { default as EventsTicker } from "./EventsTicker";
