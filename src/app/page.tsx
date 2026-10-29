@@ -20,7 +20,6 @@ import {
   TrendingSidebar,
   FeaturedAuthorSpotlight,
   LandingHero,
-  EventsTicker,
 } from "@/components/home";
 import { useI18n } from "@/lib/i18n/context";
 /**
@@ -86,14 +85,11 @@ const Home = () => {
   const featuredAuthor = authors?.[0] ?? null;
   return (
     <>
-      {/* Luxurious Classical Landing Hero with 3-Pillar Feature Strip */}
-      <LandingHero />
-
-      {/* Breaking news ticker */}
+      {/* Breaking news ticker — sits immediately beneath sticky header */}
       {tickerPosts && tickerPosts.length > 0 ? <TrendingTicker posts={tickerPosts} /> : null}
 
-      {/* Upcoming conferences and events ticker */}
-      <EventsTicker />
+      {/* Luxurious Classical Landing Hero with 3-Pillar Feature Strip */}
+      <LandingHero />
 
       {/* Hero editorial grid */}
       <section className="border-b border-border">

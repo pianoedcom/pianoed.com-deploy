@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 import { navigationConfig, getEnabledNavItems, hasDropdown } from "@/lib/config/navigation";
 import { MegaMenu } from "./MegaMenu";
 import PianoEdLogo from "@/components/brand/PianoEdLogo";
+import NavbarEventsTicker from "./NavbarEventsTicker";
 
 const enabledNavItems = getEnabledNavItems();
 const headerCta = navigationConfig.cta;
@@ -92,6 +93,9 @@ const SiteHeader = () => {
 
         {/* Desktop controls */}
         <div className="hidden items-center gap-2 md:flex">
+          {/* Solari Split-Flap Events Ticker & Departures Dropdown */}
+          <NavbarEventsTicker />
+
           {headerCta && (
             <Link
               to={headerCta.href}

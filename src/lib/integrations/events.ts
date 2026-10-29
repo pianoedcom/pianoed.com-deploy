@@ -1,14 +1,9 @@
-/**
- * Events & Conferences Integration Module
- *
- * Connects to Google Apps Script Web App backed by Google Sheets,
- * calculates days remaining in real-time, and provides static fallbacks.
- */
+import { clientEnv } from "@/lib/env";
 
 export interface ConferenceEvent {
   id: string;
   name: string;
-  date: string;
+  date: string; // YYYY-MM-DD
   endDate?: string | null;
   location: string;
   linkUrl: string;
@@ -20,10 +15,13 @@ export interface ConferenceEvent {
 }
 
 /**
- * Curated static fallback events for PianoEd.
- * Displayed when the webhook is unconfigured or during offline browsing.
+ * Curated fallback events tailored to PianoEd (music education, piano performance, piano tech).
+ * Used during build, local dev, or when the Google Apps Script webhook is loading or offline.
  */
-export const FALLBACK_EVENTS: ConferenceEvent[] = [
+export const CURATED_FALLBACK_EVENTS: Omit<
+  ConferenceEvent,
+  "daysLeft" | "isHappeningNow" | "countdownLabel"
+>[] = [
   {
     id: "namm-2027",
     name: "The NAMM Show 2027",
@@ -32,9 +30,6 @@ export const FALLBACK_EVENTS: ConferenceEvent[] = [
     location: "Anaheim, CA",
     linkUrl: "https://www.namm.org/thenammshow/2027",
     category: "Music Tech & Instruments",
-    daysLeft: calculateDaysLeft("2027-01-21"),
-    isHappeningNow: checkIsHappeningNow("2027-01-21", "2027-01-24"),
-    countdownLabel: getCountdownLabel("2027-01-21", "2027-01-24"),
     featured: true,
   },
   {
@@ -45,9 +40,6 @@ export const FALLBACK_EVENTS: ConferenceEvent[] = [
     location: "Minneapolis, MN",
     linkUrl: "https://www.mtna.org/Conference/",
     category: "Pedagogy & Education",
-    daysLeft: calculateDaysLeft("2027-03-20"),
-    isHappeningNow: checkIsHappeningNow("2027-03-20", "2027-03-24"),
-    countdownLabel: getCountdownLabel("2027-03-20", "2027-03-24"),
     featured: true,
   },
   {
@@ -58,9 +50,6 @@ export const FALLBACK_EVENTS: ConferenceEvent[] = [
     location: "Novi Sad & Virtual",
     linkUrl: "https://www.worldpianoconference.com/",
     category: "Classical & Performance",
-    daysLeft: calculateDaysLeft("2027-06-27"),
-    isHappeningNow: checkIsHappeningNow("2027-06-27", "2027-07-03"),
-    countdownLabel: getCountdownLabel("2027-06-27", "2027-07-03"),
     featured: true,
   },
   {
@@ -71,10 +60,7 @@ export const FALLBACK_EVENTS: ConferenceEvent[] = [
     location: "Duszniki-Zdrój, Poland",
     linkUrl: "https://chopin.pl/",
     category: "Festivals & Concerts",
-    daysLeft: calculateDaysLeft("2027-08-15"),
-    isHappeningNow: checkIsHappeningNow("2027-08-15", "2027-08-25"),
-    countdownLabel: getCountdownLabel("2027-08-15", "2027-08-25"),
-    featured: false,
+    featured: true,
   },
   {
     id: "music-china-2027",
@@ -84,107 +70,162 @@ export const FALLBACK_EVENTS: ConferenceEvent[] = [
     location: "Shanghai, China",
     linkUrl: "https://music-china.hk.messefrankfurt.com/",
     category: "Acoustic & Digital Pianos",
-    daysLeft: calculateDaysLeft("2027-10-20"),
-    isHappeningNow: checkIsHappeningNow("2027-10-20", "2027-10-23"),
-    countdownLabel: getCountdownLabel("2027-10-20", "2027-10-23"),
+    featured: false,
+  },
+  {
+    id: "cliburn-2027",
+    name: "Van Cliburn International Competition",
+    date: "2027-05-28",
+    endDate: "2027-06-12",
+    location: "Fort Worth, TX",
+    linkUrl: "https://cliburn.org/",
+    category: "Piano Competitions",
     featured: false,
   },
 ];
 
 /**
- * Calculates remaining days from now until target date.
+ * Calculates exact days remaining until an event date relative to today's local midnight.
  */
-export function calculateDaysLeft(dateString: string): number {
-  const target = new Date(dateString);
+export function calculateEventCountdown(
+  startDateStr: string,
+  endDateStr?: string | null
+): {
+  daysLeft: number;
+  isHappeningNow: boolean;
+  countdownLabel: string;
+} {
   const now = new Date();
-  const todayUtc = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-  const targetUtc = Date.UTC(target.getFullYear(), target.getMonth(), target.getDate());
-  const diffMs = targetUtc - todayUtc;
-  return Math.ceil(diffMs / (1000 * 60 * 60 * 24));
-}
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
 
-/**
- * Checks whether today is within the start and end date range.
- */
-export function checkIsHappeningNow(startDateString: string, endDateString?: string | null): boolean {
-  const daysLeft = calculateDaysLeft(startDateString);
-  if (daysLeft > 0) return false;
-  if (!endDateString) return daysLeft === 0;
+  const [sYear, sMonth, sDay] = startDateStr.split("-").map(Number);
+  const startDate = new Date(sYear, sMonth - 1, sDay).getTime();
 
-  const end = new Date(endDateString);
-  const now = new Date();
-  const todayUtc = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-  const endUtc = Date.UTC(end.getFullYear(), end.getMonth(), end.getDate());
-  return todayUtc <= endUtc;
-}
+  const diffMs = startDate - today;
+  const daysLeft = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
 
-/**
- * Generates human-friendly countdown label.
- */
-export function getCountdownLabel(startDateString: string, endDateString?: string | null): string {
-  if (checkIsHappeningNow(startDateString, endDateString)) {
-    return "Happening Now";
+  let isHappeningNow = false;
+  if (endDateStr) {
+    const [eYear, eMonth, eDay] = endDateStr.split("-").map(Number);
+    const endDate = new Date(eYear, eMonth - 1, eDay).getTime();
+    if (today >= startDate && today <= endDate) {
+      isHappeningNow = true;
+    }
+  } else if (daysLeft === 0) {
+    isHappeningNow = true;
   }
-  const days = calculateDaysLeft(startDateString);
-  if (days === 0) return "Today";
-  if (days === 1) return "Tomorrow";
-  if (days < 0) return "Concluded";
-  return `In ${days} days`;
+
+  let countdownLabel = "";
+  if (isHappeningNow) {
+    countdownLabel = "Happening Now";
+  } else if (daysLeft === 0) {
+    countdownLabel = "Today";
+  } else if (daysLeft === 1) {
+    countdownLabel = "Tomorrow";
+  } else if (daysLeft > 1) {
+    countdownLabel = `${daysLeft} days left`;
+  } else {
+    countdownLabel = "Concluded";
+  }
+
+  return {
+    daysLeft,
+    isHappeningNow,
+    countdownLabel,
+  };
 }
 
 /**
- * Fetches upcoming events from the Google Apps Script Web App.
- * Falls back to static curated events if unavailable.
+ * Computes countdowns for a list of base events, filters past events, and sorts chronologically.
+ */
+export function processEventsList(
+  rawList: Array<
+    Omit<ConferenceEvent, "daysLeft" | "isHappeningNow" | "countdownLabel"> &
+      Partial<ConferenceEvent>
+  >
+): ConferenceEvent[] {
+  const processed: ConferenceEvent[] = [];
+
+  for (const item of rawList) {
+    if (!item.name || !item.date) continue;
+
+    const { daysLeft, isHappeningNow, countdownLabel } = calculateEventCountdown(
+      item.date,
+      item.endDate
+    );
+
+    // Skip events that concluded in the past (unless happening right now)
+    if (daysLeft < 0 && !isHappeningNow) {
+      continue;
+    }
+
+    processed.push({
+      id:
+        item.id ||
+        `event-${item.date}-${item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
+      name: item.name,
+      date: item.date,
+      endDate: item.endDate || null,
+      location: item.location || "Online",
+      linkUrl: item.linkUrl || "/resources",
+      category: item.category || "Piano Education",
+      daysLeft,
+      isHappeningNow,
+      countdownLabel,
+      featured: item.featured ?? false,
+    });
+  }
+
+  // Sort: "Happening Now" events first, then nearest upcoming events
+  processed.sort((a, b) => {
+    if (a.isHappeningNow && !b.isHappeningNow) return -1;
+    if (!a.isHappeningNow && b.isHappeningNow) return 1;
+    return a.daysLeft - b.daysLeft;
+  });
+
+  return processed;
+}
+
+export const FALLBACK_EVENTS: ConferenceEvent[] = processEventsList(CURATED_FALLBACK_EVENTS);
+
+/**
+ * Fetches events asynchronously from Google Apps Script Webhook.
+ * Falls back gracefully to curated static events if webhook URL is unconfigured or unavailable.
  */
 export async function fetchUpcomingEvents(): Promise<ConferenceEvent[]> {
-  const webhookUrl = import.meta.env.VITE_EVENTS_WEBHOOK_URL;
+  const webhookUrl = clientEnv.VITE_EVENTS_WEBHOOK_URL?.trim();
 
-  if (!webhookUrl) {
-    return FALLBACK_EVENTS;
-  }
+  if (webhookUrl && webhookUrl.startsWith("http")) {
+    try {
+      const url = new URL(webhookUrl);
+      url.searchParams.set("action", "get_events");
 
-  try {
-    const res = await fetch(`${webhookUrl}?action=get_events`, {
-      method: "GET",
-      redirect: "follow",
-    });
-
-    if (!res.ok) {
-      throw new Error(`HTTP error ${res.status}`);
-    }
-
-    const data = await res.json();
-
-    if (data.status === "success" && Array.isArray(data.events) && data.events.length > 0) {
-      // Re-calculate daysLeft & status in user's browser timezone
-      const events: ConferenceEvent[] = data.events.map((ev: Partial<ConferenceEvent> & { id?: string; name?: string; date?: string }) => {
-        const date = ev.date || new Date().toISOString();
-        const endDate = ev.endDate || null;
-        const daysLeft = calculateDaysLeft(date);
-        const isHappeningNow = checkIsHappeningNow(date, endDate);
-        const countdownLabel = ev.countdownLabel || getCountdownLabel(date, endDate);
-
-        return {
-          id: ev.id || `event-${Math.random()}`,
-          name: ev.name || "Music Event",
-          date,
-          endDate,
-          location: ev.location || "Online",
-          linkUrl: ev.linkUrl || "/resources/events",
-          category: ev.category || "General",
-          daysLeft,
-          isHappeningNow,
-          countdownLabel,
-          featured: !!ev.featured,
-        };
+      const response = await fetch(url.toString(), {
+        method: "GET",
+        headers: {
+          Accept: "application/json",
+        },
+        redirect: "follow",
       });
 
-      return events;
+      if (response.ok) {
+        const data = await response.json();
+        if (
+          data &&
+          data.status === "success" &&
+          Array.isArray(data.events) &&
+          data.events.length > 0
+        ) {
+          return processEventsList(data.events);
+        }
+      }
+    } catch (err) {
+      console.warn(
+        "[events] Could not load events from Google Apps Script webhook, using fallback data:",
+        err
+      );
     }
-
-    return FALLBACK_EVENTS;
-  } catch (error) {
-    console.warn("Failed to fetch dynamic events ticker, falling back to static schedule:", error);
-    return FALLBACK_EVENTS;
   }
+
+  return processEventsList(CURATED_FALLBACK_EVENTS);
 }
